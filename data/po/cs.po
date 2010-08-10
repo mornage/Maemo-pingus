@@ -1,0 +1,2130 @@
+# #-#-#-#-#  cs.po (cs)  #-#-#-#-#
+# translation of cs.po to czech
+# translation of pingus.po to czech
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR Ingo Ruhnke
+# Tomá¹ Bláha, 2003, 2004, 2007
+#
+# #-#-#-#-#  cs.po (PACKAGE VERSION)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: cs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-18 14:31+0100\n"
+"PO-Revision-Date: 2004-04-13 23:02+0200\n"
+"Last-Translator: Tomá¹ Bláha\n"
+"Language-Team: czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-2\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/pingus_main.cpp:260
+msgid "Displays this help"
+msgstr "Zobrazí tuto nápovìdu"
+
+#: src/pingus_main.cpp:262
+msgid "Print version number and exit"
+msgstr "Vypí¹e èíslo verze a ukonèí."
+
+#: src/pingus_main.cpp:264
+msgid "Display:"
+msgstr "Zobrazení:"
+
+#: src/pingus_main.cpp:266
+msgid "Start in Window Mode"
+msgstr "Spustí v oknì."
+
+#: src/pingus_main.cpp:268
+msgid "Start in Fullscreen"
+msgstr "Spustí pøes celou obrazovku."
+
+#: src/pingus_main.cpp:270
+msgid "Allow Window resize (buggy)"
+msgstr "Umo¾ní zmìnu velikosti okna (s chybami)."
+
+#: src/pingus_main.cpp:272
+msgid "Enable software cursor"
+msgstr "Zapne softwarový kursor."
+
+#: src/pingus_main.cpp:274
+msgid "Set the resolution for pingus (default: 800x600)"
+msgstr "Nastaví rozli¹ení. (výchozí: 800x600)"
+
+#: src/pingus_main.cpp:276
+msgid "Sound:"
+msgstr "Zvuk:"
+
+#: src/pingus_main.cpp:278
+msgid "Disable sound"
+msgstr "Vypne zvuk."
+
+#: src/pingus_main.cpp:280
+msgid "Disable music"
+msgstr "Vypne hudbu."
+
+#: src/pingus_main.cpp:284
+msgid "Select language to use with Pingus"
+msgstr "Vybere jazyk pro hru."
+
+#: src/pingus_main.cpp:286
+msgid "List all available languages"
+msgstr "Vypí¹e v¹echny dostupné jazyky."
+
+#: src/pingus_main.cpp:290
+msgid "Loads the level editor"
+msgstr "Spustí editor úrovní."
+
+#: src/pingus_main.cpp:292
+msgid "Save the level given level to FILENAME and quit"
+msgstr ""
+
+#: src/pingus_main.cpp:294
+msgid "Test a font"
+msgstr "Otestuje font."
+
+#: src/pingus_main.cpp:296
+msgid "Shows the credits"
+msgstr "Spustí závìreèné titulky."
+
+#: src/pingus_main.cpp:298
+msgid "Misc Options:"
+msgstr "Rùzná nastavení:"
+
+#: src/pingus_main.cpp:299
+msgid "PATH"
+msgstr "CESTA"
+
+#: src/pingus_main.cpp:300
+msgid "Set the path to load the data files to 'path'"
+msgstr "Nastaví cestu k datovým souborùm."
+
+#: src/pingus_main.cpp:303
+msgid "Disable automatic scrolling"
+msgstr "Vypne automatický posuv."
+
+#: src/pingus_main.cpp:305
+msgid "Don't read ~/.pingus/config"
+msgstr "Zaká¾e naètení ~/.pingus/config."
+
+#: src/pingus_main.cpp:306
+msgid "FILE"
+msgstr "SOUBOR"
+
+#: src/pingus_main.cpp:307
+msgid ""
+"Read config from FILE (default: ~/.pingus/config) reduce CPU usage, might "
+"speed up the game on slower machines"
+msgstr ""
+"Naète konfiguraci ze souboru (výchozí: ~/.pingus/config) redukujezatí¾ení "
+"CPU, co¾ mù¾e urychlit hru na pomalej¹ích strojích."
+
+#: src/pingus_main.cpp:310
+msgid "Uses the controller given in FILE"
+msgstr "Pou¾ije ovladaè ze zadaného souboru."
+
+#: src/pingus_main.cpp:312
+msgid "Debugging and experimental stuff:"
+msgstr "Ladicí a experimentální volby:"
+
+#: src/pingus_main.cpp:314
+msgid "Enables some features, only interesting to programmers"
+msgstr "Zapne nìkteré vlastnosti potøebné jen pro programátory."
+
+#: src/pingus_main.cpp:317
+msgid "Load a custom worldmap"
+msgstr "Nahraje mapu svìta ze souboru."
+
+#: src/pingus_main.cpp:319
+msgid ""
+"Enable the output of debugging info, possible OPTIONs are tiles, gametime, "
+"actions, sound, resources, gui, input, pathmgr"
+msgstr ""
+"Zapne výstup ladicích hlá¹ek, mo¾ná nastavení jsou: tiles, gametime, "
+"actions, sound, resources, gui, input, pathmgr"
+
+#: src/pingus_main.cpp:323
+msgid "Skip at least N frames, larger values speed the game up"
+msgstr "Bude pøeskakovat alespoò N snímkù, vy¹¹í hodnota zrychluje hru."
+
+#: src/pingus_main.cpp:325
+msgid "Skip at most N frames"
+msgstr "Bude pøeskakovat maximálnì N snímkù."
+
+#: src/pingus_main.cpp:327
+msgid "Set both min and max frameskip to N"
+msgstr "Nastaví maximální i minimální poèet snímkù k pøeskoèení na N."
+
+#: src/pingus_main.cpp:329
+msgid "Set the game speed (0=fastest, >0=slower)"
+msgstr "Nastaví rychlost hry. (0 = nejrychlej¹í, >0 = pomalej¹í)"
+
+#: src/pingus_main.cpp:331
+msgid "Set the size of the map tiles (default: 32)"
+msgstr "Nastaví velikost dílku mapy. (výchozí: 32)"
+
+#: src/pingus_main.cpp:333
+msgid "Disable some cpu intensive features"
+msgstr "Vypne nìkteré operace nároèné na CPU."
+
+#: src/pingus_main.cpp:337
+msgid "Demo playing and recording:"
+msgstr "Nahrávání a pøehrávání dem:"
+
+#: src/pingus_main.cpp:339
+msgid "Plays a demo session"
+msgstr "Pøehraje demo."
+
+#: src/pingus_main.cpp:341
+msgid "Record demos for each played level"
+msgstr "Zaznamená demo ka¾dé odehrané úrovnì"
+
+#: src/pingus_main.cpp:758
+msgid "Error caught from Pingus: "
+msgstr "Byla zachycena chyba v Pingus: "
+
+#: src/pingus_main.cpp:762
+msgid "Pingus: Out of memory!"
+msgstr "Pingus: Do¹la pamì»!"
+
+#: src/pingus_main.cpp:766
+msgid "Pingus: Standard exception caught!:\n"
+msgstr "Pingus: Odchycena standardní výjimka!:\n"
+
+#: src/pingus_main.cpp:770
+msgid "Pingus: Unknown throw caught!"
+msgstr "Pingus: Odchyceno neznámé throw!"
+
+#: src/credits.cpp:82
+msgid "-Idea"
+msgstr "-Námìt"
+
+#: src/credits.cpp:86
+msgid "-Maintaining"
+msgstr "-Správa"
+
+#: src/credits.cpp:90
+msgid "-Programming"
+msgstr "-Programování"
+
+#: src/credits.cpp:100
+msgid "-Porting (Win32)"
+msgstr "-Pøenos na Win32"
+
+#: src/credits.cpp:109
+msgid "-Porting (MacOSX)"
+msgstr "-Pøenos na MacOSX"
+
+#: src/credits.cpp:114
+msgid "-Gfx"
+msgstr "-Grafika"
+
+#: src/credits.cpp:127
+msgid "-Music"
+msgstr "-Hudba"
+
+#: src/credits.cpp:134
+msgid "-Level Design"
+msgstr "-Tvorba úrovní"
+
+#: src/credits.cpp:140
+msgid "-Story"
+msgstr "-Pøíbìh"
+
+#: src/credits.cpp:144
+msgid "-Translation"
+msgstr "-Pøeklad"
+
+#: src/credits.cpp:159
+msgid "-Special"
+msgstr "-Zvlá¹tní podìkování"
+
+#: src/credits.cpp:160
+msgid "-Thanks to"
+msgstr "-zasluhují"
+
+#: src/credits.cpp:204
+msgid "_And a very Special Thanks"
+msgstr "_A pøedev¹ím dìkujeme"
+
+#: src/credits.cpp:205
+msgid "_to all the people who"
+msgstr "_v¹em lidem,"
+
+#: src/credits.cpp:206
+msgid "_contribute to"
+msgstr "_kteøí pøispívají"
+
+#: src/credits.cpp:207
+msgid "_Free Software!"
+msgstr "_svobodnému softwaru!"
+
+#: src/credits.cpp:213
+msgid "_Thank you for"
+msgstr "_Dìkujme Vám,"
+
+#: src/credits.cpp:214
+msgid "_playing!"
+msgstr "_¾e jste si zahráli!"
+
+#: src/credits.cpp:276 src/editor/panel.cpp:211
+#: src/editor/object_selector.cpp:318 src/pingus_menu.cpp:61
+msgid "Exit"
+msgstr "Konec"
+
+#: src/game_time.cpp:66
+msgid "unlimited"
+msgstr "neomezený"
+
+#: src/start_screen.cpp:74 src/editor/level_head.cpp:53
+msgid "Ok"
+msgstr "Ok"
+
+#: src/start_screen.cpp:114 src/level_menu.cpp:57 src/result_screen.cpp:98
+msgid "Abort"
+msgstr "Zru¹it"
+
+#: src/start_screen.cpp:163
+msgid "Number of Pingus: "
+msgstr "Poèet pingù: "
+
+#: src/start_screen.cpp:166
+msgid "Number to Save: "
+msgstr "Nutno zachránit: "
+
+#: src/start_screen.cpp:169
+msgid "Time: "
+msgstr "Èas: "
+
+#: src/start_screen.cpp:176
+msgid "Author: "
+msgstr "Autor: "
+
+#: src/start_screen.cpp:179
+msgid "Filename: "
+msgstr "Jméno souboru: "
+
+#: src/actions/bridger.cpp:42 src/actions/bridger.cpp:216
+#: src/pingu_enums.cpp:39
+msgid "Bridger"
+msgstr "Mostaø"
+
+#: src/screenshot.cpp:38
+msgid "Screenshot: Saving screenshot to: "
+msgstr "Screenshot: Ukládám screenshot do: "
+
+#: src/screenshot.cpp:40
+msgid "Screenshot: Screenshot is done."
+msgstr "Screenshot: Screenshot je hotový."
+
+#: src/screenshot.cpp:115 src/screenshot.cpp:143
+msgid "Screenshot: Couldn't write file: "
+msgstr "Screenshot: Nemohu zapsat do souboru: "
+
+#: src/pingu_enums.cpp:34
+msgid "Angel"
+msgstr "Andìl"
+
+#: src/pingu_enums.cpp:35
+msgid "Basher"
+msgstr "Prorá¾eè"
+
+#: src/pingu_enums.cpp:36
+msgid "Blocker"
+msgstr "Blokovaè"
+
+#: src/pingu_enums.cpp:37
+msgid "Boarder"
+msgstr "Skej»ák"
+
+#: src/pingu_enums.cpp:38
+msgid "Bomber"
+msgstr "Bombík"
+
+#: src/pingu_enums.cpp:40
+msgid "Climber"
+msgstr "Horolezec"
+
+#: src/pingu_enums.cpp:41
+msgid "Digger"
+msgstr "Kopáè"
+
+#: src/pingu_enums.cpp:42
+msgid "Drown"
+msgstr "Utonulý"
+
+#: src/pingu_enums.cpp:43
+msgid "Exiter"
+msgstr "Vycházející"
+
+#: src/pingu_enums.cpp:44
+msgid "Faller"
+msgstr "Padající"
+
+#: src/pingu_enums.cpp:45
+msgid "Floater"
+msgstr "Para¹utista"
+
+#: src/pingu_enums.cpp:46
+msgid "Jumper"
+msgstr "Skokan"
+
+#: src/pingu_enums.cpp:47
+msgid "Laserkill"
+msgstr "Zabitý laserem"
+
+#: src/pingu_enums.cpp:48
+msgid "Miner"
+msgstr "Horník"
+
+#: src/pingu_enums.cpp:49
+msgid "Rocketlauncher"
+msgstr "Rake»ák"
+
+#: src/pingu_enums.cpp:50
+msgid "Slider"
+msgstr "Kluzák"
+
+#: src/pingu_enums.cpp:51
+msgid "Smashed"
+msgstr "Rozdrcený"
+
+#: src/pingu_enums.cpp:52
+msgid "Splashed"
+msgstr "Spláchnutý"
+
+#: src/pingu_enums.cpp:53
+msgid "Superman"
+msgstr "Superman"
+
+#: src/pingu_enums.cpp:54
+msgid "Teleported"
+msgstr "Teleportující se"
+
+#: src/pingu_enums.cpp:55
+msgid "Waiter"
+msgstr "Èekající"
+
+#: src/pingu_enums.cpp:56
+msgid "Walker"
+msgstr "Chodec"
+
+#: src/editor/editor_screen.cpp:197
+msgid ""
+"Select all\n"
+"Clear Selection\n"
+"Raise objects\n"
+"Lower objects\n"
+"Lower objects to bottom\n"
+"Raise objects to top\n"
+"Rotate 90 degree\n"
+"Rotate 270 degree\n"
+msgstr ""
+"Vybrat v¹e\n"
+"Zru¹it výbìr\n"
+"Vyzdvihnout objekty\n"
+"Zatlaèit objekty\n"
+"Zatlaèit objekty dospod\n"
+"Vyzdvihnout objekty na povrch\n"
+"Otoèit o 90 stupòù\n"
+"Otoèit o 270 stupòù\n"
+
+#: src/editor/editor_screen.cpp:219
+msgid ""
+"Flip object horizontaly\n"
+"Flip object vertically\n"
+"Delete all marked objects\n"
+"Move objects up\n"
+"Move objects down\n"
+"Move objects left\n"
+"Move objects right\n"
+msgstr ""
+"Pøevrátit objekt horizontálnì\n"
+"Pøevrátit object vertically\n"
+"Smazat v¹echny vyznaèené objekty\n"
+"Posunout objekty nahoru\n"
+"Posunout objekty dolu\n"
+"Posunout objekty vlevo\n"
+"Posunout objekty vpravo\n"
+
+#: src/editor/editor_screen.cpp:231
+msgid ""
+"You should name your level files systematically, i.e. by their theme, their "
+"number and your nickname:\n"
+"\n"
+"     <levelname><number>-<creator>.pingus\n"
+"\n"
+"So if you create a your second level with a stone theme, call it: stone2-"
+"yourname.pingus\n"
+"\n"
+"When you have created a level and want to have it included in the game mail "
+"it to:\n"
+"\n"
+"     pingus-devel@nongnu.org\n"
+"\n"
+"Only levels published under the GPL are allowed into the game. The editor "
+"automatically inserts a reference \n"
+"to the GPL, if you want to have your level under a different license, you "
+"have to change that reference.\n"
+msgstr ""
+"Mìl byste pojmenovávat soubory úrovní systematicky, tedy podle jejich "
+"tématu, èísla a své pøezdívky:\n"
+"\n"
+"     <název úrovnì><èíslo>-<tvùrce>.pingus\n"
+"\n"
+"Tak¾e a¾ vytvoøíte druhou úroveò s kamenným tématem, nazvìte ji: stone2-"
+"jméno.pingus\n"
+"\n"
+"Pokud vytvoøíte úroveò a chtìl byste ji mít zaøazenou do hry, po¹lete ji "
+"mailem na:\n"
+"\n"
+"     pingus-devel@nongnu.org\n"
+"\n"
+"Pouze úrovnì publikované pod GPL jsou pøijímány k zaøazení. Editor "
+"automaticky vkládá odkaz na GPL, \n"
+"tak¾e pokud chcete mít úroveò pod jinou licencí, mìl byste tento odkaz "
+"zmìnit.\n"
+
+#: src/editor/file_dialog.cpp:56
+msgid "Datadir"
+msgstr "Datový adresáø"
+
+#: src/editor/file_dialog.cpp:58
+msgid "Userdir"
+msgstr "U¾ivatelský adresáø"
+
+#: src/editor/file_dialog.cpp:61
+msgid "Open"
+msgstr "Otevøít"
+
+#: src/editor/file_dialog.cpp:61
+msgid "Save"
+msgstr "Ulo¾it"
+
+#: src/editor/file_dialog.cpp:64
+msgid "Cancel"
+msgstr "Zru¹it"
+
+#: src/editor/file_dialog.cpp:75
+msgid "Filename:"
+msgstr "Jméno souboru:"
+
+#: src/editor/file_dialog.cpp:76
+msgid "Pathname:"
+msgstr "Cesta:"
+
+#: src/editor/file_dialog.cpp:102
+msgid "Open a level"
+msgstr "Otevøít úroveò"
+
+#: src/editor/file_dialog.cpp:102
+msgid "Save your level"
+msgstr "Ulo¾it úroveò"
+
+#: src/editor/panel.cpp:153
+msgid "    New level"
+msgstr "    Nová úroveò"
+
+#: src/editor/panel.cpp:155
+msgid "Open level..."
+msgstr "Otevøít úroveò..."
+
+#: src/editor/panel.cpp:157
+msgid "Save level..."
+msgstr "Ulo¾it úroveò..."
+
+#: src/editor/panel.cpp:159
+msgid "Save level as..."
+msgstr "Ulo¾it úroveò jako..."
+
+#: src/editor/panel.cpp:162
+msgid "Play level..."
+msgstr "Hrát úroveò..."
+
+#: src/editor/panel.cpp:165
+msgid "Configure actions"
+msgstr "Nastavit akce"
+
+#: src/editor/panel.cpp:167
+msgid "Configure level"
+msgstr "Nastavit úroveò"
+
+#: src/editor/panel.cpp:169
+msgid "Display object properties"
+msgstr "Zobrazit vlastnosti objektu"
+
+#: src/editor/panel.cpp:171
+msgid "Show object insertion window"
+msgstr "Zobrazit okno pro vkládání objektù"
+
+#: src/editor/panel.cpp:173
+msgid "Show minimap"
+msgstr ""
+
+#: src/editor/panel.cpp:176
+msgid "Duplicate the selected objects"
+msgstr "Duplikovat vybrané objekty"
+
+#: src/editor/panel.cpp:178
+msgid "Delete the selected objects"
+msgstr "Vymazat vybrané objekty"
+
+#: src/editor/panel.cpp:181
+msgid "Raise object to top"
+msgstr "Zdvihnout objekt navrch"
+
+#: src/editor/panel.cpp:183
+msgid "Raise object"
+msgstr "Zdvihnout objekt"
+
+#: src/editor/panel.cpp:185
+msgid "Lower object"
+msgstr "Zatlaèit objekt"
+
+#: src/editor/panel.cpp:187
+msgid "Lower object to bottom"
+msgstr "Zatlaèit objekt dospod"
+
+#: src/editor/panel.cpp:193
+msgid "Flip object horizontally"
+msgstr "Pøeklopit objekt horizontálnì"
+
+#: src/editor/panel.cpp:195
+msgid "Flip object vertically"
+msgstr "Pøeklopit objet vertikálnì"
+
+#: src/editor/panel.cpp:198
+msgid "Rotate object -90 degree"
+msgstr "Otoèit objekt o -90 stupòù"
+
+#: src/editor/panel.cpp:200
+msgid "Rotate object 90 degree"
+msgstr "Otoèit objekt o 90 stupòù"
+
+#: src/editor/panel.cpp:209
+msgid "Display help"
+msgstr "Zobrazit nápovìdu"
+
+#: src/editor/object_selector.cpp:309
+msgid "Entrance"
+msgstr "Vchod"
+
+#: src/editor/object_selector.cpp:310
+msgid "Groundpiece (ground)"
+msgstr "Povrch (zemina)"
+
+#: src/editor/object_selector.cpp:311
+msgid "Groundpiece (solid)"
+msgstr "Povrch (pevné podlo¾í)"
+
+#: src/editor/object_selector.cpp:312
+msgid "Groundpiece (bridge)"
+msgstr "Povrch (most)"
+
+#: src/editor/object_selector.cpp:313
+msgid "Groundpiece (transparent)"
+msgstr "Povrch (prùhledný)"
+
+#: src/editor/object_selector.cpp:314
+msgid "Groundpiece (remove)"
+msgstr "Povrch (odstraòovaè)"
+
+#: src/editor/object_selector.cpp:315
+msgid "Hotspot"
+msgstr "Hotspot"
+
+#: src/editor/object_selector.cpp:316
+msgid "Background"
+msgstr "Pozadí"
+
+#: src/editor/object_selector.cpp:319
+msgid "Liquid"
+msgstr "Tekutina"
+
+#: src/editor/object_selector.cpp:320
+msgid "Trap"
+msgstr "Past"
+
+#: src/editor/object_selector.cpp:321
+msgid "Weather"
+msgstr "Poèasí"
+
+#: src/editor/object_selector.cpp:322
+msgid "Special Object"
+msgstr "Zvlá¹tní objekt"
+
+#: src/editor/object_properties.cpp:41 src/editor/object_properties.cpp:415
+msgid "Object:"
+msgstr "Objekt:"
+
+#: src/editor/object_properties.cpp:42 src/editor/object_properties.cpp:416
+msgid "Nothing selected"
+msgstr "Prázdný výbìr"
+
+#: src/editor/object_properties.cpp:51
+msgid "Transparent"
+msgstr "Prùhledné"
+
+#: src/editor/object_properties.cpp:52
+msgid "Solid"
+msgstr "Pevné podlo¾í"
+
+#: src/editor/object_properties.cpp:53
+msgid "Ground"
+msgstr "Zemina"
+
+#: src/editor/object_properties.cpp:54
+msgid "Bridge"
+msgstr "Most"
+
+#: src/editor/object_properties.cpp:55
+msgid "Water"
+msgstr "Voda"
+
+#: src/editor/object_properties.cpp:56
+msgid "Lava"
+msgstr "Láva"
+
+#: src/editor/object_properties.cpp:57
+msgid "Remove"
+msgstr "Odstranit"
+
+#: src/editor/object_properties.cpp:62
+msgid "Direction:"
+msgstr "Smìr:"
+
+#: src/editor/object_properties.cpp:64
+msgid "Left"
+msgstr "Vlevo"
+
+#: src/editor/object_properties.cpp:65
+msgid "Misc"
+msgstr "Ostatní"
+
+#: src/editor/object_properties.cpp:66
+msgid "Right"
+msgstr "Vpravo"
+
+#: src/editor/object_properties.cpp:71
+msgid "ReleaseRate:"
+msgstr "Rychlost vypou¹tìní:"
+
+#: src/editor/object_properties.cpp:88
+msgid "Para-X:"
+msgstr "Para-X:"
+
+#: src/editor/object_properties.cpp:89
+msgid "Para-Y:"
+msgstr "Para-Y:"
+
+#: src/editor/object_properties.cpp:97
+msgid "Scroll-X:"
+msgstr "Posun-X:"
+
+#: src/editor/object_properties.cpp:98
+msgid "Scroll-Y:"
+msgstr "Posun-Y:"
+
+#: src/editor/object_properties.cpp:106
+msgid "Owner Id:"
+msgstr "Id vlastníka:"
+
+#: src/editor/object_properties.cpp:110
+msgid "Z-Pos:"
+msgstr "Z-Poz:"
+
+#: src/editor/object_properties.cpp:117
+msgid "Color:"
+msgstr "Barva:"
+
+#: src/editor/object_properties.cpp:129
+msgid "Small Stars:"
+msgstr "Malé hvìzdy:"
+
+#: src/editor/object_properties.cpp:132
+msgid "Middle Stars:"
+msgstr "Støední hvìzdy:"
+
+#: src/editor/object_properties.cpp:135
+msgid "Large Stars:"
+msgstr "Velké hvìzdy:"
+
+#: src/editor/object_properties.cpp:143
+msgid "Repeat:"
+msgstr "Opakování:"
+
+#: src/editor/object_properties.cpp:421
+msgid "Object: [Group]"
+msgstr "Objekt: [Skupina]"
+
+#: src/editor/object_properties.cpp:422
+msgid "Group not supported"
+msgstr "Skupina není podporována"
+
+#: src/editor/object_properties.cpp:427
+msgid "Object: "
+msgstr "Objekt: "
+
+#: src/addon_menu.cpp:59 src/option_menu.cpp:94
+msgid "Close"
+msgstr ""
+
+#: src/pingus_menu.cpp:50 src/pingus_menu.cpp:72
+msgid "Story"
+msgstr "Pøíbìh"
+
+#: src/pingus_menu.cpp:51
+msgid "..:: Start the game ::.."
+msgstr "..:: Spustit hru ::.."
+
+#: src/pingus_menu.cpp:56
+#, fuzzy
+msgid "Editor"
+msgstr "Vycházející"
+
+#: src/pingus_menu.cpp:57
+msgid "..:: Create your own levels ::.."
+msgstr "..:: Vytvoøit vlastní úroveò ::.."
+
+#: src/pingus_menu.cpp:62
+msgid "..:: Bye, bye ::.."
+msgstr "..:: Na shledanou ::.."
+
+#: src/pingus_menu.cpp:66 src/level_menu.cpp:108
+#, fuzzy
+msgid "Levelsets"
+msgstr "-Tvorba úrovní"
+
+#: src/pingus_menu.cpp:67
+msgid "..:: Play User Built levels ::.."
+msgstr "..:: Spustit úroveò od u¾ivatelù ::.."
+
+#: src/pingus_menu.cpp:73
+msgid "..:: Start the story ::.."
+msgstr "..:: Spustit hru s pøíbìhem ::.."
+
+#: src/pingus_menu.cpp:78
+msgid "Multiplayer"
+msgstr "Více hráèù"
+
+#: src/pingus_menu.cpp:79
+msgid "..:: Multiplayer Match ::.."
+msgstr "..:: Hra pro více hráèù ::.."
+
+#: src/pingus_menu.cpp:82
+msgid ""
+"..:: Ctrl-g: mouse grab   ::   F10: fps counter   ::   F11: "
+"fullscreen   ::   F12: screenshot ::.."
+msgstr ""
+"..:: Ctrl-g: uchopit my¹ :: F10: poèítadlo fps :: F11: pøes celou "
+"obrazovku :: F12: sejmout obrazovku ::.."
+
+#: src/level_menu.cpp:124
+#, fuzzy
+msgid "Solved:"
+msgstr "Zachránìno: "
+
+#: src/level_menu.cpp:125
+#, fuzzy
+msgid "levels"
+msgstr "-Tvorba úrovní"
+
+#: src/level_menu.cpp:195
+msgid "Title"
+msgstr ""
+
+#: src/level_menu.cpp:196
+#, fuzzy
+msgid "Status"
+msgstr "Start"
+
+#: src/level_menu.cpp:212
+#, fuzzy
+msgid "solved"
+msgstr "Zachránìno: "
+
+#: src/level_menu.cpp:214
+#, fuzzy
+msgid "unsolved"
+msgstr "Zachránìno: "
+
+#: src/components/pingus_counter.cpp:49
+#, c-format, boost-format
+msgid "Released:%3d/%d   Out:%3d   Saved:%3d/%d"
+msgstr "Vypu¹tìno:%3d/%d   Venku:%3d   Doma:%3d/%d"
+
+#: src/worldmap/manager.cpp:107
+msgid "Show Ending?"
+msgstr "Ukázat konec?"
+
+#: src/worldmap/manager.cpp:138
+msgid "Show Story?"
+msgstr "Ukázat pøíbìh?"
+
+#: src/worldmap/manager.cpp:167
+msgid "Leave?"
+msgstr "Opustit?"
+
+#: src/worldmap/manager.cpp:207
+msgid "Enter?"
+msgstr "Vstoupit?"
+
+#: src/worldmap/worldmap.cpp:423
+msgid "...walking..."
+msgstr "...jdu..."
+
+#: src/worldmap/level_dot.cpp:151 src/worldmap/level_dot.cpp:161
+msgid "locked"
+msgstr "zamknuto"
+
+#: src/story_screen.cpp:40
+msgid "skip"
+msgstr "pøeskoèit"
+
+#: src/result_screen.cpp:131
+msgid "Retry"
+msgstr "Znovu"
+
+#: src/result_screen.cpp:181
+msgid "Success!"
+msgstr "Úspìl jsi!"
+
+#: src/result_screen.cpp:188
+msgid "Failure!"
+msgstr "Neuspìl jsi!"
+
+#: src/result_screen.cpp:197
+msgid "Perfect! You saved everyone possible - great!"
+msgstr "Skvìlé! Zachránil jsi úplnì v¹echny - výbornì!"
+
+#: src/result_screen.cpp:199
+msgid "No-one got killed, pretty good work."
+msgstr "Nikdo nezemøel, to byla dobrá práce."
+
+#: src/result_screen.cpp:201
+msgid ""
+"You saved exactly what you needed - you made it, but\n"
+"maybe you can do better?"
+msgstr ""
+"Zachránil jsi jen ty, které jsi musel.\n"
+"Sice jsi to zvládl, ale nemohlo to být lep¹í?"
+
+#: src/result_screen.cpp:204
+msgid "Not everybody was saved, but still good work!"
+msgstr "Nezachránil jsi v¹echny, ale i tak je to dobré!"
+
+#: src/result_screen.cpp:206
+msgid "What can I say, you made it - congratulations!"
+msgstr "Co mohu více øíci - povedlo se ti to, gratuluji!"
+
+#: src/result_screen.cpp:211
+msgid "You killed everybody, not good."
+msgstr "V¹echny jsi zabil. To byl hodnì ¹patný výkon."
+
+#: src/result_screen.cpp:213
+msgid "No-one got saved - I know you can do better."
+msgstr "Nikoho jsi nezachránil. Vím, ¾e to umí¹ i lépe."
+
+#: src/result_screen.cpp:215
+msgid ""
+"You didn't save enough, but you saved a few.  Next\n"
+"time you might do better."
+msgstr ""
+"Nezachránil jsi dostatek pingù, ale bylo jich alespoò pár.\n"
+"Pøí¹tì bys mìl být lep¹í."
+
+#: src/result_screen.cpp:218
+msgid "Only one more and you would have made it - try again!"
+msgstr "Je¹tì jeden a mohl jsi uspìt. Zkus to znovu!"
+
+#: src/result_screen.cpp:220
+msgid "Only a handful more and you would have made it - try again!"
+msgstr "Jen nìkolik dal¹ích a bylo by to v poøádku. Zkus to je¹tì jednou!"
+
+#: src/result_screen.cpp:222
+msgid "Better luck next time!"
+msgstr "Pøí¹tì ti pøeju více ¹tìstí."
+
+#: src/result_screen.cpp:239
+msgid "Saved: "
+msgstr "Zachránìno: "
+
+#: src/result_screen.cpp:243
+msgid "Died: "
+msgstr "Zesnulo: "
+
+#: src/result_screen.cpp:247
+msgid "Time left: "
+msgstr "Zbývající èas: "
+
+#: src/config.cpp:72
+msgid "Couldn't open: "
+msgstr "Nemohu otevøít: "
+
+#: src/config.cpp:171 src/config.cpp:205
+msgid "Unexpected char: '"
+msgstr "Neoèekávaný znak: '"
+
+#: src/exit_menu.cpp:46 src/exit_menu.cpp:50
+msgid "Yes"
+msgstr "Ano"
+
+#: src/exit_menu.cpp:85 src/exit_menu.cpp:89
+msgid "No"
+msgstr "Ne"
+
+#: src/exit_menu.cpp:124
+msgid "Exit Pingus?"
+msgstr "Ukonèit Pingus?"
+
+#: data/levels/tutorial/basher-tutorial-grumbel.pingus:5
+msgid "If the way is blocked, bash away"
+msgstr "Kdy¾ nevede cesta dál, tak ji prohrabej"
+
+#: data/levels/tutorial/basher-tutorial-grumbel.pingus:6
+msgid ""
+"Similar to the Digger action that you already know from previous levels, "
+"there is also an action that allows the Pingus to dig horizontally, as "
+"opposed to the vertical dig ability the Digger action provides. This new "
+"action is called Basher. "
+msgstr ""
+"Podobnì jako kopání, které u¾ zná¹ z minulých úrovní, existuje také mo¾nost "
+"vodorovného hrabání. Pingové pak nekopou jámu pod sebou, ale prohrabávají se "
+"rovnì ve smìru chùze. "
+
+#: data/levels/tutorial/bomber-tutorial2-grumbel.pingus:5
+msgid "Sacrifice a few and save the rest"
+msgstr "Pár obìtuj a zachraò ostatní"
+
+#: data/levels/tutorial/bomber-tutorial2-grumbel.pingus:6
+msgid ""
+"Sometimes no other actions are available, so you have to bomb your way "
+"through the ground. The Pingus can do this by actually self- destructing. "
+"This will kill them, but it is sometimes necessary to sacrifice a few to "
+"save the rest. "
+msgstr ""
+"Obèas, kdy¾ nemá¹ jinou vhodnou akci k dispozici, musí¹ si uvolnit cestu "
+"skrz zemi výbuchem. Pingové to ale umí udìlat jen tak, ¾e se pøi tom sami "
+"znièí. I kdy¾ je to zabíjí, tak je nìkdy nutné nìkolik z nich obìtovat, abys "
+"zachránil ostatní. "
+
+#: data/levels/tutorial/digger-tutorial2-grumbel.pingus:5
+msgid "Learning to dig"
+msgstr "Výuka kopání"
+
+#: data/levels/tutorial/digger-tutorial2-grumbel.pingus:6
+msgid ""
+"This is your first mission. As always, it's pretty easy. All you have to do "
+"is to give a Pingu the command to dig a hole into the ground so that they "
+"can reach the exit. This can be accomplished simply by clicking on a Pingu. "
+msgstr ""
+"Toto je tvùj první úkol a bude celkem jednoduchý. V¹echno, co bude¹ muset "
+"udìlat, je dát pingovi pøíkaz k vykopání jámy do zemì, aby se vytvoøila "
+"cesta k východu. To udìlá¹ prostì tak, ¾e na nìjakého pinga klikne¹. "
+
+#: data/levels/tutorial/floater-tutorial-grumbel.pingus:5
+msgid "Float or Die"
+msgstr "Le», nebo zemøe¹"
+
+#: data/levels/tutorial/floater-tutorial-grumbel.pingus:6
+msgid ""
+"Well done in mission one! Now let's start the next one. This time you will "
+"need to equip your Pingus with a little propeller, so that they can float to "
+"the ground smoothly. If Pingus fall too far, they will not be able to "
+"survive the fall, so keep your eyes open! "
+msgstr ""
+"V první misi jsi dopadl dobøe, tak¾e se teï podíváme na dal¹í. Tentokrát "
+"bude¹ muset své svìøence vybavit malou vrtulkou, aby se mohli pomalu a "
+"bezpeènì snést z útesu na zem. Kdy¾ toti¾ pingové spadnou z pøíli¹ velké "
+"vý¹ky, tak nepøe¾ijí. Tak¾e na nì dávej dobrý pozor! "
+
+#: data/levels/tutorial/jumper-tutorial-grumbel.pingus:5
+msgid "Jump for joy"
+msgstr "Skákání je legrace"
+
+#: data/levels/tutorial/jumper-tutorial-grumbel.pingus:6
+msgid ""
+"Sometimes a Pingu needs to reach a platform that is far away, but not "
+"reachable by walking. That's when the Jumper comes in handy - it allows the "
+"Pingu to make a small jump and so enables him to reach the platform. "
+msgstr ""
+"Nìkdy potøebuje¹ pinga dovést na plo¹inu, která je sice jen kousek od nìj, "
+"ale nelze na ni dojít. Pak pøijde vhod skákání, které umo¾ní pingovi kousek "
+"poskoèit a dostat se tak na ký¾ené místo. "
+
+#: data/levels/tutorial/miner-tutorial2-grumbel.pingus:5
+msgid "Miner's heaven"
+msgstr "Ráj horníkù"
+
+#: data/levels/tutorial/miner-tutorial2-grumbel.pingus:6
+msgid ""
+"Another action hits the street - another digging action, this time a "
+"diagonal one. It allows a Pingu to dig diagonally through ground, thus "
+"creating a path for following Pingus. The action is called Miner. "
+msgstr ""
+"A dal¹í akce se dostává na výsluní a opìt se jedná o kopání do zemì, "
+"tentokrát ¹ikmo. Hornictví umo¾ní pingùm hloubit ¹ikmé chodby, kterými pak "
+"mohou ostatní projít. "
+
+#: data/levels/tutorial/snow10-grumbel.pingus:5
+msgid "Panic Island (float/bash)"
+msgstr "Panika na ostrovì"
+
+#: data/levels/tutorial/snow10-grumbel.pingus:6
+msgid ""
+"While the previous levels have not required much quick action from you, this "
+"one gets a bit trickier. The Pingus are coming out of two entrances in "
+"parallel and it is your job to coordinate the two groups wisely. "
+msgstr ""
+"Zatímco pøedchozí úrovnì po tobì nevy¾adovaly moc rychlých reakcí, tak ta "
+"následující je trochu nároènìj¹í. Pingové vycházejí ze dvou vchodù najednou "
+"a je jen na tobì obì skupiny uhlídat. "
+
+#: data/levels/tutorial/snow11-grumbel.pingus:5
+msgid "Jump'n Bump... and Bash..."
+msgstr "Skákání a hrabání..."
+
+#: data/levels/tutorial/snow11-grumbel.pingus:6
+msgid ""
+"It's panic time again. The Pingus will not come out very fast, but since "
+"they turn around when they hit walls you will soon have some trouble "
+"coordinating them all. Since you only need to save 5 it should be doable, "
+"but if all else fails use the pause-mode ('p') to get an overview again. "
+msgstr ""
+"Je na èase si dìlat starosti. Pingové sice nebudou pøicházet pøíli¹ rychle, "
+"ale proto¾e se u zdí otáèejí, tak brzo vznikne nepøehledná situace, kdy je "
+"u¾ nebude¹ stíhat ovládat. Na¹tìstí jich potøebuje¹ do domeèku dostat jen 5, "
+"tak to snad zvládne¹. Kdy¾ ti to bude dìlat problémy, mù¾e¹ pou¾ívat pauzu "
+"(P). "
+
+#: data/levels/tutorial/snow12-grumbel.pingus:5
+msgid "Two groups in parallel, coordinate wisely"
+msgstr "Dvì skupiny najednou - rozumì je veï"
+
+#: data/levels/tutorial/snow12-grumbel.pingus:6
+msgid ""
+"You have two groups to coordinate this time. No need to panic, since this "
+"level gives you enough time to think your actions through. No more tips this "
+"time, but good luck! "
+msgstr ""
+"Má¹ na starosti dvì skupiny, tak¾e je bude¹ muset zvládnout najednou. "
+"Nemusí¹ se obávat, má¹ dostatek èasu na promy¹lení svých plánù. Více ti u¾ "
+"napovídat nebudu. Hodnì ¹tìstí! "
+
+#: data/levels/tutorial/snow14-grumbel.pingus:5
+msgid "Block'a Rock"
+msgstr "Blokování"
+
+#: data/levels/tutorial/snow14-grumbel.pingus:6
+msgid ""
+"Once again it's time to combine the stuff you have learned in your previous "
+"levels. Blast your way free and make sure you also keep the rest of the "
+"Pingus under control. The Blocker action will be helpful. "
+msgstr ""
+"A máme tu znovu pøíle¾itost zkombinovat znalosti, které jsi zatím získal. "
+"Uvolni si cestu k cíli a zároveò dávej pozor i na ostatní pingy. Pomù¾e ti "
+"nová akce - zablokování cesty. "
+
+#: data/levels/tutorial/snow15-grumbel.pingus:5
+msgid "Climb, Climber,... Boom!"
+msgstr "©plhej horolezèe,... Bum!"
+
+#: data/levels/tutorial/snow15-grumbel.pingus:6
+msgid ""
+"As you might have already figured out from previous levels, you often have "
+"to combine different actions to get the job done. Due to the lack of a "
+"Digger action in this level the Bomber needs to jump in, but how can it "
+"reach the place to bomb? "
+msgstr ""
+"Jak jsi u¾ urèitì pochopil z pøedchozích úrovní, èasto je potøeba skloubit "
+"více rùzných èinností dohromady, aby se dosáhlo potøebného cíle. Proto¾e "
+"momentálnì nemá¹ k dispozici ¾ádného kopáèe, tak bude¹ muset pou¾ít bombera. "
+"Jak se ale dostat na místo odpalu? "
+
+#: data/levels/tutorial/snow16-grumbel.pingus:5
+msgid "Bridging gets more complicated..."
+msgstr "Mosty se zaèínají komplikovat..."
+
+#: data/levels/tutorial/snow16-grumbel.pingus:6
+msgid ""
+"Once again you have to combine actions carefully and wisely. If you don't "
+"you could end up in the hole just before the exit, so think about how to "
+"avoid that. "
+msgstr ""
+"Opìt bys mìl peèlivì a mazanì zkombinovat v¹echny schopnosti dohromady, "
+"jinak skonèí¹ v pasti kousek pøed cílem. Tak¾e zapøemý¹lej, jak se tomu "
+"vyhnout. "
+
+#: data/levels/tutorial/snow17-grumbel.pingus:5
+msgid "If too high, your Pingu will die..."
+msgstr "Pingové nepøe¾ijí pád z velké vý¹ky..."
+
+#: data/levels/tutorial/snow17-grumbel.pingus:6
+msgid ""
+"Teamwork is the way to the exit this time. You don't have enough Floaters to "
+"reach the exit, so just send a few and let them prepare the path for the "
+"rest. "
+msgstr ""
+"Týmová práce je tou pravou cestou k cíli. Proto¾e nemá¹ dostatek vrtulek pro "
+"v¹echny, vy¹li nejprve nìkolik pingù, aby ostatním pøipravili cestu. "
+
+#: data/levels/tutorial/snow19-grumbel.pingus:5
+msgid "Learn to use the bridge"
+msgstr "Nauè se stavìt mosty"
+
+#: data/levels/tutorial/snow19-grumbel.pingus:6
+msgid ""
+"If no Jumper is at hand and a large hole needs to be passed, a bridge can be "
+"pretty helpful. It takes some time to build, but unlike the jumper action it "
+"allows following Pingus to reach the other end too. "
+msgstr ""
+"Kdy¾ není po ruce skokan a je potøeba pøekonat nìjakou propast, tak mù¾e¹ "
+"postavit most. Stavba sice zabere nìjaký ten èas, ale zato budou moci "
+"v¹ichni ostatní pohodlnì pøejít, co¾ bys se samotným skokanem nedokázal. "
+
+#: data/levels/tutorial/snow20-grumbel.pingus:5
+msgid "Three solutions, it's up to you"
+msgstr "Tøi øe¹ení - zvol si, které chce¹"
+
+#: data/levels/tutorial/snow20-grumbel.pingus:6
+msgid ""
+"Now that you've learned all the actions, it's time for some more practice. "
+"This level presents you with at least three different ways to solve it. It's "
+"up to you which one you pick. "
+msgstr ""
+"Teï, kdy¾ ses nauèil v¹echny schopnosti, nastává èas, aby ses více "
+"procvièil. Tyto úkoly mají nejménì tøi rùzná øe¹ení a je jen na tobì, které "
+"si vybere¹. "
+
+#: data/levels/tutorial/snow21-grumbel.pingus:5
+msgid "Climb, Climber, climb... and build a bridge"
+msgstr "©plhej horolezèe, ¹plhej... a postav most"
+
+#: data/levels/tutorial/snow21-grumbel.pingus:6
+msgid ""
+"Once again you get access to a new action. The Climber action allows a Pingu "
+"to climb up straight walls, thus allowing him to reach stuff that might be "
+"too high to reach by other means. "
+msgstr ""
+"Zase tu máme novou schopnost - horolezectví. Pingu, který se stane "
+"horolezcem, umí vy¹plhat na kolmé zdi a dostane se tak na místa, kam by se "
+"jinak nikdo nedostal. "
+
+#: data/levels/tutorial/snow22-grumbel.pingus:5
+msgid "Entrance high, Exit low"
+msgstr "Vchod nahoøe, východ dole"
+
+#: data/levels/tutorial/snow22-grumbel.pingus:6
+msgid ""
+"If you don't have enough floaters to bring all the Pingus down to the exit - "
+"you have to find other ways to guide them down. You should have learned all "
+"the stuff you need for this level in previous levels, so this shouldn't be "
+"too much of a problem for you. "
+msgstr ""
+"Kdy¾ nemá¹ dostatek vrtulek, abys dostal v¹echny pingy bezpeènì dolù, bude¹ "
+"muset vymyslet jiný zpùsob. V¹e, co potøebuje¹, ses u¾ nauèil v pøedchozích "
+"úrovních, tak¾e to pro tebe nebude ¾ádný zvlá¹tní problém. "
+
+#: data/levels/tutorial/snow7-grumbel.pingus:5
+msgid "One must prepare, the rest must follow"
+msgstr "Jeden pøipraví, ostatní ho následují"
+
+#: data/levels/tutorial/snow7-grumbel.pingus:6
+msgid ""
+"Sometimes there are situations where you don't have a Blocker at hand to "
+"coordinate your Pingus. You'll have to find other ways to keep them under "
+"control while a single one prepares the path for the rest. "
+msgstr ""
+"Èas od èasu se dostane¹ do situace, kdy ¾ádný blokovaè není k dispozici. Mìl "
+"bys vymyslet nìjaký jiný zpùsob, jak pingy udr¾et pod kontrolou, ne¾ nìkdo "
+"pøipraví cestu. "
+
+#: data/levels/tutorial/snow8-grumbel.pingus:5
+msgid "Dig and float, but just don't fall and smash"
+msgstr "Kopej a skákej, ale hlavnì nespadni"
+
+#: data/levels/tutorial/snow8-grumbel.pingus:6
+msgid ""
+"Unlike the first two levels, you have two actions available in this level. "
+"Your job is again simple: select an action at the panel on the left and "
+"apply it to the Pingus so that they will be able to reach the exit. Make "
+"sure that not too many of them die. "
+msgstr ""
+"Na rozdíl od pøedchozích dvou úrovní bude¹ mít tentokrát k dispozici dvì "
+"schopnosti. Tvùj úkol bude, jako obvykle, velmi snadný - vybere¹ schopnost "
+"na levém panelu a pou¾ije¹ ji na pinga, abys vytvoøil cestu k cíli. Jen si "
+"dej pozor, aby ti mnoho svìøencù nezemøelo. "
+
+#: data/levels/tutorial/snow9-grumbel.pingus:5
+msgid "Dig, bash and other problems"
+msgstr "Kopání, hrabání a dal¹í problémy"
+
+#: data/levels/tutorial/snow9-grumbel.pingus:6
+msgid ""
+"The more levels you master, the more difficult they will get, but don't "
+"panic, as this one is still pretty easy. Just use the stuff that you've "
+"learned in the previous levels and you shouldn't have many problems. If you "
+"think you've reached a situation from which you can no longer solve the "
+"level, double click the armageddon button at the lower right. "
+msgstr ""
+"Èím více úrovní zvládne¹, tím tì¾¹í tì budou èekat. Ale neboj se, "
+"následující je je¹tì celkem jednoduchá. Prostì pou¾ij v¹e, co ses zatím "
+"nauèil a nebude¹ mít potí¾e. Kdy¾ se dostane¹ do bezvýchodné situace, "
+"dvojklikni na tlaèítko Armagedon vpravo dole. "
+
+#: data/levels/tutorial/solid-tutorial-grumbel.pingus:5
+msgid "Solid ground can block the path"
+msgstr "Pevné podlo¾í mù¾e omezit cestu"
+
+#: data/levels/tutorial/solid-tutorial-grumbel.pingus:6
+msgid ""
+"As you have learned in earlier levels your Pingus can dig through basically "
+"any terrain, but there is one material which they can't penetrate: steel. "
+"These regions are marked dark grey on the level map and cannot be destroyed, "
+"so you must find a way around them. "
+msgstr ""
+"U¾ døíve ses nauèil, ¾e se pingové doká¾í prokopat skrze jakýkoliv druh "
+"zeminy. Tady se ale v zemi nacházejí kovové pøedmìty, které prokopat nejdou. "
+"Tyto vìci jsou na mapce vyznaèeny tmavì ¹edou barvou a nemohou být nijak "
+"znièeny. Musí¹ je obejít. "
+
+#: data/levels/halloween/halloween1-grumbel.pingus:7
+msgid "One jump to catch them all"
+msgstr ""
+
+#: data/levels/halloween/halloween1-grumbel.pingus:8
+msgid ""
+"The pingus have found themselves lost on their journey.  What is this "
+"mysterious place?  Smiling pumpkins, giant candlesticks, and some boiling "
+"soup below... what wizardry is this? Now, facing a deadly abyss right in "
+"front of them it's your job to save them. Can you save them from a terrible "
+"fate?"
+msgstr ""
+
+#: data/levels/halloween/halloween2-grumbel.pingus:7
+msgid "One Thousand and One Jumps"
+msgstr ""
+
+#: data/levels/halloween/halloween2-grumbel.pingus:8
+msgid ""
+"With the exit so high above and far out of reach for a normal Pingu, what "
+"options are there? Perhaps a jumper can rescue them?  Or will he simply slow "
+"their inevitable demise? It's your job to find out, but are you good enough "
+"to save them all?"
+msgstr ""
+
+#: data/levels/halloween/halloween3-grumbel.pingus:7
+msgid "Boom Boom"
+msgstr ""
+
+#: data/levels/halloween/halloween3-grumbel.pingus:8
+msgid ""
+"You've mastered the last challenge and now face the next. Their path to "
+"salvation seems to be cursed, but by whom? There is no time to think about "
+"it, since the next deadly challenge already awaits the Pingus. Two mighty "
+"roots block the way, but without a basher at hand to bash them away, "
+"sacrifice might be the only option..."
+msgstr ""
+
+#: data/levels/halloween/halloween4-grumbel.pingus:7
+msgid "Full Circle"
+msgstr ""
+
+#: data/levels/halloween/halloween4-grumbel.pingus:8
+msgid ""
+"The exit is so close, yet out of reach. A step in the wrong direction and "
+"the Pingus will fall to a terrible fate. You must do something to help them, "
+"but is there enough time? You have to hurry and can't allow yourself any "
+"mistakes. The Pingus are counting on you!"
+msgstr ""
+
+#: data/levels/halloween/halloween5-grumbel.pingus:7
+msgid "Bridgers Nightmare"
+msgstr ""
+
+#: data/levels/halloween/halloween5-grumbel.pingus:8
+msgid ""
+"Who placed this monstrous wall here?  This terrible blockade separates your "
+"Pingus from the exit. Destruction of its awful construction seems an "
+"impossibility, but perhaps the bridger can come to the rescue?  Can they "
+"build their bridges high enough to guide the group yet again safely to the "
+"exit? Or is somebody playing evil mind tricks with you?\n"
+"\n"
+"Yet again the solution is your call... your gray matter is the key to the "
+"Pingus' success, so don't let yourself get confused and misguided from the "
+"true path."
+msgstr ""
+
+#: data/levels/halloween/halloween6-grumbel.pingus:7
+msgid "Locked up by the witch"
+msgstr ""
+
+#: data/levels/halloween/halloween6-grumbel.pingus:8
+msgid ""
+"Is this a prison? Blocked by solid walls all around, there doesn't seem to "
+"be a way to escape. Salvation seems impossible. But wait... the wall to the "
+"right seems weak... perhaps this is a way to escape? Or is it a false path "
+"that will lead to the Pingus' doom?\n"
+"\n"
+"This is a risky trip, but you must take it to find out how to bring them all "
+"to freedom once again."
+msgstr ""
+
+#: data/levels/halloween/halloween7-grumbel.pingus:7
+msgid "Splatterfest"
+msgstr ""
+
+#: data/levels/halloween/halloween7-grumbel.pingus:8
+msgid ""
+"This is by far the deepest pit the Pingus have yet encountered. Building a "
+"bridge across it seems obvious but that won't help since the exit is deep "
+"down in the pit itself. Pingus who try to go down the pit will just end up "
+"splattered all over the ground. You have two groups of Pingus at your "
+"disposal, can you make them work together to reach even an exit this well "
+"hidden?"
+msgstr ""
+
+#: data/levels/halloween/halloween8-plouj.pingus:7
+msgid "Staircase Maintenance"
+msgstr ""
+
+#: data/levels/halloween/halloween8-plouj.pingus:8
+msgid ""
+"It seems we are up again against a mighty wall, and it is blocking the exit! "
+"But wait, some good soul has built a staircase around it. It seems, however, "
+"that the poor fool's efforts didn't last long, as the staircase is destroyed "
+"and full of holes. Can you fix it and make it over the wall? Yet of course "
+"you know that the right solution might not be the obvious one. But your "
+"Pingus are almost free, and they trust in your skill to guide them to safety "
+"once more. Succeed and you will have freed them once and for all from "
+"whatever evildoer that placed them in this nightmare... at least for this "
+"year."
+msgstr ""
+
+#: data/worldmaps/tutorial.worldmap:4
+msgid "Tutorial Island"
+msgstr "Výukový ostrov"
+
+#: data/worldmaps/tutorial.worldmap:6
+msgid "Learn the basics"
+msgstr "Nauè se základy"
+
+#: data/worldmaps/tutorial.worldmap:15
+msgid "The Journey Begins"
+msgstr "Výprava zaèíná"
+
+#: data/worldmaps/tutorial.worldmap:81
+msgid "The Journey Continues"
+msgstr "Výprava pokraèuje"
+
+#: data/worldmaps/tutorial.worldmap:22
+msgid ""
+"For a long time, the Pingus have lived happily in peace on the South Pole "
+"along with all the other animals. Everything was in balance and it seemed "
+"like nothing could disrupt their peace.  The Pingus were happy and it seemed "
+"like this could never end."
+msgstr ""
+"Po dlouhý èas ¾ili pingové ¹tastnì a spokojenì na severním\n"
+"pólu spolu s ostatníma zvíøátkama. V¹echno bylo v rovnováze\n"
+"a vùbec to nevypadalo, ¾e by nìco mohlo tento klid vyru¹it.\n"
+"Pingové byli ¹tastní a zdálo se, ¾e tomu u¾ bude nav¾dy.\n"
+
+#: data/worldmaps/tutorial.worldmap:30
+msgid ""
+"But then one day, things began to change slowly: the sky got darker and the "
+"earth got warmer. Firstly, they thought this was just a normal fluctuation "
+"in the world's climate, but things seemed to get worse and worse with every "
+"year."
+msgstr ""
+"Ale jednoho dne se zaèala situace pozvolna mìnit - obloha se\n"
+"zamraèila a Zemì se zaèala oteplovat. Nejdøíve to vypadalo jen\n"
+"jako bì¾né výkyvy svìtového podnebí, jen¾e se situce rok od roku\n"
+"zhor¹ovala."
+
+#: data/worldmaps/tutorial.worldmap:38
+msgid ""
+"The snow began to melt away in a few areas and food became an issue. Other "
+"animals tried to leave the region to search for colder areas, but the Pingus "
+"knew that this wouldn't help: they knew that they had to do something about "
+"it."
+msgstr ""
+"Sníh pomalu tál a mizel, a v nìkolika oblastech se objevily problémy\n"
+"se shánìním potravy. Ostatní zvíøátka ode¹la pryè hledat chladnìj¹í\n"
+"oblasti. Pingové ale vìdìli, ¾e to pranic nepomù¾e, ¾e musí nìco\n"
+"podniknout, aby zkáze zabránili."
+
+#: data/worldmaps/tutorial.worldmap:46
+msgid ""
+"So the circle of the eldest came together to decide what to do about it. "
+"They decided to send out an expedition around the world to find the cause of "
+"this warming. The expedition consisted of hundreds of the bravest Pingus on "
+"the South Pole."
+msgstr ""
+"Tak¾e se se¹el kruh nejstar¹ích, aby rozhodl, co dìlat. Nakonec\n"
+"se rozhodli vyslat výpravu kolem svìta, která by na¹la pøíèinu\n"
+"oteplování. Expedici tvoøily stovky nejstateènìj¹ích pingù z celého\n"
+"severního pólu."
+
+#: data/worldmaps/tutorial.worldmap:54
+msgid ""
+"And they picked you to lead them on their journey around the world. Since "
+"the journey will be dangerous and difficult, your first goal is the Island "
+"of Mogorok, also known as the Tutorial Island. According to the eldest, this "
+"island has always been the first stop of Pingus that were sent out into the "
+"world."
+msgstr ""
+"A ty jsi byl vybrán, abys je vedl na této pouti kolem svìta.\n"
+"Proto¾e cesta bude obtí¾ná a nebezpeèná, va¹í první zastávkou\n"
+"bude ostrov Mogorok, té¾ známý jako výukový ostrov. Podle\n"
+"star¹ích byl ostrov v¾dy první metou výprav, které do svìta\n"
+"smìøovaly."
+
+#: data/worldmaps/tutorial.worldmap:63
+msgid ""
+"The island consists of many areas that are ideal to teach the Pingus their "
+"abilities. The Pingus can learn to build bridges, climb, bash and use many "
+"other talents which they will need on their long and dangerous journey."
+msgstr ""
+"Na ostrovì se nachází spousta oblastí, které jsou ideální\n"
+"k trénování schopností pingù. Pingové si tu mohou zdokonalit\n"
+"své schopnosti stavìní mostù, lezení, hrabání a dal¹í schopnosti,\n"
+"které urèitì budou cestou potøebovat."
+
+#: data/worldmaps/tutorial.worldmap:70
+msgid ""
+"While there, you can practice your abilities in commanding and guiding the "
+"Pingus. You can also get familiar with all the abilities the Pingus provide "
+"and learn to master them, since you will need all of them on your journey "
+"around the world."
+msgstr ""
+"Ty si zase procvièí¹ velitelské umìní. Mìl byses seznámit\n"
+"se v¹emi schopnostmi, kterými pingové oplývají. Musí¹ je\n"
+"opravdu dokonale zvládnout, proto¾e je v¹echny bude¹ cestou\n"
+"potøebovat."
+
+#: data/worldmaps/tutorial.worldmap:78
+msgid ""
+"Now that you and the Pingus have arrived at Tutorial Island it is time to "
+"take command and begin your mission. Good Luck!"
+msgstr ""
+"Nyní, kdy¾ jsi se svou partou dorazil na výukový ostrov,\n"
+"je èas zaèít a pøevzít velení mise.\n"
+"\n"
+"                                                   Hodnì ¹tìstí!"
+
+#: data/worldmaps/tutorial.worldmap:88
+msgid ""
+"Now after you and the Pingus have learned the basics and practiced a bit it "
+"is time to move on and begin the journey into the world. Since the ice floe "
+"with which the Pingus traveled to the Tutorial Island isn't going to hold on "
+"the whole way into the warmer climates the Pingus have to find something "
+"else to guide them on their journey."
+msgstr ""
+"Nyní, kdy¾ ses u¾ nauèili základy a v¹echny je dobøe\n"
+"zvládl, je èas pokroèit v cestì. Proto¾e kra, na které pingové\n"
+"pøipluli na výukový ostrov nemù¾e nést posádku po celou cestu\n"
+"do teplej¹ích krajin, pingové musí najít jiný dopravní prostøedek.\n"
+
+#: data/worldmaps/tutorial.worldmap:97
+msgid ""
+"But as the eldest have said, the Tutorial Island provides not only a good "
+"way to practice, but it is also the starting point into the world. After "
+"some searching the Pingus discovered the meaning of this, and they found the "
+"large tree at the end of the island which gave them wood to construct a "
+"float."
+msgstr ""
+"Rada nejstar¹ích øekla, ¾e výukový ostrov neposkytuje jen\n"
+"mo¾nost výcviku, ale je také výchozím bodem v cestì do svìta.\n"
+"Po krátkém hledání pingové pochopili význam sdìlení - velký\n"
+"strom na konci ostrova dá kvalitní døevo pro konstrukci vorù.\n"
+
+#: data/worldmaps/tutorial.worldmap:106
+msgid ""
+"So the Pingus set out and constructed some large rafts, enough to carry them "
+"all. After also packing a bunch of provisions they were prepared to start "
+"their journey and leave their familiar ground and enter the unknown parts of "
+"the world."
+msgstr ""
+"Tak¾e pingové postavili nìkolik velkých vorù, dostatek, aby se\n"
+"mohli v¹ichni pøepravit. Je¹tì sehnali dostateèné zásoby potravin\n"
+"a byli koneènì pøipraveni opustit známou zemi a vydat se na svou\n"
+"pou» do neznámých oblatí svìta.\n"
+
+#: data/worldmaps/tutorial.worldmap:114
+msgid ""
+"So the Pingus sit on their raft, worrying about what's to come and where to "
+"go, while floating into the sunset.  To be continued..."
+msgstr ""
+"Jak tak sedìli na svých vorech, pøemý¹leli, co je èeká a odplouvali\n"
+"do západu slunce.\n"
+"\n"
+"Bude mít pokraèování..."
+
+#: data/levelsets/halloween.levelset:3
+msgid "Halloween 2007"
+msgstr ""
+
+#: data/levelsets/halloween.levelset:4
+msgid "Trapped at All Hallows Eve"
+msgstr ""
+
+#~ msgid "Difficulty:"
+#~ msgstr "Obtí¾nost: "
+
+#~ msgid "Difficulty: "
+#~ msgstr "Obtí¾nost: "
+
+#~ msgid "Finished!"
+#~ msgstr "Dokonèeno!"
+
+#~ msgid "Not finished!"
+#~ msgstr "Nedokonèeno!"
+
+#~ msgid "Not Finished"
+#~ msgstr "Nedokonèeno"
+
+#~ msgid "Not Accessible"
+#~ msgstr "Není pøístupný"
+
+#~ msgid "Load"
+#~ msgstr "Nahrát"
+
+#~ msgid "Level Editor"
+#~ msgstr "Editor úrovní"
+
+#~ msgid ""
+#~ "Contrib\n"
+#~ "Levels"
+#~ msgstr "Dal¹íúrovnì"
+
+#~ msgid "--- Empty Placeholder Level ---"
+#~ msgstr "--- Prázdný zástupce úrovnì ---"
+
+#~ msgid "This Level is not playable and EMPTY!"
+#~ msgstr "Tato úroveò není hratelná a je PRÁZDNÁ!"
+
+#, fuzzy
+#~ msgid ""
+#~ "Print some more messages to stdout, can be set multiple times to increase "
+#~ "verbosity"
+#~ msgstr "Vypisovat více hlá¹ení na stdout - pokud zadáte"
+
+#~ msgid "Use OpenGL"
+#~ msgstr "Pou¾ít OpenGL"
+
+#~ msgid "Prints the fps to stdout"
+#~ msgstr "Vypisovat fps na stdout"
+
+#~ msgid "Reduces the CPU usage by issuing sleep()"
+#~ msgstr "Sni¾ovat zátì¾ CPU voláním sleep()"
+
+#~ msgid ""
+#~ "Warning: Larger resolution than 800x600 will result in visual problems"
+#~ msgstr ""
+#~ "Varování: Rozli¹ení vìt¹í, ne¾ 800x600 vyústí v problémy se zobrazením."
+
+#~ msgid "PingusMain: Starting Main: "
+#~ msgstr "PingusMain: Spou¹tím main: "
+
+#~ msgid "| segfault_handler: catched a SIGSEGV."
+#~ msgstr "| segfault_handler: Zachycen signál SIGSEGV."
+
+#~ msgid "| Woops, Pingus just crashed, congratulations you've found a bug."
+#~ msgstr "| Hups, pingové právì spadli. Na¹el jste chybu, gratuluji."
+
+#~ msgid ""
+#~ "| Please write a little bug report to <grumbel@gmx.de>, include "
+#~ "informations"
+#~ msgstr ""
+#~ "| Po¹lete prosím struèné oznámení na <grumbel@gmx.de> a pøilo¾te "
+#~ "informace,"
+
+#~ msgid "| where exacly the SIGSEGV occured and how to reproduce it."
+#~ msgstr "| kde pøesnì se SIGSEGV vyskytl a jak ho zopakovat."
+
+#~ msgid "| Also try include a backtrace, you can get it like this:"
+#~ msgstr "| Také se pokuste pøilo¾it backtrace - udìláte to takto:"
+
+#~ msgid "| If that doesn't work, try this:"
+#~ msgstr "| Kdy¾ to nepùjde, zkuste:"
+
+#~ msgid "| [play until it crashes again]"
+#~ msgstr "| [hrajte, dokud znovu nespadne]"
+
+#~ msgid "| Warning: Pingus recieved a SIGINT, exiting now."
+#~ msgstr "| Varování: Pingové obdr¾eli SIGINT a proto konèí."
+
+#~ msgid "Disable intro"
+#~ msgstr "Vypne intro"
+
+#, fuzzy
+#~ msgid "Set the refresh rate in fullscreen (default: 60)"
+#~ msgstr "Nastavit rozli¹ení (výchozí: 800x600)"
+
+#~ msgid "Load a custom level from FILE"
+#~ msgstr "Nahrát úroveò ze souboru"
+
+#, fuzzy
+#~ msgid "language:                "
+#~ msgstr "celoobrazovkový re¾im:    "
+
+#~ msgid "sound support:           enabled"
+#~ msgstr "zvuková podpora:         zapnuta"
+
+#~ msgid "sound support:          disabled"
+#~ msgstr "zvuková podpora:        vypnuta"
+
+#~ msgid "music support:           enabled"
+#~ msgstr "hudební podpora:         zapnuta"
+
+#~ msgid "music support:          disabled"
+#~ msgstr "hudební podpora:         vypnuta"
+
+#, fuzzy
+#~ msgid "resolution:              "
+#~ msgstr "rozli¹ení nastaveno na:  "
+
+#~ msgid "fullscreen:              "
+#~ msgstr "celoobrazovkový re¾im:    "
+
+#~ msgid " enabled"
+#~ msgstr "zapnut"
+
+#~ msgid "disabled"
+#~ msgstr "vypnut"
+
+#, fuzzy
+#~ msgid "using OpenGL:            "
+#~ msgstr "celoobrazovkový re¾im:    "
+
+#~ msgid "PingusMain: Levelfile not found, ignoring: "
+#~ msgstr "PingusMain: Soubor úrovnì nenalezen, ignoruji: "
+
+#~ msgid "Environment variable $HOME not set, fix that and start again."
+#~ msgstr "Promìnná prostøedí $HOME není nastavena. Po opravì spus»te znovu."
+
+#~ msgid "Unexpected char '"
+#~ msgstr "Neoèekávaný znak '"
+
+#~ msgid "unknown"
+#~ msgstr "neznámý"
+
+#~ msgid "Credits"
+#~ msgstr "Autoøi"
+
+#, fuzzy
+#~ msgid "..:: See the credits ::.."
+#~ msgstr "..:: Spustit hru ::.."
+
+#, fuzzy
+#~ msgid "Pingus do time"
+#~ msgstr "Nutno zachránit: %d"
+
+#, fuzzy
+#~ msgid "PLE Level"
+#~ msgstr "úroveò"
+
+#, fuzzy
+#~ msgid "Smashing Zone"
+#~ msgstr "Rozdrcený"
+
+#, fuzzy
+#~ msgid "Set your watches"
+#~ msgstr "Vyberte poèasí"
+
+#, fuzzy
+#~ msgid "Entering the cave"
+#~ msgstr "Zadejte jméno pro ulo¾ení:"
+
+#, fuzzy
+#~ msgid "Easy going..."
+#~ msgstr "Nahrávám..."
+
+#, fuzzy
+#~ msgid "Level 0"
+#~ msgstr "úroveò"
+
+#, fuzzy
+#~ msgid "Blocked Exit"
+#~ msgstr "zamknuto"
+
+#~ msgid "Unknow char: "
+#~ msgstr "Neznámý znak: "
+
+#~ msgid "Usage: "
+#~ msgstr "Pou¾ití: "
+
+#~ msgid " [OPTIONS]... [LEVELFILE]"
+#~ msgstr " [VOLBY]... [SOUBOR_S_ÚROVNÍ]"
+
+#~ msgid "FILE      "
+#~ msgstr "SOUBOR      "
+
+#~ msgid "FILE        "
+#~ msgstr "SOUBOR       "
+
+#~ msgid "multiple times to increase verbosity"
+#~ msgstr "vícekrát, zvý¹íte úèinek"
+
+#~ msgid "FILE       "
+#~ msgstr "SOUBOR       "
+
+#~ msgid "Read config from FILE (default: ~/.pingus/config)"
+#~ msgstr "Naèíst konfiguraci ze souboru (výchozí: ~/.pingus/config)"
+
+#~ msgid "Enable the output of debugging infos, possible"
+#~ msgstr "Zapnout vypisování ladicích hlá¹ek, mo¾ná"
+
+#~ msgid "clanVorbis support:           ok"
+#~ msgstr "podpora clanVorbis:           ok"
+
+#~ msgid "clanVoribs support:  missing (.ogg music files will not be playable)"
+#~ msgstr "podpora clanVoribs:  chybí (hudba v .ogg souborech nebude pøehrána)"
+
+#~ msgid "clanMikMod support:           ok"
+#~ msgstr "podpora clanMikMod:           ok"
+
+#~ msgid "clanMikMod support:  missing (music files will not be playable)"
+#~ msgstr "podpora clanMikMod:  chybí (hudební soubory nebudou pøehrány)"
+
+#~ msgid "getext support:               ok"
+#~ msgstr "podpora gettextu:             ok"
+
+#~ msgid "gettext language:        english"
+#~ msgstr "jazyk gettextu:          èe¹tina"
+
+#~ msgid "Error caught from ClanLib: "
+#~ msgstr "Odchycena chyba v ClanLib: "
+
+#~ msgid "Image has wrong color depth: %d"
+#~ msgstr "Obrázek má ¹patnou barevnou hloubku: %d"
+
+#~ msgid "Editor Helpscreen (hide with F1)"
+#~ msgstr "Nápovìda editoru (F1 ji skryje)"
+
+#~ msgid "F1 - show/hide this help screen"
+#~ msgstr "F1 - zobrazí èi skryje tuto nápovìdu"
+
+#~ msgid "F2 - launch level building tutorial"
+#~ msgstr "F2 - spustí výuku tvorby úrovní"
+
+#~ msgid "F3 - toggle background color"
+#~ msgstr "F3 - pøepne barvu pozadí"
+
+#~ msgid "F4 - play/test the level"
+#~ msgstr "F4 - hrát/testovat úroveò"
+
+#~ msgid "F6 - save this level"
+#~ msgstr "F6 - ulo¾it úroveò"
+
+#~ msgid "F7 - [unset]"
+#~ msgstr "F7 - [nepou¾ito]"
+
+#~ msgid "F8 - quick save/backup save?!"
+#~ msgstr "F8 - rychlé/zálo¾ní ulo¾ení?!"
+
+#~ msgid "F9 - change level width and height"
+#~ msgstr "F9 - zmìnit rozmìry úrovnì"
+
+#~ msgid "F10 - [unset]"
+#~ msgstr "F10 - [nepou¾ito]"
+
+#~ msgid "F11 - toggle fps counter"
+#~ msgstr "F11 - zapnout èi vypnout zobrazení fps"
+
+#~ msgid "F12 - make screenshot"
+#~ msgstr "F12 - vyfotit obrazovku"
+
+#~ msgid "Home - increase object size"
+#~ msgstr "Home - zvìt¹it velikost objektu"
+
+#~ msgid "End  - decrease object size"
+#~ msgstr "End  - zmen¹it velikost objektu"
+
+#~ msgid "Cursor Keys - Move object"
+#~ msgstr "Kursorové klávesy - posunout objekt"
+
+#~ msgid "Shift 'Cursor Keys' - Move objects fast "
+#~ msgstr "Shift a kursorové klávesy - rychle posouvat"
+
+#~ msgid "PageUp   - level object up"
+#~ msgstr "PageUp   - vyzdvihnout objekt vý¹e"
+
+#~ msgid "PageDown - level object down"
+#~ msgstr "PageDown - zatlaèit objekt hloubìji"
+
+#~ msgid "Shift PageUp   - increase objects z-pos by 50"
+#~ msgstr "Shift PageUp   - zvìt¹it z-pozici objektu o 50"
+
+#~ msgid "Shift PageDown - decrease objects z-pos by 50"
+#~ msgstr "Shift PageDown - sní¾it z-pozici objektu o 50"
+
+#~ msgid "Enter - Set default zoom (1:1)"
+#~ msgstr "Enter - Nastavit výchozí zvìt¹ení (1:1)"
+
+#~ msgid "d - duplicate object"
+#~ msgstr "d - duplikovat objekt"
+
+#~ msgid "a - mark all objects"
+#~ msgstr "a - vybrat v¹echny objekty"
+
+#~ msgid "shift leftmouseclick - add object to selection"
+#~ msgstr "shift levé kliknutí - pøidat objekt do výbìru"
+
+#~ msgid "leftmouseclick - select object"
+#~ msgstr "levé kliknutí - vybrat objekt"
+
+#~ msgid "Insert - insert new object"
+#~ msgstr "Insert - vlo¾it nový objekt"
+
+#~ msgid "g - ungroup/group current selection"
+#~ msgstr "g - zru¹it/vytvoøit grupu z výbìru"
+
+#~ msgid "Ctrl PageUp   - increase objects z-pos by 1"
+#~ msgstr "Ctrl PageUp   - zvìt¹it z-pozici objektu o 1"
+
+#~ msgid "Ctrl PageDown - decrease objects z-pos by 1"
+#~ msgstr "Ctrl PageDown - zmen¹it z-pozici objektu o 1"
+
+#~ msgid "Naming Convention: <LEVELNAME><NUMBER>-<CREATOR>.pingus"
+#~ msgstr "Konvence pojmenovávání: <JMÉNO ÚROVNÌ><ÈÍSLO>-<AUTOR>.plf"
+
+#~ msgid ""
+#~ "When you have created a level and want to have it in the next Pingus "
+#~ "release,\n"
+#~ "please mail it to pingus-devel@nongnu.org."
+#~ msgstr ""
+#~ "Kdy¾ vytvoøíte úroveò a chtìli byste ji mít v pøí¹tím vydání Pingù,\n"
+#~ "po¹lete ji prosím po¹tou na pingus-devel@nongnu.org."
+
+#~ msgid "1 - guillotine"
+#~ msgstr "1 - gilotina"
+
+#~ msgid "2 - hammer"
+#~ msgstr "2 - kladivo"
+
+#~ msgid "3 - spike"
+#~ msgstr "3 - bodec"
+
+#~ msgid "4 - laser_exit"
+#~ msgstr "4 - laserový východ"
+
+#~ msgid "5 - fake_exit"
+#~ msgstr "5 - fale¹ný východ"
+
+#~ msgid "6 - smasher"
+#~ msgstr "6 - lis"
+
+#~ msgid "7 - bumper"
+#~ msgstr "7 - nárazník"
+
+#~ msgid "Select a WorldObj"
+#~ msgstr "Vybrat svìtový objekt"
+
+#~ msgid "1 - teleporter"
+#~ msgstr "1 - teleport"
+
+#~ msgid "2 - switch and door"
+#~ msgstr "2 - vypínaè a dveøe"
+
+#~ msgid "3 - ConveyorBelt"
+#~ msgstr "3 - dopravní pás"
+
+#~ msgid "4 - IceBlock"
+#~ msgstr "4 - kostka ledu"
+
+#~ msgid "5 - InfoBox"
+#~ msgstr "5 - informaèní tabule"
+
+#~ msgid "1 - snow"
+#~ msgstr "1 - sníh"
+
+#~ msgid "2 - rain"
+#~ msgstr "2 - dé¹»"
+
+#~ msgid "Select an entrance"
+#~ msgstr "Vyberte vchod"
+
+#~ msgid "1 - generic"
+#~ msgstr "1 - obecný"
+
+#~ msgid "2 - woodthing"
+#~ msgstr "2 - døevìný"
+
+#~ msgid "3 - cloud"
+#~ msgstr "3 - mrak"
+
+#~ msgid "h - entrance surface (hotspot)"
+#~ msgstr "h - vstupní povrch (hotspot)"
+
+#~ msgid "What object type do you want?"
+#~ msgstr "Jaký typ objektu chcete?"
+
+#~ msgid "g - Groundpiece (ground) [not implemented]"
+#~ msgstr "g - Zemì (prohrabatelná) [není implementováno]"
+
+#~ msgid "Which object do you want?"
+#~ msgstr "Jaký objekt chcete?"
+
+#~ msgid "x - Exit"
+#~ msgstr "x - Opustit"
+
+#~ msgid "o - WorldObject"
+#~ msgstr "o - Svìtový objekt"
+
+#~ msgid "p - Prefab (ObjectGroup)"
+#~ msgstr "p - Polotovary (grupy objektù)"
+
+#~ msgid "f - something from file (~/.pingus/images/)"
+#~ msgstr "f - Nìco ze souboru (~/.pingus/images/)"
+
+#~ msgid "Which prefab do you want?"
+#~ msgstr "Jaký polotovar chcete?"
+
+#~ msgid "1 - Surface Background"
+#~ msgstr "1 - Obrázek na pozadí"
+
+#~ msgid "2 - Solid Color Background"
+#~ msgstr "2 - Jednobarevné pozadí"
+
+#~ msgid "3 - Starfield Background"
+#~ msgstr "3 - Hvìzdy na pozadí"
+
+#~ msgid "4 - Thunderstorm Background"
+#~ msgstr "4 - Bouøka na pozadí"
+
+#~ msgid "Load a level (F5)"
+#~ msgstr "Nahrát úroveò (F5)"
+
+#~ msgid "Exit the editor (Escape)"
+#~ msgstr "Opustit editor (Escape)"
+
+#~ msgid "Delete marked objects (delete)"
+#~ msgstr "Vymazat vybrané objekty (delete)"
+
+#~ msgid "Edit Level Properties"
+#~ msgstr "Upravit vlastnosti úrovnì"
+
+#~ msgid "Start the level and test it (F4)"
+#~ msgstr "Spustit úroveò a vyzkou¹et ji (F4)"
+
+#~ msgid "Create a new level from scratch"
+#~ msgstr "Vytvorit novou úroveò od základu"
+
+#~ msgid "Insert an object (Insert)"
+#~ msgstr "Vlo¾it objekt (Insert)"
+
+#~ msgid "Zoom into a region"
+#~ msgstr "Pøiblí¾it oblast"
+
+#~ msgid "Zoom in"
+#~ msgstr "Pøiblí¾it"
+
+#~ msgid "Zoom out"
+#~ msgstr "Oddálit"
+
+#~ msgid "Setup Number of Actions"
+#~ msgstr "Nastavit poèty akcí"
+
+#~ msgid "Display Help Screen (F1)"
+#~ msgstr "Zobrazit nápovìdu (F1)"
+
+#~ msgid "Designed by "
+#~ msgstr "Autor "
+
+#~ msgid "Number of Pingus: %d"
+#~ msgstr "Poèet pingù: %d"
+
+#~ msgid "Loading finished. Press a mouse button to start the level"
+#~ msgstr "Nahráno. Spustí¹ zmáèknutím my¹ího tlaèítka."
+
+#~ msgid "Results:"
+#~ msgstr "Výsledky:"
+
+#~ msgid "Pingus saved:   %3d/%3d"
+#~ msgstr "Pingù zachránìno:   %3d/%3d"
+
+#~ msgid "Pingus died:  %3d/%3d"
+#~ msgstr "Zesnulých Pingù:  %3d/%3d"
+
+#~ msgid "Press button to continue..."
+#~ msgstr "Pokraèujte zmáèkutím tlaèítka..."
+
+#~ msgid ""
+#~ "As many Pingus escaped as entered the level. That's going to be hard to "
+#~ "beat.... unless this game becomes pornographic."
+#~ msgstr ""
+#~ "Zachránil jsi úplnì v¹echny pingy. To bude tì¾ké pøekonat... pokud se hra "
+#~ "nestane pornografickou."
+
+#~ msgid "Very impressive indeed."
+#~ msgstr "Velmi dobøe."
+
+#~ msgid "Good work. Still room for improvement though."
+#~ msgstr "Dobrá práce. Ale stále je¹tì je, co zlep¹ovat."
+
+#~ msgid "Not too shabby, not too shabby at all."
+#~ msgstr "No, nebylo to a¾ tak ¹patné."
+
+#~ msgid ""
+#~ "That was OK, but Pingu life insurance premiums have just gotten more "
+#~ "expensive."
+#~ msgstr ""
+#~ "V celku to u¹lo. Jen, ¾e asi právì pingùm podra¾ily ¾ivotní pojistky."
+
+#~ msgid "Maybe this level calls for a different strategy."
+#~ msgstr "Mo¾ná by to chtìlo jinou strategii."
+
+#~ msgid "Exactly half. Are you saving only the female ones?"
+#~ msgstr "Pøesnì polovina. Zachraòoval jsi jen samièky?"
+
+#~ msgid "If I were a Pingu, I never would have left that entrance."
+#~ msgstr "Kdybych byl pingem, nevy¹el bych ze vchodu."
+
+#~ msgid "Maybe you would feel more at home playing Quake."
+#~ msgstr "Tøeba bys mìl radìji hrát Quake."
+
+#~ msgid ""
+#~ "Maybe this level calls for a different strategy. Like attempting to save "
+#~ "them, for example."
+#~ msgstr "Mo¾ná by pomohla jiná strategie. Tøeba se pokusit nìkoho zachránit."
+
+#~ msgid "Ever considered a career as a Pingu exterminator?"
+#~ msgstr "U¾ jsi zva¾oval kariéru jako hubiè pingù?"
+
+#~ msgid "You missed one! What's your excuse!?"
+#~ msgstr "Skoro, a¾ na jednoho. Jakou má¹ pro to omluvu?"
+
+#~ msgid "Please reassure me that you hit the Armageddon button."
+#~ msgstr "To urèitì byl výsledek pou¾ití tlaèítka Armagedon, nebo snad ne?!"
+
+#~ msgid "You've got a negative save/total value, something is buggy."
+#~ msgstr "Získal jsi záporný poèet zachránìných z celku, nìkde je chyba."
+
+#~ msgid "Launch the Level editor (experimental)"
+#~ msgstr "Spustit editor úrovní (experimentální)"
+
+#, fuzzy
+#~ msgid ""
+#~ "Create a\n"
+#~ "Level"
+#~ msgstr "Vytvoøit"
+
+#~ msgid "Screenshot: Couldn't save screenshot"
+#~ msgstr "Screenshot: Nemohu ulo¾it screenshot."
+
+#~ msgid "WorldMap: File not found: "
+#~ msgstr "WorldMap: Soubor nenalezen: "
+
+#~ msgid "..:: The people who brought this game to you ::.."
+#~ msgstr "..:: Lidé, kteøí vám tuto hru pøinesli ::.."
+
+#~ msgid "..:: Takes you to the options menu ::.."
+#~ msgstr "..:: Spustí menu pro nastavení hry ::.."
+
+#~ msgid "Options"
+#~ msgstr "Nastavení"

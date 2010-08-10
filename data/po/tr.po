@@ -1,0 +1,2613 @@
+# #-#-#-#-#  tr.po (Pingus 0.5.0)  #-#-#-#-#
+# Pingus - Serbest Lemmings Benzeri Program
+# Copyright (C) 2000 Ingo Ruhnke <grumbel@gmx.de>
+# Ingo Ruhnke <grumbel@gmx.de>, 2000
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Pingus 0.5.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-18 14:31+0100\n"
+"PO-Revision-Date: 2003-04-15 17:28+0200\n"
+"Last-Translator: Çaðrý Çöltekin <cagri@metu.edu.tr>\n"
+"Language-Team: Giray Devlet <giray@devlet.cc>, Caðrý Çöltekin <cagri@metu."
+"edu.tr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-9\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  tr.po (Pingus 0.5.0)  #-#-#-#-#\n"
+
+#: src/pingus_main.cpp:260
+msgid "Displays this help"
+msgstr "Bu yardým ekranýný göster"
+
+#: src/pingus_main.cpp:262
+#, fuzzy
+msgid "Print version number and exit"
+msgstr "Sürümü ekrana basar ve çýkar"
+
+#: src/pingus_main.cpp:264
+msgid "Display:"
+msgstr ""
+
+# FIXME: needs a better translation
+#: src/pingus_main.cpp:266
+msgid "Start in Window Mode"
+msgstr "Pencerede baþlat"
+
+#: src/pingus_main.cpp:268
+msgid "Start in Fullscreen"
+msgstr "Tümekran baþlat"
+
+#: src/pingus_main.cpp:270
+msgid "Allow Window resize (buggy)"
+msgstr ""
+
+#: src/pingus_main.cpp:272
+msgid "Enable software cursor"
+msgstr "Yazýlým imleci kullan"
+
+#: src/pingus_main.cpp:274
+msgid "Set the resolution for pingus (default: 800x600)"
+msgstr "Pingus çözünürlüðünü ayarla (öntanýlý: 640x480)"
+
+#: src/pingus_main.cpp:276
+msgid "Sound:"
+msgstr "Ses"
+
+#: src/pingus_main.cpp:278
+msgid "Disable sound"
+msgstr "Sesi Kapat"
+
+#: src/pingus_main.cpp:280
+msgid "Disable music"
+msgstr "Müziði Kapat"
+
+#: src/pingus_main.cpp:284
+msgid "Select language to use with Pingus"
+msgstr ""
+
+#: src/pingus_main.cpp:286
+msgid "List all available languages"
+msgstr ""
+
+#: src/pingus_main.cpp:290
+#, fuzzy
+msgid "Loads the level editor"
+msgstr "..:: Seviye Editörünü Çalýþtýr ::.."
+
+#: src/pingus_main.cpp:292
+msgid "Save the level given level to FILENAME and quit"
+msgstr ""
+
+#: src/pingus_main.cpp:294
+msgid "Test a font"
+msgstr ""
+
+#: src/pingus_main.cpp:296
+msgid "Shows the credits"
+msgstr ""
+
+#: src/pingus_main.cpp:298
+#, fuzzy
+msgid "Misc Options:"
+msgstr "Seçenekler:"
+
+#: src/pingus_main.cpp:299
+msgid "PATH"
+msgstr ""
+
+#: src/pingus_main.cpp:300
+#, fuzzy
+msgid "Set the path to load the data files to 'path'"
+msgstr ""
+"   -d, --datadir DÝZÝN/YOL  Data dosyalarýnýn yüklenecek `yol' (path)\n"
+
+#: src/pingus_main.cpp:303
+msgid "Disable automatic scrolling"
+msgstr "Automatik kaydýrmayý kapat"
+
+#: src/pingus_main.cpp:305
+msgid "Don't read ~/.pingus/config"
+msgstr "~/.pingus/config dosyasýný okuma"
+
+#: src/pingus_main.cpp:306
+#, fuzzy
+msgid "FILE"
+msgstr "DOSYA    "
+
+#: src/pingus_main.cpp:307
+#, fuzzy
+msgid ""
+"Read config from FILE (default: ~/.pingus/config) reduce CPU usage, might "
+"speed up the game on slower machines"
+msgstr "CPU kullanýmýný azalt. Bu yavaþ makinalarda oyunu hýzlandýrabilir"
+
+# FIXME: better translation
+#: src/pingus_main.cpp:310
+msgid "Uses the controller given in FILE"
+msgstr "DOSYA'daki denetleyiciyi kullan"
+
+#: src/pingus_main.cpp:312
+msgid "Debugging and experimental stuff:"
+msgstr "Deneyseyl þeyler:"
+
+#: src/pingus_main.cpp:314
+#, fuzzy
+msgid "Enables some features, only interesting to programmers"
+msgstr "Sadece programcýlariçin ilginç olan, bazý özellikleri çalýþtýrýr."
+
+# worldmap = ??
+#: src/pingus_main.cpp:317
+#, fuzzy
+msgid "Load a custom worldmap"
+msgstr "DOSYAdan özel worldmap yükle"
+
+#: src/pingus_main.cpp:319
+#, fuzzy
+msgid ""
+"Enable the output of debugging info, possible OPTIONs are tiles, gametime, "
+"actions, sound, resources, gui, input, pathmgr"
+msgstr "SEÇENEKLER: tiles, gametime, actions, sound, resources, gui."
+
+#: src/pingus_main.cpp:323
+msgid "Skip at least N frames, larger values speed the game up"
+msgstr "En az N resim karesini atla. Büyük N oyunu hýzlandýrýr"
+
+#: src/pingus_main.cpp:325
+msgid "Skip at most N frames"
+msgstr "En fazla N resim karesi atla"
+
+#: src/pingus_main.cpp:327
+msgid "Set both min and max frameskip to N"
+msgstr "Tam N resim karesi atla"
+
+#: src/pingus_main.cpp:329
+msgid "Set the game speed (0=fastest, >0=slower)"
+msgstr "Oyun hýzýný ayarla (0=en hýzlý, >0=daha yavaþ)"
+
+# FIXME: better translation.
+#: src/pingus_main.cpp:331
+msgid "Set the size of the map tiles (default: 32)"
+msgstr "Döþeme boyutunu ayarla (öntanýmlý: 32)"
+
+#: src/pingus_main.cpp:333
+msgid "Disable some cpu intensive features"
+msgstr "Ýþlemci gerektiren bazý özellikleri kapat"
+
+#: src/pingus_main.cpp:337
+msgid "Demo playing and recording:"
+msgstr "Demo oynatma ve kayýt:"
+
+#: src/pingus_main.cpp:339
+#, fuzzy
+msgid "Plays a demo session"
+msgstr "DOSYA'dan bir demo oynat"
+
+#: src/pingus_main.cpp:341
+msgid "Record demos for each played level"
+msgstr "Oynanan her oyun için demo kaydet"
+
+#: src/pingus_main.cpp:758
+msgid "Error caught from Pingus: "
+msgstr "Pingus'ta hata saptandý: "
+
+#: src/pingus_main.cpp:762
+msgid "Pingus: Out of memory!"
+msgstr "Pingus: Bellek yetersiz!"
+
+# bu komik oldu -cagri
+# daha mi iyi boyle :) -gd
+#: src/pingus_main.cpp:766
+msgid "Pingus: Standard exception caught!:\n"
+msgstr "Pingus: Genel olaðan dýþý durum saptandý!:\n"
+
+#: src/pingus_main.cpp:770
+msgid "Pingus: Unknown throw caught!"
+msgstr "Pingus: Bilinmeyen bir hata saptandý!"
+
+#: src/credits.cpp:82
+msgid "-Idea"
+msgstr "-Fikir"
+
+#: src/credits.cpp:86
+msgid "-Maintaining"
+msgstr "-Proje Yöneticisi"
+
+#: src/credits.cpp:90
+msgid "-Programming"
+msgstr "-Programlama"
+
+#: src/credits.cpp:100
+msgid "-Porting (Win32)"
+msgstr "-Taþýma (Win32)"
+
+#: src/credits.cpp:109
+#, fuzzy
+msgid "-Porting (MacOSX)"
+msgstr "-Taþýma (Win32)"
+
+#: src/credits.cpp:114
+msgid "-Gfx"
+msgstr "-Grafikler"
+
+#: src/credits.cpp:127
+msgid "-Music"
+msgstr "-Müzik"
+
+#: src/credits.cpp:134
+msgid "-Level Design"
+msgstr "-Seviye Tasarýmý"
+
+#: src/credits.cpp:140
+msgid "-Story"
+msgstr "-Öykü"
+
+#: src/credits.cpp:144
+msgid "-Translation"
+msgstr "-Çeviri"
+
+#: src/credits.cpp:159
+msgid "-Special"
+msgstr "-Özel"
+
+#: src/credits.cpp:160
+msgid "-Thanks to"
+msgstr "-Þükranlarýmýz"
+
+#: src/credits.cpp:204
+msgid "_And a very Special Thanks"
+msgstr "_Ve Özgür Yazýlýma"
+
+#: src/credits.cpp:205
+msgid "_to all the people who"
+msgstr "_katkýda bulunan"
+
+#: src/credits.cpp:206
+msgid "_contribute to"
+msgstr "_herkese..."
+
+#: src/credits.cpp:207
+msgid "_Free Software!"
+msgstr "_Teþekkürler!"
+
+#: src/credits.cpp:213
+msgid "_Thank you for"
+msgstr "_Oynadýðýnýz için"
+
+#: src/credits.cpp:214
+msgid "_playing!"
+msgstr "_teþekkürler!"
+
+#: src/credits.cpp:276 src/editor/panel.cpp:211
+#: src/editor/object_selector.cpp:318 src/pingus_menu.cpp:61
+msgid "Exit"
+msgstr "Çýkýþ"
+
+#: src/game_time.cpp:66
+msgid "unlimited"
+msgstr "sýnýrsýz"
+
+#: src/start_screen.cpp:74 src/editor/level_head.cpp:53
+msgid "Ok"
+msgstr "Tamam"
+
+#: src/start_screen.cpp:114 src/level_menu.cpp:57 src/result_screen.cpp:98
+msgid "Abort"
+msgstr "Çýk"
+
+#: src/start_screen.cpp:163
+msgid "Number of Pingus: "
+msgstr "Pingu sayýsý: "
+
+#: src/start_screen.cpp:166
+msgid "Number to Save: "
+msgstr "Kurtarýlýcak Pingus: "
+
+#: src/start_screen.cpp:169
+msgid "Time: "
+msgstr "Süre: "
+
+#: src/start_screen.cpp:176
+msgid "Author: "
+msgstr "Tasarlayan: "
+
+#: src/start_screen.cpp:179
+msgid "Filename: "
+msgstr "Dosya adý: "
+
+#: src/actions/bridger.cpp:42 src/actions/bridger.cpp:216
+#: src/pingu_enums.cpp:39
+msgid "Bridger"
+msgstr "Bridger"
+
+#: src/screenshot.cpp:38
+msgid "Screenshot: Saving screenshot to: "
+msgstr "Screenshot: Ekran görüntüsü için dosya adý: "
+
+#: src/screenshot.cpp:40
+msgid "Screenshot: Screenshot is done."
+msgstr "Screenshot: Ekran görüntüsü kaydedildi."
+
+#: src/screenshot.cpp:115 src/screenshot.cpp:143
+msgid "Screenshot: Couldn't write file: "
+msgstr "Screenshot: Dosyaya yazýlamýyor: "
+
+#: src/pingu_enums.cpp:34
+msgid "Angel"
+msgstr "Angel"
+
+#: src/pingu_enums.cpp:35
+msgid "Basher"
+msgstr "Basher"
+
+#: src/pingu_enums.cpp:36
+msgid "Blocker"
+msgstr "Blocker"
+
+#: src/pingu_enums.cpp:37
+msgid "Boarder"
+msgstr "Boarder"
+
+#: src/pingu_enums.cpp:38
+msgid "Bomber"
+msgstr "Bomber"
+
+#: src/pingu_enums.cpp:40
+msgid "Climber"
+msgstr "Climber"
+
+#: src/pingu_enums.cpp:41
+msgid "Digger"
+msgstr "Digger"
+
+#: src/pingu_enums.cpp:42
+msgid "Drown"
+msgstr "Drown"
+
+#: src/pingu_enums.cpp:43
+msgid "Exiter"
+msgstr "Exiter"
+
+#: src/pingu_enums.cpp:44
+msgid "Faller"
+msgstr "Faller"
+
+#: src/pingu_enums.cpp:45
+msgid "Floater"
+msgstr "Floater"
+
+#: src/pingu_enums.cpp:46
+msgid "Jumper"
+msgstr "Jumper"
+
+#: src/pingu_enums.cpp:47
+msgid "Laserkill"
+msgstr "Laserkill"
+
+#: src/pingu_enums.cpp:48
+msgid "Miner"
+msgstr "Miner"
+
+#: src/pingu_enums.cpp:49
+msgid "Rocketlauncher"
+msgstr "Rocketlauncher"
+
+#: src/pingu_enums.cpp:50
+msgid "Slider"
+msgstr "Slider"
+
+#: src/pingu_enums.cpp:51
+msgid "Smashed"
+msgstr "Smashed"
+
+#: src/pingu_enums.cpp:52
+msgid "Splashed"
+msgstr "Splashed"
+
+#: src/pingu_enums.cpp:53
+msgid "Superman"
+msgstr "Superman"
+
+#: src/pingu_enums.cpp:54
+msgid "Teleported"
+msgstr "Teleported"
+
+#: src/pingu_enums.cpp:55
+msgid "Waiter"
+msgstr "Waiter"
+
+#: src/pingu_enums.cpp:56
+msgid "Walker"
+msgstr "Walker"
+
+#: src/editor/editor_screen.cpp:197
+msgid ""
+"Select all\n"
+"Clear Selection\n"
+"Raise objects\n"
+"Lower objects\n"
+"Lower objects to bottom\n"
+"Raise objects to top\n"
+"Rotate 90 degree\n"
+"Rotate 270 degree\n"
+msgstr ""
+
+#: src/editor/editor_screen.cpp:219
+msgid ""
+"Flip object horizontaly\n"
+"Flip object vertically\n"
+"Delete all marked objects\n"
+"Move objects up\n"
+"Move objects down\n"
+"Move objects left\n"
+"Move objects right\n"
+msgstr ""
+
+#: src/editor/editor_screen.cpp:231
+msgid ""
+"You should name your level files systematically, i.e. by their theme, their "
+"number and your nickname:\n"
+"\n"
+"     <levelname><number>-<creator>.pingus\n"
+"\n"
+"So if you create a your second level with a stone theme, call it: stone2-"
+"yourname.pingus\n"
+"\n"
+"When you have created a level and want to have it included in the game mail "
+"it to:\n"
+"\n"
+"     pingus-devel@nongnu.org\n"
+"\n"
+"Only levels published under the GPL are allowed into the game. The editor "
+"automatically inserts a reference \n"
+"to the GPL, if you want to have your level under a different license, you "
+"have to change that reference.\n"
+msgstr ""
+
+#: src/editor/file_dialog.cpp:56
+msgid "Datadir"
+msgstr ""
+
+#: src/editor/file_dialog.cpp:58
+msgid "Userdir"
+msgstr ""
+
+#: src/editor/file_dialog.cpp:61
+msgid "Open"
+msgstr ""
+
+#: src/editor/file_dialog.cpp:61
+#, fuzzy
+msgid "Save"
+msgstr "Kurtarýlan: "
+
+#: src/editor/file_dialog.cpp:64
+msgid "Cancel"
+msgstr ""
+
+#: src/editor/file_dialog.cpp:75
+#, fuzzy
+msgid "Filename:"
+msgstr "Dosya adý: "
+
+#: src/editor/file_dialog.cpp:76
+msgid "Pathname:"
+msgstr ""
+
+#: src/editor/file_dialog.cpp:102
+msgid "Open a level"
+msgstr ""
+
+#: src/editor/file_dialog.cpp:102
+#, fuzzy
+msgid "Save your level"
+msgstr "Seviyeyi kayýt et (F6)"
+
+#: src/editor/panel.cpp:153
+#, fuzzy
+msgid "    New level"
+msgstr "F5 - seviye yükle"
+
+#: src/editor/panel.cpp:155
+msgid "Open level..."
+msgstr ""
+
+#: src/editor/panel.cpp:157
+#, fuzzy
+msgid "Save level..."
+msgstr "Seviyeyi kayýt et (F6)"
+
+#: src/editor/panel.cpp:159
+#, fuzzy
+msgid "Save level as..."
+msgstr "Seviyeyi kayýt et (F6)"
+
+#: src/editor/panel.cpp:162
+msgid "Play level..."
+msgstr ""
+
+#: src/editor/panel.cpp:165
+msgid "Configure actions"
+msgstr ""
+
+#: src/editor/panel.cpp:167
+#, fuzzy
+msgid "Configure level"
+msgstr "Seviyeyi kayýt et (F6)"
+
+#: src/editor/panel.cpp:169
+#, fuzzy
+msgid "Display object properties"
+msgstr "Nesne özelliklerini deðiþtir"
+
+#: src/editor/panel.cpp:171
+msgid "Show object insertion window"
+msgstr ""
+
+#: src/editor/panel.cpp:173
+msgid "Show minimap"
+msgstr ""
+
+#: src/editor/panel.cpp:176
+#, fuzzy
+msgid "Duplicate the selected objects"
+msgstr "Seçili nesneleri çiftle (d)"
+
+#: src/editor/panel.cpp:178
+#, fuzzy
+msgid "Delete the selected objects"
+msgstr "Remove - seçili neneyi sil"
+
+#: src/editor/panel.cpp:181
+msgid "Raise object to top"
+msgstr ""
+
+#: src/editor/panel.cpp:183
+msgid "Raise object"
+msgstr ""
+
+#: src/editor/panel.cpp:185
+msgid "Lower object"
+msgstr ""
+
+#: src/editor/panel.cpp:187
+msgid "Lower object to bottom"
+msgstr ""
+
+#: src/editor/panel.cpp:193
+msgid "Flip object horizontally"
+msgstr ""
+
+#: src/editor/panel.cpp:195
+msgid "Flip object vertically"
+msgstr ""
+
+#: src/editor/panel.cpp:198
+msgid "Rotate object -90 degree"
+msgstr ""
+
+#: src/editor/panel.cpp:200
+msgid "Rotate object 90 degree"
+msgstr ""
+
+#: src/editor/panel.cpp:209
+#, fuzzy
+msgid "Display help"
+msgstr "Bu yardým ekranýný göster"
+
+#: src/editor/object_selector.cpp:309
+#, fuzzy
+msgid "Entrance"
+msgstr "e - Giriþ"
+
+#: src/editor/object_selector.cpp:310
+#, fuzzy
+msgid "Groundpiece (ground)"
+msgstr "g - Yer (toprak)"
+
+#: src/editor/object_selector.cpp:311
+#, fuzzy
+msgid "Groundpiece (solid)"
+msgstr "s - YerParçasi (katý)"
+
+#: src/editor/object_selector.cpp:312
+#, fuzzy
+msgid "Groundpiece (bridge)"
+msgstr "b - Köprü (bridge)"
+
+#: src/editor/object_selector.cpp:313
+#, fuzzy
+msgid "Groundpiece (transparent)"
+msgstr "n - YerParçasý (þeffaf)"
+
+#: src/editor/object_selector.cpp:314
+#, fuzzy
+msgid "Groundpiece (remove)"
+msgstr "r - YerParçasý (silici)"
+
+# buna daha iyi biþi uydurabiliyormusun?  -gd
+#: src/editor/object_selector.cpp:315
+#, fuzzy
+msgid "Hotspot"
+msgstr "h - GrafikParçasý"
+
+#: src/editor/object_selector.cpp:316
+#, fuzzy
+msgid "Background"
+msgstr "z - Arkaplan"
+
+#: src/editor/object_selector.cpp:319
+#, fuzzy
+msgid "Liquid"
+msgstr "l - Sývý"
+
+#: src/editor/object_selector.cpp:320
+#, fuzzy
+msgid "Trap"
+msgstr "t - Tuzak"
+
+#: src/editor/object_selector.cpp:321
+#, fuzzy
+msgid "Weather"
+msgstr "w - Ýklim"
+
+#: src/editor/object_selector.cpp:322
+#, fuzzy
+msgid "Special Object"
+msgstr "-Özel"
+
+#: src/editor/object_properties.cpp:41 src/editor/object_properties.cpp:415
+msgid "Object:"
+msgstr ""
+
+#: src/editor/object_properties.cpp:42 src/editor/object_properties.cpp:416
+msgid "Nothing selected"
+msgstr ""
+
+#: src/editor/object_properties.cpp:51
+#, fuzzy
+msgid "Transparent"
+msgstr "-Çeviri"
+
+#: src/editor/object_properties.cpp:52
+#, fuzzy
+msgid "Solid"
+msgstr "Slider"
+
+#: src/editor/object_properties.cpp:53
+#, fuzzy
+msgid "Ground"
+msgstr "Ses"
+
+#: src/editor/object_properties.cpp:54
+#, fuzzy
+msgid "Bridge"
+msgstr "Bridger"
+
+#: src/editor/object_properties.cpp:55
+#, fuzzy
+msgid "Water"
+msgstr "Waiter"
+
+#: src/editor/object_properties.cpp:56
+#, fuzzy
+msgid "Lava"
+msgstr "Çýk?"
+
+#: src/editor/object_properties.cpp:57
+msgid "Remove"
+msgstr ""
+
+#: src/editor/object_properties.cpp:62
+#, fuzzy
+msgid "Direction:"
+msgstr "Seçenekler:"
+
+#: src/editor/object_properties.cpp:64
+msgid "Left"
+msgstr ""
+
+#: src/editor/object_properties.cpp:65
+#, fuzzy
+msgid "Misc"
+msgstr "Müzik"
+
+#: src/editor/object_properties.cpp:66
+msgid "Right"
+msgstr ""
+
+#: src/editor/object_properties.cpp:71
+msgid "ReleaseRate:"
+msgstr ""
+
+#: src/editor/object_properties.cpp:88
+msgid "Para-X:"
+msgstr ""
+
+#: src/editor/object_properties.cpp:89
+msgid "Para-Y:"
+msgstr ""
+
+#: src/editor/object_properties.cpp:97
+msgid "Scroll-X:"
+msgstr ""
+
+#: src/editor/object_properties.cpp:98
+msgid "Scroll-Y:"
+msgstr ""
+
+#: src/editor/object_properties.cpp:106
+msgid "Owner Id:"
+msgstr ""
+
+#: src/editor/object_properties.cpp:110
+msgid "Z-Pos:"
+msgstr ""
+
+#: src/editor/object_properties.cpp:117
+msgid "Color:"
+msgstr ""
+
+#: src/editor/object_properties.cpp:129
+msgid "Small Stars:"
+msgstr ""
+
+#: src/editor/object_properties.cpp:132
+msgid "Middle Stars:"
+msgstr ""
+
+#: src/editor/object_properties.cpp:135
+msgid "Large Stars:"
+msgstr ""
+
+#: src/editor/object_properties.cpp:143
+msgid "Repeat:"
+msgstr ""
+
+#: src/editor/object_properties.cpp:421
+msgid "Object: [Group]"
+msgstr ""
+
+#: src/editor/object_properties.cpp:422
+msgid "Group not supported"
+msgstr ""
+
+#: src/editor/object_properties.cpp:427
+msgid "Object: "
+msgstr ""
+
+#: src/addon_menu.cpp:59 src/option_menu.cpp:94
+msgid "Close"
+msgstr ""
+
+#: src/pingus_menu.cpp:50 src/pingus_menu.cpp:72
+#, fuzzy
+msgid "Story"
+msgstr "-Öykü"
+
+#: src/pingus_menu.cpp:51
+msgid "..:: Start the game ::.."
+msgstr "..:: Oyunu baþlat ::.."
+
+#: src/pingus_menu.cpp:56
+#, fuzzy
+msgid "Editor"
+msgstr "Exiter"
+
+# FIXME: bu nasil olmuþ? contrib -> katýlýmcý, dýþarlýklý :))) -gd 
+#: src/pingus_menu.cpp:57
+#, fuzzy
+msgid "..:: Create your own levels ::.."
+msgstr "..:: Harici bir seviye baþlat ::.."
+
+#: src/pingus_menu.cpp:62
+msgid "..:: Bye, bye ::.."
+msgstr "..:: Güle güle... ::.."
+
+#: src/pingus_menu.cpp:66 src/level_menu.cpp:108
+#, fuzzy
+msgid "Levelsets"
+msgstr "-Seviye Tasarýmý"
+
+# FIXME: bu nasil olmuþ? contrib -> katýlýmcý, dýþarlýklý :))) -gd 
+#: src/pingus_menu.cpp:67
+#, fuzzy
+msgid "..:: Play User Built levels ::.."
+msgstr "..:: Harici bir seviye baþlat ::.."
+
+#: src/pingus_menu.cpp:73
+#, fuzzy
+msgid "..:: Start the story ::.."
+msgstr "..:: Oyunu baþlat ::.."
+
+#: src/pingus_menu.cpp:78
+#, fuzzy
+msgid "Multiplayer"
+msgstr "Çoklu"
+
+#: src/pingus_menu.cpp:79
+#, fuzzy
+msgid "..:: Multiplayer Match ::.."
+msgstr "..:: Çok oyunculu kipler... Deneysel þeyler ::.."
+
+#: src/pingus_menu.cpp:82
+msgid ""
+"..:: Ctrl-g: mouse grab   ::   F10: fps counter   ::   F11: "
+"fullscreen   ::   F12: screenshot ::.."
+msgstr ""
+
+#: src/level_menu.cpp:124
+#, fuzzy
+msgid "Solved:"
+msgstr "Kurtarýlan: "
+
+#: src/level_menu.cpp:125
+#, fuzzy
+msgid "levels"
+msgstr "-Seviye Tasarýmý"
+
+#: src/level_menu.cpp:195
+msgid "Title"
+msgstr ""
+
+#: src/level_menu.cpp:196
+#, fuzzy
+msgid "Status"
+msgstr "Baþla"
+
+#: src/level_menu.cpp:212
+#, fuzzy
+msgid "solved"
+msgstr "Kurtarýlan: "
+
+#: src/level_menu.cpp:214
+#, fuzzy
+msgid "unsolved"
+msgstr "Kurtarýlan: "
+
+#: src/components/pingus_counter.cpp:49
+#, fuzzy, c-format, boost-format
+msgid "Released:%3d/%d   Out:%3d   Saved:%3d/%d"
+msgstr "Çýkan: %3d/%-3d Dýþarýda: %3d  Kurtulan: %3d/%-3d"
+
+#: src/worldmap/manager.cpp:107
+msgid "Show Ending?"
+msgstr "Sonu Göster..."
+
+#: src/worldmap/manager.cpp:138
+msgid "Show Story?"
+msgstr "Pingus öyküsü.."
+
+#: src/worldmap/manager.cpp:167
+msgid "Leave?"
+msgstr "Çýk?"
+
+#: src/worldmap/manager.cpp:207
+#, fuzzy
+msgid "Enter?"
+msgstr "Gir?"
+
+#: src/worldmap/worldmap.cpp:423
+msgid "...walking..."
+msgstr "...yürüyor..."
+
+#: src/worldmap/level_dot.cpp:151 src/worldmap/level_dot.cpp:161
+msgid "locked"
+msgstr "kapalý"
+
+#: src/story_screen.cpp:40
+msgid "skip"
+msgstr ""
+
+#: src/result_screen.cpp:131
+msgid "Retry"
+msgstr "Yeniden dene"
+
+#: src/result_screen.cpp:181
+msgid "Success!"
+msgstr "Aferin!"
+
+#: src/result_screen.cpp:188
+msgid "Failure!"
+msgstr "Baþaramadýn!"
+
+#: src/result_screen.cpp:197
+msgid "Perfect! You saved everyone possible - great!"
+msgstr "Mükemmel! Herkesi kurtardýn galiba."
+
+#: src/result_screen.cpp:199
+msgid "No-one got killed, pretty good work."
+msgstr "Hiçkimse ölmedi, iyi iþ çýkardýn."
+
+#: src/result_screen.cpp:201
+msgid ""
+"You saved exactly what you needed - you made it, but\n"
+"maybe you can do better?"
+msgstr ""
+"Tam gerektiði kadar Pingu kurtardýn, geçer not, ama\n"
+"belki daha iyisini yapabilisin, hý?"
+
+#: src/result_screen.cpp:204
+msgid "Not everybody was saved, but still good work!"
+msgstr "Herkesi kurtaramadýn, ama yine de iyi iþ çýkardýn!"
+
+#: src/result_screen.cpp:206
+msgid "What can I say, you made it - congratulations!"
+msgstr "Ne diyebilirim, yaptýn, aferin!"
+
+#: src/result_screen.cpp:211
+msgid "You killed everybody, not good."
+msgstr "Herkesi öldürdun. Hiç hoþ degil."
+
+#: src/result_screen.cpp:213
+msgid "No-one got saved - I know you can do better."
+msgstr "Hiç kimseyi kurtaramadýn, daha iyisini yapabileceðinden eminim."
+
+#: src/result_screen.cpp:215
+msgid ""
+"You didn't save enough, but you saved a few.  Next\n"
+"time you might do better."
+msgstr ""
+"Yeterince kurtaramadýn, ama yine de birkaçý kurtuldu, bir\n"
+"dahakine daha dikkatli ol."
+
+#: src/result_screen.cpp:218
+msgid "Only one more and you would have made it - try again!"
+msgstr "Bir ya da iki tane daha kurtarsaydýn olacaktý, hadi tekrar!"
+
+#: src/result_screen.cpp:220
+msgid "Only a handful more and you would have made it - try again!"
+msgstr "Birkaç tane daha kurtarsan olacaktý, tekrar dene!"
+
+#: src/result_screen.cpp:222
+msgid "Better luck next time!"
+msgstr "Bir dahaki oyunda iyi þanslar!"
+
+#: src/result_screen.cpp:239
+msgid "Saved: "
+msgstr "Kurtarýlan: "
+
+#: src/result_screen.cpp:243
+msgid "Died: "
+msgstr "Ölen: "
+
+#: src/result_screen.cpp:247
+msgid "Time left: "
+msgstr "Kalan zaman: "
+
+#: src/config.cpp:72
+msgid "Couldn't open: "
+msgstr "Dosya açýlamadý: "
+
+#: src/config.cpp:171 src/config.cpp:205
+msgid "Unexpected char: '"
+msgstr "Beklenmeyen harf: '"
+
+#: src/exit_menu.cpp:46 src/exit_menu.cpp:50
+msgid "Yes"
+msgstr "Evet"
+
+#: src/exit_menu.cpp:85 src/exit_menu.cpp:89
+msgid "No"
+msgstr "Hayýr"
+
+#: src/exit_menu.cpp:124
+msgid "Exit Pingus?"
+msgstr "Çýkýyor musun?"
+
+#: data/levels/tutorial/basher-tutorial-grumbel.pingus:5
+msgid "If the way is blocked, bash away"
+msgstr "Ako je put blokiran, prokopaj tunel"
+
+#: data/levels/tutorial/basher-tutorial-grumbel.pingus:6
+msgid ""
+"Similar to the Digger action that you already know from previous levels, "
+"there is also an action that allows the Pingus to dig horizontally, as "
+"opposed to the vertical dig ability the Digger action provides. This new "
+"action is called Basher. "
+msgstr ""
+"Slicno kopanju na dole iz prethodnih nivoa postoji akcija koja omogucava "
+"Pingusima da kopaju horizontalno, umesto vertikalnog kopanja pomocu akcije "
+"Kopac. Ova nova uloga Pingusa se zove Glodac. "
+
+#: data/levels/tutorial/bomber-tutorial2-grumbel.pingus:5
+msgid "Sacrifice a few and save the rest"
+msgstr "Zrtvuj nekoliko da spases ostale"
+
+#: data/levels/tutorial/bomber-tutorial2-grumbel.pingus:6
+msgid ""
+"Sometimes no other actions are available, so you have to bomb your way "
+"through the ground. The Pingus can do this by actually self- destructing. "
+"This will kill them, but it is sometimes necessary to sacrifice a few to "
+"save the rest. "
+msgstr ""
+"Ponekad, ako nema na raspolaganju drugih akcija, moguce je probiti zemljiste "
+"eksplozijama. Pingusi mogu to da rade tako sto ce sami sebe unistiti. Iako "
+"ih to ubija, ponekad je neophodno da se zrtvuje nekoliko Pingusa da bi se "
+"ostali spasili. "
+
+#: data/levels/tutorial/digger-tutorial2-grumbel.pingus:5
+msgid "Learning to dig"
+msgstr "Ucimo kopanje"
+
+#: data/levels/tutorial/digger-tutorial2-grumbel.pingus:6
+msgid ""
+"This is your first mission. As always, it's pretty easy. All you have to do "
+"is to give a Pingu the command to dig a hole into the ground so that they "
+"can reach the exit. This can be accomplished simply by clicking on a Pingu. "
+msgstr ""
+"Ovo je tvoj prvi zadatak. Kao takav, prilicno je lak. Sve sto treba da "
+"uradis je da naredis Pingusima da iskopaju rupu u zemlji da bi mogli da "
+"dodju do izlaza. Naredjenja se izdaju "
+
+#: data/levels/tutorial/floater-tutorial-grumbel.pingus:5
+msgid "Float or Die"
+msgstr "Lebdi ili umri"
+
+#: data/levels/tutorial/floater-tutorial-grumbel.pingus:6
+msgid ""
+"Well done in mission one! Now let's start the next one. This time you will "
+"need to equip your Pingus with a little propeller, so that they can float to "
+"the ground smoothly. If Pingus fall too far, they will not be able to "
+"survive the fall, so keep your eyes open! "
+msgstr ""
+"Bravo za prvi zadatak, a sada zapocinjemo sledeci. Ovog puta treba da "
+"opremis Pinguse sa malim propelerom, da bi mogli da lebde i lagano se spuste "
+"na zemlju. Ako padnu predaleko, nece uspeti da prezive pad. Zato obrati "
+"paznju! "
+
+#: data/levels/tutorial/jumper-tutorial-grumbel.pingus:5
+msgid "Jump for joy"
+msgstr "Skok za uzivanje"
+
+#: data/levels/tutorial/jumper-tutorial-grumbel.pingus:6
+msgid ""
+"Sometimes a Pingu needs to reach a platform that is far away, but not "
+"reachable by walking. That's when the Jumper comes in handy - it allows the "
+"Pingu to make a small jump and so enables him to reach the platform. "
+msgstr ""
+"Ponekad Pingus treba da dosegne platformu koja je jako daleko, i nije moguce "
+"hodati do nje. Tada dobro dodje akcija Skakac, koja omogucava Pingusu da "
+"napravi mali skok i dosegne platformu. "
+
+#: data/levels/tutorial/miner-tutorial2-grumbel.pingus:5
+msgid "Miner's heaven"
+msgstr "Rudarski raj"
+
+#: data/levels/tutorial/miner-tutorial2-grumbel.pingus:6
+msgid ""
+"Another action hits the street - another digging action, this time a "
+"diagonal one. It allows a Pingu to dig diagonally through ground, thus "
+"creating a path for following Pingus. The action is called Miner. "
+msgstr ""
+"Ucimo jos jednu akciju koja obuhvata kopanje. Ovog puta se radi o kopanju "
+"ukoso, cime omogucavamo Pingusu da dijagonalno kopa kroz zemljiste i stvara "
+"put za ostale. Ova akcija se zove Rudar. "
+
+#: data/levels/tutorial/snow10-grumbel.pingus:5
+msgid "Panic Island (float/bash)"
+msgstr "Ostrvo panike (lebdi/glodaj)"
+
+#: data/levels/tutorial/snow10-grumbel.pingus:6
+msgid ""
+"While the previous levels have not required much quick action from you, this "
+"one gets a bit trickier. The Pingus are coming out of two entrances in "
+"parallel and it is your job to coordinate the two groups wisely. "
+msgstr ""
+"Dok prethodni nivoi nisu zahtevali puno brze akcije od tebe, ovaj je malo "
+"komplikovaniji. Pingusi dolaze iz dva paralelna ulaza i ti treba da "
+"istovremeno mudro koordiniras obe grupe. "
+
+#: data/levels/tutorial/snow11-grumbel.pingus:5
+msgid "Jump'n Bump... and Bash..."
+msgstr "Skakutanje... i glodanje..."
+
+#: data/levels/tutorial/snow11-grumbel.pingus:6
+msgid ""
+"It's panic time again. The Pingus will not come out very fast, but since "
+"they turn around when they hit walls you will soon have some trouble "
+"coordinating them all. Since you only need to save 5 it should be doable, "
+"but if all else fails use the pause-mode ('p') to get an overview again. "
+msgstr ""
+"Ponovo je vreme za paniku. Pingusi nece brzo ulaziti, ali posto se kod "
+"zidova okrecu, ubrzo ce biti tesko koordinirati ih sve. Posto je potrebno "
+"spasiti samo 3, trebalo bi da je izvodljivo. Ako ne uspe iz prve koristite "
+"pauzu (taster 'p') da bolje sagledate nivo. "
+
+#: data/levels/tutorial/snow12-grumbel.pingus:5
+msgid "Two groups in parallel, coordinate wisely"
+msgstr "Dve grupe istovremeno, budi mudar"
+
+#: data/levels/tutorial/snow12-grumbel.pingus:6
+msgid ""
+"You have two groups to coordinate this time. No need to panic, since this "
+"level gives you enough time to think your actions through. No more tips this "
+"time, but good luck! "
+msgstr ""
+"Ovog puta treba koordinirati dve grupe, ali bez panike, jer ovaj nivo daje "
+"dovoljno vremena da se razmisli o potrebnim akcijama. Nema vise sta da se "
+"doda, osim: Srecno! "
+
+#: data/levels/tutorial/snow14-grumbel.pingus:5
+msgid "Block'a Rock"
+msgstr "Blok i stena"
+
+#: data/levels/tutorial/snow14-grumbel.pingus:6
+msgid ""
+"Once again it's time to combine the stuff you have learned in your previous "
+"levels. Blast your way free and make sure you also keep the rest of the "
+"Pingus under control. The Blocker action will be helpful. "
+msgstr ""
+"Ponovo je vreme da se kombinuju stvari naucene iz prethodnih nivoa. Razori "
+"put do slobode eksplozijama, ali takodje i drzi ostale Pinguse pod "
+"kontrolom. Akcija Bloker ce pomoci. "
+
+#: data/levels/tutorial/snow15-grumbel.pingus:5
+msgid "Climb, Climber,... Boom!"
+msgstr "Penjanje, pentranje,... Bum!"
+
+#: data/levels/tutorial/snow15-grumbel.pingus:6
+msgid ""
+"As you might have already figured out from previous levels, you often have "
+"to combine different actions to get the job done. Due to the lack of a "
+"Digger action in this level the Bomber needs to jump in, but how can it "
+"reach the place to bomb? "
+msgstr ""
+"Kao sto si do sada mogao ukapirati iz prethodnih nivoa cesto moras da "
+"kombinujes razlicite akcije da bi obavio zadatak. Zbog nedostatka akcije "
+"Kopanja na ovom nivou Samoubica mora da obavi posao. Pitanje je kako ga "
+"dovesti da mesta za eksploziju? "
+
+#: data/levels/tutorial/snow16-grumbel.pingus:5
+msgid "Bridging gets more complicated..."
+msgstr "Mostogradnja se komplikuje..."
+
+#: data/levels/tutorial/snow16-grumbel.pingus:6
+msgid ""
+"Once again you have to combine actions carefully and wisely. If you don't "
+"you could end up in the hole just before the exit, so think about how to "
+"avoid that. "
+msgstr ""
+"Jos jednom se akcije moraju mudro i pazljivo kombinovati, jer bi bez toga "
+"zacas zavrsili u rupi pre izlaza, zato smisli kako da to izbegnes. "
+
+#: data/levels/tutorial/snow17-grumbel.pingus:5
+msgid "If too high, your Pingu will die..."
+msgstr "Ko visoko leti, nisko pada..."
+
+#: data/levels/tutorial/snow17-grumbel.pingus:6
+msgid ""
+"Teamwork is the way to the exit this time. You don't have enough Floaters to "
+"reach the exit, so just send a few and let them prepare the path for the "
+"rest. "
+msgstr ""
+"Ovog puta je potreban timski rad da bi se doslo do izlaza. Nema dovoljno "
+"Padobranaca da bi svi dosli do izlaza, tako da je potrebno poslati nekoliko "
+"njih, koji moraju pripremiti stazu za ostale. "
+
+#: data/levels/tutorial/snow19-grumbel.pingus:5
+msgid "Learn to use the bridge"
+msgstr "Nauci da koristis most"
+
+#: data/levels/tutorial/snow19-grumbel.pingus:6
+msgid ""
+"If no Jumper is at hand and a large hole needs to be passed, a bridge can be "
+"pretty helpful. It takes some time to build, but unlike the jumper action it "
+"allows following Pingus to reach the other end too. "
+msgstr ""
+"Ako nema na raspolaganju Skakaca a treba preci preko velike rupe, onda je "
+"most vrlo korisna stvar. Potrebno je malo vremena da se most izgradi, ali "
+"svi Pingusi koji slede mogu da ga koriste, za razliku o skakanja. "
+
+#: data/levels/tutorial/snow20-grumbel.pingus:5
+msgid "Three solutions, it's up to you"
+msgstr "Tri resenja, pa ti vidi"
+
+#: data/levels/tutorial/snow20-grumbel.pingus:6
+msgid ""
+"Now that you've learned all the actions, it's time for some more practice. "
+"This level presents you with at least three different ways to solve it. It's "
+"up to you which one you pick. "
+msgstr ""
+"Sada kada su naucene sve akcije, vreme je za malo vezbe ovi nivoi nude bar "
+"tri razlicite mogucnosti za resavanje, pa izaberi onu koja ti se svidja. "
+
+#: data/levels/tutorial/snow21-grumbel.pingus:5
+msgid "Climb, Climber, climb... and build a bridge"
+msgstr "Penjanje, pentranje... i mostogradnja"
+
+#: data/levels/tutorial/snow21-grumbel.pingus:6
+msgid ""
+"Once again you get access to a new action. The Climber action allows a Pingu "
+"to climb up straight walls, thus allowing him to reach stuff that might be "
+"too high to reach by other means. "
+msgstr ""
+"Jos jednom je dobijen pristup novoj akciji. Akcija: Penjac omogucava Pingusu "
+"da se penje uz prave vertikalne zidove, i na taj nacin dodje tamo gde inace "
+"nikako ne bi mogao doci, jer je previsoko. "
+
+#: data/levels/tutorial/snow22-grumbel.pingus:5
+msgid "Entrance high, Exit low"
+msgstr "Ulaz visoko, izlaz nisko"
+
+#: data/levels/tutorial/snow22-grumbel.pingus:6
+msgid ""
+"If you don't have enough floaters to bring all the Pingus down to the exit - "
+"you have to find other ways to guide them down. You should have learned all "
+"the stuff you need for this level in previous levels, so this shouldn't be "
+"too much of a problem for you. "
+msgstr ""
+"Ako nema dovoljno padobranaca da bi se svi Pingusi spustili dole do izlaza, "
+"potrebno je pronaci drugi nacin. Sve sto je potrebno koristiti na ovom nivou "
+"je vec nauceno ranije tako da ovo ne bi trebalo da bude velik problem za "
+"tebe. "
+
+#: data/levels/tutorial/snow7-grumbel.pingus:5
+msgid "One must prepare, the rest must follow"
+msgstr "Jedan priprema, ostali ga prate"
+
+#: data/levels/tutorial/snow7-grumbel.pingus:6
+msgid ""
+"Sometimes there are situations where you don't have a Blocker at hand to "
+"coordinate your Pingus. You'll have to find other ways to keep them under "
+"control while a single one prepares the path for the rest. "
+msgstr ""
+"Ponekad postoje situacije kada nemas na raspolaganju blokere koji bi "
+"koordinirali Pinguse, pa moras pronaci druge nacine da ih drzis pod "
+"kontrolom, dok jedan pravi put za ostale. "
+
+#: data/levels/tutorial/snow8-grumbel.pingus:5
+msgid "Dig and float, but just don't fall and smash"
+msgstr "Kopaj i lebdi, samo nemoj pasti i razbiti se"
+
+#: data/levels/tutorial/snow8-grumbel.pingus:6
+msgid ""
+"Unlike the first two levels, you have two actions available in this level. "
+"Your job is again simple: select an action at the panel on the left and "
+"apply it to the Pingus so that they will be able to reach the exit. Make "
+"sure that not too many of them die. "
+msgstr ""
+"Za razliku od prethodna dva nivoa, ovde imas na raspolaganju dve akcije. "
+"Tvoj posao je opet jednostavan: izaberi akciju na panelu levo i izdaj "
+"naredjenja Pingusima kako bi oni dosli do izlaza. Postaraj se da ne umre "
+"previse njih. "
+
+#: data/levels/tutorial/snow9-grumbel.pingus:5
+msgid "Dig, bash and other problems"
+msgstr "Kopanje, glodanje i drugi problemi"
+
+#: data/levels/tutorial/snow9-grumbel.pingus:6
+msgid ""
+"The more levels you master, the more difficult they will get, but don't "
+"panic, as this one is still pretty easy. Just use the stuff that you've "
+"learned in the previous levels and you shouldn't have many problems. If you "
+"think you've reached a situation from which you can no longer solve the "
+"level, double click the armageddon button at the lower right. "
+msgstr ""
+"Nivoi ce postajati sve tezi sto ih vise prelazis, ali nemoj vec da pravis "
+"paniku jer ovaj je prilicno lak. Treba samo da koristis stvari naucene na "
+"prethodnim nivoima i ne bi trebalo da imas puno problema Ako mislis da se "
+"nalazis u situaciji da vise nisi u stanju da resis novi, pritisni dupli-klik "
+"misem na dugme armageddon u donjem delu ekrana. "
+
+#: data/levels/tutorial/solid-tutorial-grumbel.pingus:5
+msgid "Solid ground can block the path"
+msgstr "Cvrsto zemljiste moze blokirati put"
+
+#: data/levels/tutorial/solid-tutorial-grumbel.pingus:6
+msgid ""
+"As you have learned in earlier levels your Pingus can dig through basically "
+"any terrain, but there is one material which they can't penetrate: steel. "
+"These regions are marked dark grey on the level map and cannot be destroyed, "
+"so you must find a way around them. "
+msgstr ""
+"I ranijim nivoima smo naucili da Pingusi mogu prakticno kopati kroz bilo "
+"koje zemljiste, ali postoji nesto sto ne mogu prokopati. To su celicni "
+"objekti. Oni su oznaceni tamno sivom bojom na mapi nivoa i ne mogu biti "
+"unisteni, vec treba pronaci nacin da se zaobidju. "
+
+#: data/levels/halloween/halloween1-grumbel.pingus:7
+msgid "One jump to catch them all"
+msgstr ""
+
+#: data/levels/halloween/halloween1-grumbel.pingus:8
+msgid ""
+"The pingus have found themselves lost on their journey.  What is this "
+"mysterious place?  Smiling pumpkins, giant candlesticks, and some boiling "
+"soup below... what wizardry is this? Now, facing a deadly abyss right in "
+"front of them it's your job to save them. Can you save them from a terrible "
+"fate?"
+msgstr ""
+
+#: data/levels/halloween/halloween2-grumbel.pingus:7
+msgid "One Thousand and One Jumps"
+msgstr ""
+
+#: data/levels/halloween/halloween2-grumbel.pingus:8
+msgid ""
+"With the exit so high above and far out of reach for a normal Pingu, what "
+"options are there? Perhaps a jumper can rescue them?  Or will he simply slow "
+"their inevitable demise? It's your job to find out, but are you good enough "
+"to save them all?"
+msgstr ""
+
+#: data/levels/halloween/halloween3-grumbel.pingus:7
+msgid "Boom Boom"
+msgstr ""
+
+#: data/levels/halloween/halloween3-grumbel.pingus:8
+msgid ""
+"You've mastered the last challenge and now face the next. Their path to "
+"salvation seems to be cursed, but by whom? There is no time to think about "
+"it, since the next deadly challenge already awaits the Pingus. Two mighty "
+"roots block the way, but without a basher at hand to bash them away, "
+"sacrifice might be the only option..."
+msgstr ""
+
+#: data/levels/halloween/halloween4-grumbel.pingus:7
+msgid "Full Circle"
+msgstr ""
+
+#: data/levels/halloween/halloween4-grumbel.pingus:8
+msgid ""
+"The exit is so close, yet out of reach. A step in the wrong direction and "
+"the Pingus will fall to a terrible fate. You must do something to help them, "
+"but is there enough time? You have to hurry and can't allow yourself any "
+"mistakes. The Pingus are counting on you!"
+msgstr ""
+
+#: data/levels/halloween/halloween5-grumbel.pingus:7
+msgid "Bridgers Nightmare"
+msgstr ""
+
+#: data/levels/halloween/halloween5-grumbel.pingus:8
+msgid ""
+"Who placed this monstrous wall here?  This terrible blockade separates your "
+"Pingus from the exit. Destruction of its awful construction seems an "
+"impossibility, but perhaps the bridger can come to the rescue?  Can they "
+"build their bridges high enough to guide the group yet again safely to the "
+"exit? Or is somebody playing evil mind tricks with you?\n"
+"\n"
+"Yet again the solution is your call... your gray matter is the key to the "
+"Pingus' success, so don't let yourself get confused and misguided from the "
+"true path."
+msgstr ""
+
+#: data/levels/halloween/halloween6-grumbel.pingus:7
+msgid "Locked up by the witch"
+msgstr ""
+
+#: data/levels/halloween/halloween6-grumbel.pingus:8
+msgid ""
+"Is this a prison? Blocked by solid walls all around, there doesn't seem to "
+"be a way to escape. Salvation seems impossible. But wait... the wall to the "
+"right seems weak... perhaps this is a way to escape? Or is it a false path "
+"that will lead to the Pingus' doom?\n"
+"\n"
+"This is a risky trip, but you must take it to find out how to bring them all "
+"to freedom once again."
+msgstr ""
+
+#: data/levels/halloween/halloween7-grumbel.pingus:7
+msgid "Splatterfest"
+msgstr ""
+
+#: data/levels/halloween/halloween7-grumbel.pingus:8
+msgid ""
+"This is by far the deepest pit the Pingus have yet encountered. Building a "
+"bridge across it seems obvious but that won't help since the exit is deep "
+"down in the pit itself. Pingus who try to go down the pit will just end up "
+"splattered all over the ground. You have two groups of Pingus at your "
+"disposal, can you make them work together to reach even an exit this well "
+"hidden?"
+msgstr ""
+
+#: data/levels/halloween/halloween8-plouj.pingus:7
+msgid "Staircase Maintenance"
+msgstr ""
+
+#: data/levels/halloween/halloween8-plouj.pingus:8
+msgid ""
+"It seems we are up again against a mighty wall, and it is blocking the exit! "
+"But wait, some good soul has built a staircase around it. It seems, however, "
+"that the poor fool's efforts didn't last long, as the staircase is destroyed "
+"and full of holes. Can you fix it and make it over the wall? Yet of course "
+"you know that the right solution might not be the obvious one. But your "
+"Pingus are almost free, and they trust in your skill to guide them to safety "
+"once more. Succeed and you will have freed them once and for all from "
+"whatever evildoer that placed them in this nightmare... at least for this "
+"year."
+msgstr ""
+
+#: data/worldmaps/tutorial.worldmap:4
+msgid "Tutorial Island"
+msgstr ""
+
+#: data/worldmaps/tutorial.worldmap:6
+msgid "Learn the basics"
+msgstr ""
+
+#: data/worldmaps/tutorial.worldmap:15
+msgid "The Journey Begins"
+msgstr "Yolculuk Baþlýyor"
+
+#: data/worldmaps/tutorial.worldmap:81
+msgid "The Journey Continues"
+msgstr "Yolculuk Devam Ediyor"
+
+#: data/worldmaps/tutorial.worldmap:22
+#, fuzzy
+msgid ""
+"For a long time, the Pingus have lived happily in peace on the South Pole "
+"along with all the other animals. Everything was in balance and it seemed "
+"like nothing could disrupt their peace.  The Pingus were happy and it seemed "
+"like this could never end."
+msgstr ""
+"Pingular yüzyýllardýr diðer hayvanlarla birlikte Güney Kutbu'nda\n"
+"barýþ içinde yaþamaktaydýlar. Herþey uyum içindeydi, hiçbirþey bu\n"
+"güzel ortamý deðiþtiremeyecek gibiydi. \n"
+
+#: data/worldmaps/tutorial.worldmap:30
+#, fuzzy
+msgid ""
+"But then one day, things began to change slowly: the sky got darker and the "
+"earth got warmer. Firstly, they thought this was just a normal fluctuation "
+"in the world's climate, but things seemed to get worse and worse with every "
+"year."
+msgstr ""
+"Ama zamanla, durum yavaþ yavaþ deðiþmeye baþladý. Gökyüzü\n"
+"kararmaya, dünya daha sýcak olmaya baþladý. Önceleri bunun\n"
+"sýradan iklim farký olduðunu düþündüler, ama her geçen yýl\n"
+"durum daha kötüye\n"
+"gitmekteydi"
+
+#: data/worldmaps/tutorial.worldmap:38
+#, fuzzy
+msgid ""
+"The snow began to melt away in a few areas and food became an issue. Other "
+"animals tried to leave the region to search for colder areas, but the Pingus "
+"knew that this wouldn't help: they knew that they had to do something about "
+"it."
+msgstr ""
+"Bazý bölgelerde karlar eridi, yiyecek bulmak giderek zorlaþtý.\n"
+"Diðer hayvanlar bölgeyi terkedip daha soðuk yerler aramaeðilimine\n"
+"girmiþlerdi bile. Ama Pingular bunun iþe yaramayacaðýný, birþeyler\n"
+"yapmalarý gerektiðini biliyorlardý."
+
+#: data/worldmaps/tutorial.worldmap:46
+#, fuzzy
+msgid ""
+"So the circle of the eldest came together to decide what to do about it. "
+"They decided to send out an expedition around the world to find the cause of "
+"this warming. The expedition consisted of hundreds of the bravest Pingus on "
+"the South Pole."
+msgstr ""
+"Sonunda yaþlýlar kurulu karar vermek için toplandý ve dünyayý dolaþýp\n"
+"bu ýsýnmanýn nedenini araþtýracak bir ekip kurmaya karar verdi.\n"
+"Böylece Güney Kutbu'nun heryerinden gelenyüzlerce cesur Pingudan\n"
+"oluþan bir ekip kuruldu."
+
+#: data/worldmaps/tutorial.worldmap:54
+#, fuzzy
+msgid ""
+"And they picked you to lead them on their journey around the world. Since "
+"the journey will be dangerous and difficult, your first goal is the Island "
+"of Mogorok, also known as the Tutorial Island. According to the eldest, this "
+"island has always been the first stop of Pingus that were sent out into the "
+"world."
+msgstr ""
+"Ve Pingular seni dünya çevresindeki bu yolculuklarýnda onlara\n"
+"yol göstermen için seçtiler. Yolculuk tehlikeli ve zor\n"
+"olacaðýndan, ilk hedefimiz eðitim adasý diye de bilinen \n"
+"Magorok Adasý. Yaþlýlar der ki, bu ada, görev için yola düþen\n"
+"Pingularýn herzaman ilk durakðý olmuþtur."
+
+#: data/worldmaps/tutorial.worldmap:63
+#, fuzzy
+msgid ""
+"The island consists of many areas that are ideal to teach the Pingus their "
+"abilities. The Pingus can learn to build bridges, climb, bash and use many "
+"other talents which they will need on their long and dangerous journey."
+msgstr ""
+"Ada, bir Pingunun yeteneklerini gelistirmek için çalýþabileceði\n"
+"birçok bolgeden oluþuyor. Pingular önlerindeki zorlu yolcukta\n"
+"kesinlikle gerekli olacak týrmanmak, kazmak, köprü yapmak ve\n"
+"benzeri biçok becerilerini burada geliþtirebilecekler."
+
+#: data/worldmaps/tutorial.worldmap:70
+#, fuzzy
+msgid ""
+"While there, you can practice your abilities in commanding and guiding the "
+"Pingus. You can also get familiar with all the abilities the Pingus provide "
+"and learn to master them, since you will need all of them on your journey "
+"around the world."
+msgstr ""
+"Bu arada sen de, onlarý yönlendirip yönetme yeteneðini burada\n"
+"deneyebilirsin. Ayný zamanda, Pingularýn bütün becerilerini\n"
+"tanýyabilir, bu becerileri en iyi þekilde kullanmayý öðrenebilirsin\n"
+"Bu zorlu yolculukta hepsine gereksinim duyacaksýn."
+
+#: data/worldmaps/tutorial.worldmap:78
+#, fuzzy
+msgid ""
+"Now that you and the Pingus have arrived at Tutorial Island it is time to "
+"take command and begin your mission. Good Luck!"
+msgstr ""
+"Artýk sen ve Pingular eðitim adasýna vardýðýnýza göre, komutayý\n"
+"devralýp, göreve baþlamanýn zamanýdýr.\n"
+"\n"
+"                                                  Baþarýlar!"
+
+#: data/worldmaps/tutorial.worldmap:88
+#, fuzzy
+msgid ""
+"Now after you and the Pingus have learned the basics and practiced a bit it "
+"is time to move on and begin the journey into the world. Since the ice floe "
+"with which the Pingus traveled to the Tutorial Island isn't going to hold on "
+"the whole way into the warmer climates the Pingus have to find something "
+"else to guide them on their journey."
+msgstr ""
+"Pingular ve sen temel bilgileri öðrenip, biraz da alýþtýrma\n"
+"yaptýðýnýza göre, yola koyulmanýn zamanýdýr artýk. Pingularýn\n"
+"eðitim adasýna gelmek için kullandýklarý buz platform sýcak\n"
+"bölgelere dayanmayacaðýndan, yolculuk için yeni bir yöntem\n"
+"bulmalarý gerekecek.\n"
+
+#: data/worldmaps/tutorial.worldmap:97
+#, fuzzy
+msgid ""
+"But as the eldest have said, the Tutorial Island provides not only a good "
+"way to practice, but it is also the starting point into the world. After "
+"some searching the Pingus discovered the meaning of this, and they found the "
+"large tree at the end of the island which gave them wood to construct a "
+"float."
+msgstr ""
+"Ama yaþlýlarýn söylediði gibi, eðitim adasý sadece alýþtýrma\n"
+"yapmaya yaramaz, ayný zamanda dünyaya açýlan bir kapýdýr da.\n"
+"Çünkü adanýn diðer ucundaki aðaçýn odunu, sal yapmak için\n"
+"birebirdir.\n"
+
+#: data/worldmaps/tutorial.worldmap:106
+#, fuzzy
+msgid ""
+"So the Pingus set out and constructed some large rafts, enough to carry them "
+"all. After also packing a bunch of provisions they were prepared to start "
+"their journey and leave their familiar ground and enter the unknown parts of "
+"the world."
+msgstr ""
+"Pingular harekete geçip, herkesi taþýmaya yetecek birkaç\n"
+"sal yaptýlar. Yanlarýna biraz azýk da aldýktan sonra, tanýdýk\n"
+"buzullardan ayrýlýp dünyanýn bilinmedik yerlerine doðru\n"
+"yolculuða hazýrlar.\n"
+
+#: data/worldmaps/tutorial.worldmap:114
+#, fuzzy
+msgid ""
+"So the Pingus sit on their raft, worrying about what's to come and where to "
+"go, while floating into the sunset.  To be continued..."
+msgstr ""
+"Sonunda Pingular sallarýnýn üzerinde, gidecekleri yaban ellerde\n"
+"baþlarýna gelebileceklerin kaygýsýyla gün batýmýna doðru yol\n"
+"almaya baþladýlar.\n"
+"\n"
+"                                                Devam edecek..."
+
+#: data/levelsets/halloween.levelset:3
+msgid "Halloween 2007"
+msgstr ""
+
+#: data/levelsets/halloween.levelset:4
+msgid "Trapped at All Hallows Eve"
+msgstr ""
+
+#, fuzzy
+#~ msgid "none"
+#~ msgstr "açýk"
+
+#~ msgid "Difficulty:"
+#~ msgstr "Zorluk:"
+
+#, fuzzy
+#~ msgid "Difficulty: "
+#~ msgstr "Zorluk:"
+
+# FIXME: bu olmadi -cagri
+# bu daha da olmadi galiba -gd
+#, fuzzy
+#~ msgid ""
+#~ "Contrib\n"
+#~ "Levels"
+#~ msgstr "Harici"
+
+#, fuzzy
+#~ msgid ""
+#~ "Print some more messages to stdout, can be set multiple times to increase "
+#~ "verbosity"
+#~ msgstr "Stdout'a ayrýntýlý bilgi ver. Daha cok `v' ile"
+
+#~ msgid "Use OpenGL"
+#~ msgstr "OpenGL kullan"
+
+#~ msgid "Prints the fps to stdout"
+#~ msgstr "stdout'a fps deðerini bas"
+
+#~ msgid "Reduces the CPU usage by issuing sleep()"
+#~ msgstr "CPU kullanýmýný sleep() kullanarak azalt"
+
+#~ msgid ""
+#~ "Warning: Larger resolution than 800x600 will result in visual problems"
+#~ msgstr "Dikkat: 800x600'den büyük çözünürlük görüntü sorunu yaratabilir"
+
+# 'Main' yerine baþka biþi uydurmak lazim buraya -gd
+#~ msgid "PingusMain: Starting Main: "
+#~ msgstr "PingusMain: Main Baþlatýlýyor: "
+
+#~ msgid "| segfault_handler: catched a SIGSEGV."
+#~ msgstr "| segfault_handler: catched a SIGSEGV."
+
+#~ msgid "| Woops, Pingus just crashed, congratulations you've found a bug."
+#~ msgstr "Amanin booo ...  Pingus çöktü! Tebrikler bir böcek (hata) buldun!"
+
+#~ msgid ""
+#~ "| Please write a little bug report to <grumbel@gmx.de>, include "
+#~ "informations"
+#~ msgstr ""
+#~ "| Lütfen inglizce/almanca olarak <grumbel@gmx.de> adresine kýsa bir hata"
+
+#~ msgid "| where exacly the SIGSEGV occured and how to reproduce it."
+#~ msgstr ""
+#~ "| raporu yaz. SIGSEGV'in nerede oluþtuðunu ve nasýl tekrarlanabileceðini"
+
+#~ msgid "| Also try include a backtrace, you can get it like this:"
+#~ msgstr "| anlat.  Bir de bir 'backtrace' ekle ... Aþagýdaki gibi mesela:"
+
+#~ msgid "| If that doesn't work, try this:"
+#~ msgstr "| Bu çalýþmazsa, þöyle de olabilir:"
+
+#~ msgid "| [play until it crashes again]"
+#~ msgstr "| [... ve çökene kadar tekrar oyna ... ]"
+
+#~ msgid "| Warning: Pingus recieved a SIGINT, exiting now."
+#~ msgstr "| Uyarý: SIGINT sinyali aldýk, oyundan çýkýyoruz."
+
+#~ msgid "Disable intro"
+#~ msgstr "Intoroyu kapat"
+
+#, fuzzy
+#~ msgid "Set the refresh rate in fullscreen (default: 60)"
+#~ msgstr "Pingus çözünürlüðünü ayarla (öntanýlý: 640x480)"
+
+#~ msgid "Load a custom level from FILE"
+#~ msgstr "DOSYAdan özel seviye yükle"
+
+#, fuzzy
+#~ msgid "language:                "
+#~ msgstr "tümekran:                "
+
+#~ msgid "sound support:           enabled"
+#~ msgstr "ses:                     etkin"
+
+#~ msgid "sound support:          disabled"
+#~ msgstr "ses:                    etkin deðil"
+
+#~ msgid "music support:           enabled"
+#~ msgstr "müzik desteði:           etkin"
+
+#~ msgid "music support:          disabled"
+#~ msgstr "müzik desteði:          etkin deðil"
+
+#, fuzzy
+#~ msgid "resolution:              "
+#~ msgstr "çözünürlük:              "
+
+#~ msgid "fullscreen:              "
+#~ msgstr "tümekran:                "
+
+#~ msgid " enabled"
+#~ msgstr " etkin"
+
+#~ msgid "disabled"
+#~ msgstr "etkin deðil"
+
+#, fuzzy
+#~ msgid "using OpenGL:            "
+#~ msgstr "tümekran:                "
+
+#~ msgid "PingusMain: Levelfile not found, ignoring: "
+#~ msgstr "PingusMain: Seviye Dosyasý bulunamadý, yok sayýlacak: "
+
+#~ msgid "Environment variable $HOME not set, fix that and start again."
+#~ msgstr "$HOME deðiþkeni atanmamýþ, düzeltip yeniden dene."
+
+#~ msgid "Unexpected char '"
+#~ msgstr "Beklenmeyen harf: '"
+
+#~ msgid "unknown"
+#~ msgstr "bilinmeyen"
+
+#~ msgid "Credits"
+#~ msgstr "Yardýmcý olanlar"
+
+#, fuzzy
+#~ msgid "..:: See the credits ::.."
+#~ msgstr "..:: Oyunu baþlat ::.."
+
+#, fuzzy
+#~ msgid "Pingus do time"
+#~ msgstr "Pingus veri dizini"
+
+#, fuzzy
+#~ msgid "PLE Level"
+#~ msgstr "Yarat"
+
+#, fuzzy
+#~ msgid "Pingus in Parallel"
+#~ msgstr "Pingus Seçenekler Menüsü"
+
+#, fuzzy
+#~ msgid "Smashing Zone"
+#~ msgstr "Smashed"
+
+#, fuzzy
+#~ msgid "Set your watches"
+#~ msgstr "Hava durumunu seç"
+
+#, fuzzy
+#~ msgid "Entering the cave"
+#~ msgstr "Dosyayý ne olarak kayit edelim: "
+
+#, fuzzy
+#~ msgid "Pingus in Wonderland"
+#~ msgstr "Pingus Seçenekler Menüsü"
+
+#, fuzzy
+#~ msgid "Easy going..."
+#~ msgstr "Yükleniyor..."
+
+#, fuzzy
+#~ msgid "Level 0"
+#~ msgstr "Yarat"
+
+#, fuzzy
+#~ msgid "Blocked Exit"
+#~ msgstr "kapalý"
+
+#~ msgid "Unknow char: "
+#~ msgstr "Bilinmeyen karakter: "
+
+#~ msgid "Usage: "
+#~ msgstr "Kullaným: "
+
+#~ msgid " [OPTIONS]... [LEVELFILE]"
+#~ msgstr "[SEÇENEKLER]... [SEVÝYE DOSYASI]"
+
+#~ msgid "FILE      "
+#~ msgstr "DOSYA     "
+
+#~ msgid "FILE        "
+#~ msgstr "DOSYA       "
+
+#~ msgid "multiple times to increase verbosity"
+#~ msgstr "ayrýntý artýrýlabilir."
+
+#~ msgid "FILE       "
+#~ msgstr "DOSYA      "
+
+#~ msgid "Read config from FILE (default: ~/.pingus/config)"
+#~ msgstr "Ayarlarý `DOSYA'dan oku (öntanýmlý: ~/.pingus/config)"
+
+# debug = ?
+#~ msgid "Enable the output of debugging infos, possible"
+#~ msgstr "Debug mesajlarýný ekrana bas"
+
+#~ msgid "clanVorbis support:           ok"
+#~ msgstr "clanVoribs desteði:      var"
+
+#~ msgid "clanVoribs support:  missing (.ogg music files will not be playable)"
+#~ msgstr "clanVoribs desteði: yok (.ogg müzik dosyalarý çalýþmayacak)"
+
+#~ msgid "clanMikMod support:           ok"
+#~ msgstr "clanMikMod desteði:      var"
+
+#~ msgid "clanMikMod support:  missing (music files will not be playable)"
+#~ msgstr "clanMikMod desteði: yok (müzik dosyalarý çalýþmayacak) "
+
+#~ msgid "getext support:               ok"
+#~ msgstr "gettext desteði:         var"
+
+#~ msgid "gettext language:        english"
+#~ msgstr "gettext dili:            türkeçe"
+
+#~ msgid "Error caught from ClanLib: "
+#~ msgstr "ClanLib hatasý: "
+
+#~ msgid "Image has wrong color depth: %d"
+#~ msgstr "Resmin renk derinliði yanlýþ: %d"
+
+#~ msgid "Editor Helpscreen (hide with F1)"
+#~ msgstr "Editör Yardým Ekraný (F1 ile sakla)"
+
+#~ msgid "F1 - show/hide this help screen"
+#~ msgstr "F1 - help ekranýný sakla/göster"
+
+#~ msgid "F2 - launch level building tutorial"
+#~ msgstr "F2 - seviye tasarým dersi"
+
+#~ msgid "F3 - toggle background color"
+#~ msgstr "F3 - arkaplan rengini deðiþtir"
+
+#~ msgid "F4 - play/test the level"
+#~ msgstr "F4 - seviyeyi oyna/dene"
+
+#~ msgid "F6 - save this level"
+#~ msgstr "F6 - seviyeyi kaydet"
+
+#~ msgid "F7 - [unset]"
+#~ msgstr "F7 - [iþlevsiz]"
+
+#~ msgid "F8 - quick save/backup save?!"
+#~ msgstr "F8 - hýzlý saklama/yedekleme?!"
+
+#~ msgid "F9 - change level width and height"
+#~ msgstr "F9 - seviye boyutlarýný deðiþtir"
+
+#~ msgid "F10 - [unset]"
+#~ msgstr "F10 - [iþlevsiz]"
+
+#~ msgid "F11 - toggle fps counter"
+#~ msgstr "F11 - FPS sayacý"
+
+#~ msgid "F12 - make screenshot"
+#~ msgstr "F12 - ekrangörüntüsü kaydet"
+
+#~ msgid "Home - increase object size"
+#~ msgstr "Home - nesneyi büyüt"
+
+#~ msgid "End  - decrease object size"
+#~ msgstr "End - nesneyi küçült"
+
+#~ msgid "Cursor Keys - Move object"
+#~ msgstr "Ok tuþlarý - Nesneyi taþý"
+
+#~ msgid "Shift 'Cursor Keys' - Move objects fast "
+#~ msgstr "Shift 'Ok tuþlarý' - Nesneyi hýzlý taþý"
+
+#~ msgid "PageUp   - level object up"
+#~ msgstr "PageUp   - nesneyi ön plana taþý"
+
+#~ msgid "PageDown - level object down"
+#~ msgstr "PageDown - nesneyi arka plana taþý"
+
+#~ msgid "Shift PageUp   - increase objects z-pos by 50"
+#~ msgstr "Shift PageUp   - nesne z konumunu 50 artýr"
+
+#~ msgid "Shift PageDown - decrease objects z-pos by 50"
+#~ msgstr "Shift PageUp   - nesne z konumunu 50 azalt"
+
+#~ msgid "Enter - Set default zoom (1:1)"
+#~ msgstr "Enter - Varsayýlan zumu ayarla (1:1)"
+
+#~ msgid "d - duplicate object"
+#~ msgstr "d- seçili nesneleri çiftle"
+
+#~ msgid "a - mark all objects"
+#~ msgstr "a - seçili nesneleri sil"
+
+#~ msgid "shift leftmouseclick - add object to selection"
+#~ msgstr "shift sol fare tuþu - nesneyi seçime ekle"
+
+#~ msgid "leftmouseclick - select object"
+#~ msgstr "sol fare tuþu - neneyi seç"
+
+#~ msgid "Insert - insert new object"
+#~ msgstr "Insert - yeni nesne ekle"
+
+#~ msgid "g - ungroup/group current selection"
+#~ msgstr "g - seçili nesneleri grupla/grubu boz"
+
+#~ msgid "Ctrl PageUp   - increase objects z-pos by 1"
+#~ msgstr "Ctrl PageUp   - nesne z konumunu 1 artýr"
+
+#~ msgid "Ctrl PageDown - decrease objects z-pos by 1"
+#~ msgstr "Ctrl PageUp   - nesne z konumunu 1 azalt"
+
+#~ msgid "Naming Convention: <LEVELNAME><NUMBER>-<CREATOR>.pingus"
+#~ msgstr "Ýsimlendirme yöntemi: <SeviyeAdý><Numara>-<Tasarýmcý>.pingus"
+
+#~ msgid ""
+#~ "When you have created a level and want to have it in the next Pingus "
+#~ "release,\n"
+#~ "please mail it to pingus-devel@nongnu.org."
+#~ msgstr ""
+#~ "Bir seviye hazýrladýysanýz ve Pingus ile daðýtýlmasýný istiyorsanýz,\n"
+#~ "pingus-devel@nongnu.org adresine gönderin."
+
+#~ msgid "1 - guillotine"
+#~ msgstr "1 - Keser"
+
+#~ msgid "2 - hammer"
+#~ msgstr "2 - Çekiç"
+
+#~ msgid "3 - spike"
+#~ msgstr "3 - Ýðne"
+
+#~ msgid "4 - laser_exit"
+#~ msgstr "4 - Laser Çýkýþ"
+
+#~ msgid "5 - fake_exit"
+#~ msgstr "5 - Yalancý Çýkýþ"
+
+#~ msgid "6 - smasher"
+#~ msgstr "6 - Ezici"
+
+#~ msgid "7 - bumper"
+#~ msgstr "7 - Ýtici"
+
+#~ msgid "Select a WorldObj"
+#~ msgstr "Bir WorldObj seç"
+
+#~ msgid "1 - teleporter"
+#~ msgstr "1 - Iþýnlayýcý"
+
+#~ msgid "2 - switch and door"
+#~ msgstr "2 - Þalter ve Kapý"
+
+#~ msgid "3 - ConveyorBelt"
+#~ msgstr "3 - YürüyenBant"
+
+#~ msgid "4 - IceBlock"
+#~ msgstr "4 - BuzBloðu"
+
+#~ msgid "5 - InfoBox"
+#~ msgstr "5 - BilgiKutusu"
+
+#~ msgid "1 - snow"
+#~ msgstr "1 - Kar"
+
+#~ msgid "2 - rain"
+#~ msgstr "2 - Yaðmur"
+
+#~ msgid "Select an entrance"
+#~ msgstr "Bir çýkýþ seç"
+
+#~ msgid "1 - generic"
+#~ msgstr "1 - Genel"
+
+#~ msgid "2 - woodthing"
+#~ msgstr "2 - Ahþap"
+
+#~ msgid "3 - cloud"
+#~ msgstr "3 - Bulut"
+
+# FIXME: sicaknokta salakligini.
+#~ msgid "h - entrance surface (hotspot)"
+#~ msgstr "h - giriþ yüzeyi (sýcaknokta)"
+
+#~ msgid "What object type do you want?"
+#~ msgstr "Hangi nesneyi istiyorsun?"
+
+#~ msgid "g - Groundpiece (ground) [not implemented]"
+#~ msgstr "g - Yer (ground) [bozuk]"
+
+#~ msgid "Which object do you want?"
+#~ msgstr "Hangi nesneyi istiyorsun?"
+
+#~ msgid "x - Exit"
+#~ msgstr "x - Bitir"
+
+#~ msgid "o - WorldObject"
+#~ msgstr "o - DünyaNesnesi"
+
+#  FIXME: prefab ne demek
+#~ msgid "p - Prefab (ObjectGroup)"
+#~ msgstr "p - Prefab (Nesne Grubu)"
+
+#~ msgid "f - something from file (~/.pingus/images/)"
+#~ msgstr "f - dosyadan (~/.pingus/images/)"
+
+#~ msgid "Which prefab do you want?"
+#~ msgstr "Hangi nesneyi istiyorsun?"
+
+#~ msgid "1 - Surface Background"
+#~ msgstr "1 - Arkaplan"
+
+#~ msgid "2 - Solid Color Background"
+#~ msgstr "2 - Düz Renk Arkaplan"
+
+#~ msgid "3 - Starfield Background"
+#~ msgstr "3 - Yýldýzlý Arkaplan"
+
+#~ msgid "4 - Thunderstorm Background"
+#~ msgstr "4 - Yýldýrýmlý Arkaplan"
+
+#~ msgid "Load a level (F5)"
+#~ msgstr "Seviye yükle (F5)"
+
+#~ msgid "Exit the editor (Escape)"
+#~ msgstr "Editörden çýk (Escape)"
+
+#~ msgid "Delete marked objects (delete)"
+#~ msgstr "Seçili nesneleri sil (delete)"
+
+#~ msgid "Edit Level Properties"
+#~ msgstr "Seviye Özelliklerini Deðiþtir"
+
+#~ msgid "Start the level and test it (F4)"
+#~ msgstr "Seviyeyi baþlat ve test et (F4)"
+
+#~ msgid "Create a new level from scratch"
+#~ msgstr "Sýfýrdan yeni bir seviye yarat"
+
+#~ msgid "Insert an object (Insert)"
+#~ msgstr "Nesne ekle (Insert)"
+
+#~ msgid "Zoom into a region"
+#~ msgstr "bir alaný yaklaþtýr"
+
+#~ msgid "Zoom in"
+#~ msgstr "Yaklaþtýr"
+
+#~ msgid "Zoom out"
+#~ msgstr "Uzaklaþtýr"
+
+#~ msgid "Setup Number of Actions"
+#~ msgstr "Eylem Sayýsýný Ayarla"
+
+#~ msgid "Display Help Screen (F1)"
+#~ msgstr "Yardým Ekranýný Göster (F1)"
+
+#~ msgid "Designed by "
+#~ msgstr "Tasarlayan "
+
+#~ msgid "Pingus to Save: %d"
+#~ msgstr "Kurtarýlacak Pingu: %d"
+
+#~ msgid "Number of Pingus: %d"
+#~ msgstr "Pingu sayýsý: %d"
+
+#~ msgid "Loading finished. Press a mouse button to start the level"
+#~ msgstr "Yüklendi! Devam etmek için farenin tuþunu týklat"
+
+#~ msgid "Results:"
+#~ msgstr "Sonuçlar:"
+
+#~ msgid "Pingus saved:   %3d/%3d"
+#~ msgstr "Kurtarýlýcak Pingus: %3d/%3d"
+
+#~ msgid "Pingus died:  %3d/%3d"
+#~ msgstr "Ölen Pingular:  %3d/%3d"
+
+#~ msgid "Press button to continue..."
+#~ msgstr "Devam etmek için tuþa bas..."
+
+#~ msgid ""
+#~ "As many Pingus escaped as entered the level. That's going to be hard to "
+#~ "beat.... unless this game becomes pornographic."
+#~ msgstr ""
+#~ "Hocam, Hepsi kurtuldu!  Bu skoru aþabilmek için bu oyuna pornografik "
+#~ "biþiler katmamýz gerekecek."
+
+#~ msgid "Very impressive indeed."
+#~ msgstr "Helal Olsun ..."
+
+#~ msgid "Good work. Still room for improvement though."
+#~ msgstr "Aferin. Ama daha fazla çalýþman lazým çekirge."
+
+#~ msgid "Not too shabby, not too shabby at all."
+#~ msgstr "Fena deðil, hiç fena deðil."
+
+#~ msgid ""
+#~ "That was OK, but Pingu life insurance premiums have just gotten more "
+#~ "expensive."
+#~ msgstr ""
+#~ "Fena deðil. Fakat Pingu hayat sigortasý aydatlarýnýn "
+#~ "pahalýþtýrmayakatkýda bulundun."
+
+#~ msgid "Maybe this level calls for a different strategy."
+#~ msgstr "Farklý bir stateji uygulamakta yarar olabilir."
+
+#~ msgid "Exactly half. Are you saving only the female ones?"
+#~ msgstr "Tam yarýsý. Ne o? Sadece diþileri falan mý kurtarýyoruz?!?"
+
+#~ msgid "If I were a Pingu, I never would have left that entrance."
+#~ msgstr "Ben bir Pingu olsaydým, o kapýdan adýmýmý atmazdým."
+
+#~ msgid "Maybe you would feel more at home playing Quake."
+#~ msgstr "Abisi, belki de Quake sana daha uygun bi oyun."
+
+#~ msgid ""
+#~ "Maybe this level calls for a different strategy. Like attempting to save "
+#~ "them, for example."
+#~ msgstr ""
+#~ "Tikkat tikkat! Stateji deðiþikliði! Bir daha sefere þunlarý kurtarmaya "
+#~ "çalýþalým!"
+
+#~ msgid "Ever considered a career as a Pingu exterminator?"
+#~ msgstr "Pingo Terminatörü olarak iþ mi arýyoruz?"
+
+#~ msgid "You missed one! What's your excuse!?"
+#~ msgstr "Ne o? Bi tane kaçýrdýk bakýyorum."
+
+#~ msgid "Please reassure me that you hit the Armageddon button."
+#~ msgstr "Bu da bir baþarý tabii. Hepsini nasil helak ettin?"
+
+#~ msgid "You've got a negative save/total value, something is buggy."
+#~ msgstr "Eksi sayýda Pingus kurtardýn, biyerde kesin hata var."
+
+#~ msgid "Launch the Level editor (experimental)"
+#~ msgstr "Seviye editörü'nu baþlat (deneysel)"
+
+# bu olmadi, c++'tan nefret... -cagri
+# niye c++'den nefret ediyon?
+# Yav tabii turkce'nin yapisindan ortaya cikan bir sorun var .. 'yarat'i cumle
+# sonuna koymak gerekecek ... neyse bi compile edince nasil gozukuyor bakalim ... -gd
+#, fuzzy
+#~ msgid ""
+#~ "Create a\n"
+#~ "Level"
+#~ msgstr "Yeni Seviye"
+
+#~ msgid "Screenshot: Couldn't save screenshot"
+#~ msgstr "Screenshot: Ekran görüntüsü kaydedilemedi"
+
+#~ msgid "WorldMap: File not found: "
+#~ msgstr "WorldMap: Dosya bulunamadý: "
+
+#~ msgid "..:: The people who brought this game to you ::.."
+#~ msgstr "..:: Bu oyunu sizin için hazýrlayanlar... ::.."
+
+#~ msgid "..:: Takes you to the options menu ::.."
+#~ msgstr "..:: Seçenekler Menüsüne gider ::.."
+
+#~ msgid "Options"
+#~ msgstr "Seçenekler"
+
+#, fuzzy
+#~ msgid "Perfect! You saved all the Pingus. Great!"
+#~ msgstr "Mükemmel! Herkesi kurtardýn galiba."
+
+#, fuzzy
+#~ msgid ""
+#~ "You saved just the ones you needed, you made it, but\n"
+#~ "maybe you can do it better next time?"
+#~ msgstr ""
+#~ "Tam gerektiði kadar Pingu kurtardýn, geçer not, ama\n"
+#~ "belki daha iyisini yapabilisin, hý?"
+
+#, fuzzy
+#~ msgid "Not everybody got saved, but still good work!"
+#~ msgstr "Herkesi kurtaramadýn, ama yine de iyi iþ çýkardýn!"
+
+#, fuzzy
+#~ msgid ""
+#~ "You didn't save enough, but you still saved a few, next\n"
+#~ "time you might be better."
+#~ msgstr ""
+#~ "Yeterince kurtaramadýn, ama yine de birkaçý kurtuldu, bir\n"
+#~ "dahakine daha dikkatli ol."
+
+#, fuzzy
+#~ msgid "Only a handful more and you would have made it, try again!"
+#~ msgstr "Birkaç tane daha kurtarsan olacaktý, tekrar dene!"
+
+#~ msgid "input, pathmgr"
+#~ msgstr "input, pathmgr"
+
+#~ msgid "pingu_id %d"
+#~ msgstr "pingu_id %d"
+
+#~ msgid "action %s"
+#~ msgstr "eylem %s"
+
+#~ msgid "action none"
+#~ msgstr "eylem yok"
+
+#~ msgid "Setting action to a dead pingu"
+#~ msgstr "Ölü pingu'ya atanan aksiyon"
+
+#~ msgid "input"
+#~ msgstr "girdi"
+
+#~ msgid "System: Couldn't open: "
+#~ msgstr "Sistem: Açýlamayan dosya: "
+
+#~ msgid "Successfully created: "
+#~ msgstr "Yaratýlan dosya: "
+
+#~ msgid "Found: "
+#~ msgstr "Bulundu: "
+
+#~ msgid "System::checksum: Couldn't open file: "
+#~ msgstr "Sistem::checksum: Açýlamayan dosya: "
+
+#~ msgid "System:checksum: file read error"
+#~ msgstr "Sistem:checksum: Dosya okunurken hata oluþtu"
+
+#~ msgid "off"
+#~ msgstr "kapalý"
+
+#~ msgid "Not implemented"
+#~ msgstr "Daha gerçekleþtirilmedi"
+
+#~ msgid "OptionMenu::Event: Unknown key released: id="
+#~ msgstr "OptionMenu::Event: Bilinmeyen tuþ býrakýldý: id="
+
+#~ msgid "Button 0 pressed"
+#~ msgstr "Buton 0'a basýldý"
+
+#~ msgid "Button 1 pressed"
+#~ msgstr "Buton 1'e basýldý"
+
+#~ msgid "Button 2 pressed"
+#~ msgstr "Buton 2'ye basýldý"
+
+#~ msgid "OptionMenu::Event: Unknown mouse button released: id="
+#~ msgstr "OptionMenu::Event: Bilinmiyen fare butonu serbest býrakýldý: id="
+
+#~ msgid "Unlimited Actions"
+#~ msgstr "Sýnýrsýz Eylem"
+
+#~ msgid "Print fps"
+#~ msgstr "FPS yazdýr"
+
+#~ msgid "Cursor enabled"
+#~ msgstr "Ýmleç etkin"
+
+#~ msgid "Fast Mode"
+#~ msgstr "Hýzlý Kip"
+
+#~ msgid "Game Speed"
+#~ msgstr "Oyun Hýzý"
+
+#~ msgid "Verbose"
+#~ msgstr "Ayrýntýlý mesaj"
+
+#~ msgid "Draw ColMap"
+#~ msgstr "RenkHaritasi Çiz"
+
+#~ msgid "Auto Scrolling"
+#~ msgstr "Otomatik Kaydýrma"
+
+#~ msgid "Action Help Strings"
+#~ msgstr "Eylem Yardým Mesajlarý"
+
+#~ msgid "| $ gdb pingus core"
+#~ msgstr "| $ gdb pingus core"
+
+#~ msgid "| (gdb) bt"
+#~ msgstr "| (gdb) bt"
+
+#~ msgid "| ..."
+#~ msgstr "| ..."
+
+#~ msgid "| $ gdb pingus"
+#~ msgstr "| $ gdb pingus"
+
+#~ msgid "| (gdb) r"
+#~ msgstr "| (gdb) r"
+
+#~ msgid "'------------------------------------------------------------------------\n"
+#~ msgstr "'------------------------------------------------------------------------\n"
+
+#~ msgid ""
+#~ "\n"
+#~ ",------------------------------------------------------------------------"
+#~ msgstr ""
+#~ "\n"
+#~ "Seçenekler:\n"
+#~ "   -g, --geometry {geniþlik}x{yükseklik}\n"
+#~ "                            Çözünürlüðü ayarla (640x480)\n"
+#~ "   -h, --help               Yardým ekranýný göster\n"
+#~ "   --disable-intro          Intro'yu kapat\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Copyright (C) 2003 Ingo Ruhnke <grumbel@gmx.de>\n"
+#~ "There is NO warranty.  You may redistribute this software\n"
+#~ "under the terms of the GNU General Public License.\n"
+#~ "For more information about these matters, see the files named COPYING."
+#~ msgstr ""
+#~ "\n"
+#~ "Copyright (C) 2003 Ingo Ruhnke <grumbel@gmx.de>\n"
+#~ "Geliþtiriciler bu yazýlýmla ilgili HÝÇBÝR garanti vermemektedir.\n"
+#~ "Pingus serbest bir yazýlýmdýr ve GNU GPL çerçevesinde \n"
+#~ "özgürce daðýtýlabilir. Ayrýntýlar için kaynak \n"
+#~ "kodunda COPYING belgesini okuyun."
+
+#~ msgid ""
+#~ "\n"
+#~ "Options:\n"
+#~ "   -g, --geometry {width}x{height}\n"
+#~ "                            Set the resolution for pingus (default: "
+#~ "800x600)\n"
+#~ "   -h, --help               Displays this screen\n"
+#~ "   --disable-intro          Disable intro\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Seçenekler:\n"
+#~ "   -g, --geometry {geniþlik}x{yükseklik}\n"
+#~ "                            Çözünürlüðü ayarla (640x480)\n"
+#~ "   -h, --help               Yardým ekranýný göster\n"
+#~ "   --disable-intro          Intro'yu kapat\n"
+
+#~ msgid "   -G, --use-opengl         Use OpenGL\n"
+#~ msgstr "   -G, --use-opengl         OpenGL kullan\n"
+
+#~ msgid ""
+#~ "   -w, --window             Start in Window Mode\n"
+#~ "   -f, --fullscreen         Start in Fullscreen\n"
+#~ "   -d, --datadir PATH       Set the path to load the data files to "
+#~ "`path'\n"
+#~ "   -l, --level FILE         Load a custom level from FILE\n"
+#~ "   -w, --worldmap FILE      Load a custom worldmap from FILE\n"
+#~ "   -v, --verbose            Print some more messages to stdout, can be "
+#~ "set\n"
+#~ "                            multible times to increase verbosity\n"
+#~ "   -V, --version            Prints version number and exit\n"
+#~ "   -e, --editor             Launch the Level editor (experimental)\n"
+#~ "   --disable-auto-scrolling Disable automatic scrolling\n"
+#~ "   --no-cfg-file            Don't read ~/.pingus/config\n"
+#~ "   --config-file FILE       Read config from FILE (default: ~/.pingus/"
+#~ "config)\n"
+#~ "                            reduce CPU usage, might speed up the game on "
+#~ "slower machines\n"
+#~ "\n"
+#~ "Debugging and experimental stuff:\n"
+#~ "   --maintainer-mode        Enables some features, only interesting "
+#~ "programmers\n"
+#~ "   --debug OPTION           Enable the output of debugging infos, "
+#~ "possible\n"
+#~ "                            OPTION's are tiles, gametime, actions, sound, "
+#~ "resources, gui,\n"
+#~ "                            input\n"
+#~ "   --min-frame-skip N       Skip at least N frames, larger values speed "
+#~ "the game up\n"
+#~ "   --max-frame-skip N       Skip at most N frames\n"
+#~ "   --frame-skip N           Set both min and max frameskip to N\n"
+#~ "   -t, --speed SPEED        Set the game speed (0=fastest, >0=slower)\n"
+#~ "   -b, --print-fps          Prints the fps to stdout\n"
+#~ "   --tile-size INT          Set the size of the map tiles (default: 32)\n"
+#~ "   --fast-mode              Disable some cpu intensive features\n"
+#~ "   --min-cpu-usage          Reduces the CPU usage by issuing sleep()\n"
+#~ "\n"
+#~ "\n"
+#~ "Demo playing and recording:\n"
+#~ "   -p, --play-demo FILE     Plays a demo session from FILE\n"
+#~ "   -r, --enable-demo-recording\n"
+#~ "                            Record demos for each played level\n"
+#~ msgstr ""
+#~ "Ama zamanla, durum yavaþ yavaþ deðiþmeye baþladý. Gökyüzü kararmaya,\n"
+#~ "dünya daha sýcak olmaya baþladý. Önceleri bunun sýradan iklim\n"
+#~ "farký olduðunu düþündüler, ama hergeçen yýl durum daha kötüye\n"
+#~ "gittmekteydi"
+
+#~ msgid ""
+#~ "\n"
+#~ "Sound:\n"
+#~ "   -s, --enable-sound       Enable sound\n"
+#~ "   -m, --enable-music       Enable music\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Ses:\n"
+#~ "   -s, --enable-sound       Sesi aç\n"
+#~ "   -m, --enable-music       Müziði aç\n"
+
+#~ msgid "_If I forgot somebody in this"
+#~ msgstr "_Eðer birisini unutuysam,"
+
+#~ msgid "_list, just drop me a line and"
+#~ msgstr "_lütfen bana haber verin."
+
+#~ msgid "_I'll fix this."
+#~ msgstr "_Hemen düzeltirim."
+
+#~ msgid "_Last Updated: 2000/06/27"
+#~ msgstr "_Son Deðiþiklik: 2000/06/27"
+
+#~ msgid "n"
+#~ msgstr "n"
+
+#~ msgid "..:: Press Start ::.."
+#~ msgstr "..:: Baþla ::.."
+
+# bunu bilemedim -cagri
+# -gd ->
+#  gimmick : CAZÝBEARTIRICISÜS  der bi on-line sözlük ... türkçe mi lan bu?
+# sonra 
+#   gimmick : (dikkat çekmek için yapýlan) hile
+#   gimmick : numara
+#  ekstra bir özellik olarak biliyorum ben ...
+#~ msgid "Gimmicks"
+#~ msgstr "Ekstralar"
+
+#~ msgid "Level Previews"
+#~ msgstr "Seviye Önizleme"
+
+#~ msgid "Couldn't find palette: %d"
+#~ msgstr "Bulunamayan palet: %d"
+
+#~ msgid "jump_after(): Expected '"
+#~ msgstr "ump_after(): Beklenen '"
+
+#~ msgid "PLF: Syntax Error at line "
+#~ msgstr "PLF: Sözdizimi hatasý. Satýr: "
+
+#~ msgid "Config: Unknown valueid: "
+#~ msgstr "Config: Bilinmeyen valueid: "
+
+#~ msgid "Config: value: "
+#~ msgstr "Config: deðer: "
+
+#~ msgid " is not of type bool."
+#~ msgstr " bool tipinde deðil."
+
+#~ msgid "Config: Couldn't convert std::string to integer: "
+#~ msgstr "Config: std::string'i integer'e dönüþtürelemedi"
+
+#~ msgid "PingusBug: "
+#~ msgstr "PingusBöceði: "
+
+#~ msgid "PingusError: "
+#~ msgstr "PingusHatasý: "
+
+# bu olmadi -cagri
+# þimdi daha iyi mi? -gd
+#~ msgid "..:: Lets you select a world to start ::.."
+#~ msgstr "..:: Oynamak için bir dünya seçmenizi saðlar ::.."
+
+#~ msgid "Unexpected keyword: '%s' at line: %d"
+#~ msgstr "Beklenmeyen anahtar kelime: '%s'. Bulunan satýr: %d"
+
+#~ msgid "ColMap: File load - Feature is no longer implemented"
+#~ msgstr "ColMap: Dosya yükleme - Özellik artýk desteklenmemektedir"
+
+#~ msgid "PingusBmpMap::get_colmap: Surface has wrong pixel format, need 8bpp!"
+#~ msgstr ""
+#~ "PingusBmpMap::get_colmap: Alanýda yanlýþ benek (pixel) biçemi mevcut, "
+#~ "8bpp'ye ihtiyac vardýr"
+
+#~ msgid "ColMap::load: Reloaded ColMap!"
+#~ msgstr "ColMap::load: Yeniden yüklenen ColMap!"
+
+#~ msgid "InputDeviceButton: Button not found."
+#~ msgstr "InputDeviceButton: Buton bulunamadý"
+
+#~ msgid "DemoPlayer: Couldn't load "
+#~ msgstr "DemoPlayer: Açýlamayan dosya: "
+
+#~ msgid "DemoRecorder: Couldn't open: "
+#~ msgstr "DemoRecorder: Açýlamayan dosya: "
+
+#~ msgid "Edit Properties (not implemented)"
+#~ msgstr "Nesne özellikleri (daha geliþtirilmedi)"
+
+#~ msgid "Edit Preferences (not implemented)"
+#~ msgstr "Tercihleri ayarla (daha geliþtirilmedi)"
+
+#~ msgid "GamepadController: Couldn't find a gamepad controlling device!"
+#~ msgstr "GamepadController: Gamepad'i kullanmak için aygýt bulunamadý"
+
+#~ msgid "Couldn't find enough axes on joystick"
+#~ msgstr "Dentim Kolunda (Joystick) yeterli eksen bulunamadý"
+
+#~ msgid "Gettext: PACKAGE="
+#~ msgstr "Gettext: Paket="
+
+#~ msgid ", LOCALEDIR="
+#~ msgstr "LOCALEDÝZÝNÝ="
+
+#~ msgid "Build:"
+#~ msgstr "Derleme:"
+
+#~ msgid "GenericMain: Executable name \""
+#~ msgstr "GenericMain: Çalýþtýrabilir isim \""
+
+#~ msgid "\" unknown, default to Pingus mode"
+#~ msgstr "\" bilinmiyor, Pingus kipine git"
+
+#~ msgid "Start menu"
+#~ msgstr "Baþlangýç menüsü"
+
+#~ msgid ": Could not open file\n"
+#~ msgstr "Sistem: Açýlamayan dosya: "
+
+#~ msgid "PingusDemo: Couldn't open out file: "
+#~ msgstr "PingusDemo: Açýlamayan dosya: "
+
+#~ msgid "PingusDemo: Couldn't open in file: "
+#~ msgstr "PingusDemo: Açýlamayan dosya: "
+
+#~ msgid "Time for war - Lets fight!"
+#~ msgstr "Savaþ vaktidir ey ahali - haydi savaþa!"
+
+#~ msgid "Couldn't find: "
+#~ msgstr "%d bulunamadý"
+
+#~ msgid "Horizontal Button Panel"
+#~ msgstr "Yatay buton paneli"
+
+#~ msgid "=================================================================\n"
+#~ msgstr "=================================================================\n"
+
+#~ msgid "                            WARNING!                             \n"
+#~ msgstr "                            DÝKKAT!                               \n"
+
+#~ msgid "Be warned, at the moment there is only some sound code pressent, \n"
+#~ msgstr "Bu þü anda sadece ufak bir miktar ses kodunun mevcut oldugunu\n"
+
+#~ msgid "there are *no* sound files, so this will fail.\n"
+#~ msgstr "belirtmek lazým.  Pek ses dosyasý yok, yani bu çalýþmayacaktýr.\n"
+
+#~ msgid "   -g, --geometry {width}x{height}\n"
+#~ msgstr "   -g, --geometry {geniþlik}x{yükseklik}\n"
+
+#~ msgid "   -h, --help               Displays this screen\n"
+#~ msgstr "   -h, --help               Bu ekraný göster\n"
+
+#~ msgid "   --disable-intro          Disable intro\n"
+#~ msgstr "   --disable-intro          Giriþ ekranýný gösterme\n"
+
+#~ msgid "   -F, --disable-fullscreen Disable Fullscreen\n"
+#~ msgstr "   -F, --disable-fullscreen Tam-Ekran'ý kapa\n"
+
+#~ msgid "   -f, --enable-fullscreen  Enable Fullscreen (default)\n"
+#~ msgstr "   -f, --enable-fullscreen  Tam-Ekran'ý aç (öntanýmlý)\n"
+
+#~ msgid ""
+#~ "   --use-datafile           Use the pre-compiled datafile (default)\n"
+#~ msgstr ""
+#~ "   --use-datafile           Derlenmiþ olan data-dosyasýný kullan "
+#~ "(öntanýmlý)\n"
+
+#~ msgid ""
+#~ "   --use-scriptfile         Use the scriptfile and read all data from "
+#~ "files\n"
+#~ msgstr ""
+#~ "   --use-scriptfile         Betik dosyasýný kullan ve verileri dosyada "
+#~ "oku\n"
+
+#~ msgid "   -l, --level FILE         Load a custom level from `file'\n"
+#~ msgstr "   -l, --level DOSYA         `DOSYA'dan Custom seviye yükle\n"
+
+#~ msgid ""
+#~ "   --disable-swcursor       Disable software cursor, use hw cursor "
+#~ "instead\n"
+#~ msgstr ""
+#~ "   --disable-swcursor       Yazýlým imleçi kapa, domaným imleçini kullan\n"
+
+#~ msgid ""
+#~ "   --max-cpu-usage          Use all of the cpu power available, instead "
+#~ "of trying to\n"
+#~ msgstr "   --max-cpu-usage          Ýþlemcinin bütün gücünu kullan.\n"
+
+#~ msgid ""
+#~ "   --enable-bg-manipulation Enables color manipulation of level "
+#~ "backgrounds\n"
+#~ msgstr ""
+#~ "   --enable-bg-manipulation Seviye art-alanlarýn renk ayarlarýný "
+#~ "kullanýma açar\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Sound:\n"
+#~ msgstr "Ses: "
+
+#~ msgid "EditorObj: Warrning unknown WorldObjData pointer!"
+#~ msgstr "EditorObj: Uyarý: bilinmeyen WorldObjData imleci!"
+
+#~ msgid " (with sound support)"
+#~ msgstr " (Ses desteði ile)"
+
+#~ msgid " (without sound support)"
+#~ msgstr " (Ses desteði olmaksýzýn)"
+
+#~ msgid "Starting..."
+#~ msgstr "Pingus baþlatýlýyor..."
+
+#~ msgid "Pingus: Gimmicks enabled"
+#~ msgstr "Pingus: Gimmicks etkin"
+
+#~ msgid "Using demofile: "
+#~ msgstr "Demo Dosyasý: "

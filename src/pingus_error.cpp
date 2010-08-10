@@ -1,0 +1,52 @@
+//  $Id: pingus_error.cpp 2986 2007-08-17 16:20:09Z grumbel $
+//
+//  Pingus - A free Lemmings clone
+//  Copyright (C) 1999 Ingo Ruhnke <grumbel@gmx.de>
+//
+//  This program is free software; you can redistribute it and/or
+//  modify it under the terms of the GNU General Public License
+//  as published by the Free Software Foundation; either version 2
+//  of the License, or (at your option) any later version.
+//
+//  This program is distributed in the hope that it will be useful,
+//  but WITHOUT ANY WARRANTY; without even the implied warranty of
+//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//  GNU General Public License for more details.
+//
+//  You should have received a copy of the GNU General Public License
+//  along with this program; if not, write to the Free Software
+//  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+
+#include "pingus_error.hpp"
+#include "gettext.h"
+
+
+PingusError::PingusError (const std::string& mes) 
+  : message("PingusError: " + mes)
+{
+}
+
+PingusError::~PingusError() throw()
+{
+}
+
+void
+PingusError::raise (const std::string& msg)
+{
+  throw PingusError(msg);
+}
+
+const std::string&
+PingusError::get_message () const
+{
+  return message;
+}
+
+const char* 
+PingusError::what() const throw()
+{
+  return message.c_str(); 
+}
+
+
+/* EOF */

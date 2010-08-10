@@ -1,0 +1,2323 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Pingus 0.5.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-18 14:31+0100\n"
+"PO-Revision-Date: 2003-04-11 00:12+0200\n"
+"Last-Translator: Martijn Santen <martijn@jomarsoft.nl>\n"
+"Language-Team: Giray Devlet <giray@devlet.cc>, Martijn Santen "
+"<martijn@jomarsoft.nl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plin; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  nl.po (Pingus 0.5.0)  #-#-#-#-#\n"
+"#-#-#-#-#  nl.po (Pingus 0.5.0)  #-#-#-#-#\n"
+
+#: src/pingus_main.cpp:260
+msgid "Displays this help"
+msgstr "Geeft deze help weer"
+
+#: src/pingus_main.cpp:262
+#, fuzzy
+msgid "Print version number and exit"
+msgstr "Schrijf versie nummer en sluit af"
+
+#: src/pingus_main.cpp:264
+msgid "Display:"
+msgstr ""
+
+#: src/pingus_main.cpp:266
+msgid "Start in Window Mode"
+msgstr "Begin in Venster Mode"
+
+#: src/pingus_main.cpp:268
+msgid "Start in Fullscreen"
+msgstr "Begin met Volledig scherm"
+
+#: src/pingus_main.cpp:270
+msgid "Allow Window resize (buggy)"
+msgstr ""
+
+#: src/pingus_main.cpp:272
+msgid "Enable software cursor"
+msgstr "Zet software cursor aan"
+
+#: src/pingus_main.cpp:274
+msgid "Set the resolution for pingus (default: 800x600)"
+msgstr "Zet de resolutie voor pingus (standaard: 800x600)"
+
+#: src/pingus_main.cpp:276
+msgid "Sound:"
+msgstr "Geluid:"
+
+#: src/pingus_main.cpp:278
+msgid "Disable sound"
+msgstr "Geluid uit"
+
+#: src/pingus_main.cpp:280
+msgid "Disable music"
+msgstr "Muziek uit"
+
+#: src/pingus_main.cpp:284
+msgid "Select language to use with Pingus"
+msgstr ""
+
+#: src/pingus_main.cpp:286
+msgid "List all available languages"
+msgstr ""
+
+#: src/pingus_main.cpp:290
+#, fuzzy
+msgid "Loads the level editor"
+msgstr "..:: Start de niveau bewerker ::.."
+
+#: src/pingus_main.cpp:292
+msgid "Save the level given level to FILENAME and quit"
+msgstr ""
+
+#: src/pingus_main.cpp:294
+msgid "Test a font"
+msgstr ""
+
+#: src/pingus_main.cpp:296
+msgid "Shows the credits"
+msgstr ""
+
+#: src/pingus_main.cpp:298
+#, fuzzy
+msgid "Misc Options:"
+msgstr "Opties:"
+
+#: src/pingus_main.cpp:299
+msgid "PATH"
+msgstr ""
+
+#: src/pingus_main.cpp:300
+msgid "Set the path to load the data files to 'path'"
+msgstr ""
+
+#: src/pingus_main.cpp:303
+msgid "Disable automatic scrolling"
+msgstr "Zet automatisch scrolling uit"
+
+#: src/pingus_main.cpp:305
+msgid "Don't read ~/.pingus/config"
+msgstr "Niet lezen ~/.pingus/config"
+
+#: src/pingus_main.cpp:306
+#, fuzzy
+msgid "FILE"
+msgstr "Bestand      "
+
+#: src/pingus_main.cpp:307
+#, fuzzy
+msgid ""
+"Read config from FILE (default: ~/.pingus/config) reduce CPU usage, might "
+"speed up the game on slower machines"
+msgstr "verlaag CPU gebruik, kan het spel versnellen op langzamere apparaten"
+
+#: src/pingus_main.cpp:310
+msgid "Uses the controller given in FILE"
+msgstr "Gebruik de bediening zoals in Bestand"
+
+#: src/pingus_main.cpp:312
+msgid "Debugging and experimental stuff:"
+msgstr "Debugging en experimentele zooi:"
+
+#: src/pingus_main.cpp:314
+#, fuzzy
+msgid "Enables some features, only interesting to programmers"
+msgstr "Zet sommige mogelijkheden aan, alleen interessant voor programmeurs"
+
+#: src/pingus_main.cpp:317
+#, fuzzy
+msgid "Load a custom worldmap"
+msgstr "Laad een aangepaste wereldkaart uit bestand"
+
+#: src/pingus_main.cpp:319
+#, fuzzy
+msgid ""
+"Enable the output of debugging info, possible OPTIONs are tiles, gametime, "
+"actions, sound, resources, gui, input, pathmgr"
+msgstr ""
+"OPTIES zijn tegels, speltijd, acties, geluid, bronnen, grafische schil,"
+
+#: src/pingus_main.cpp:323
+msgid "Skip at least N frames, larger values speed the game up"
+msgstr "Sla minstens N frames over, grotere waarden versnellen het spel"
+
+#: src/pingus_main.cpp:325
+msgid "Skip at most N frames"
+msgstr "Sla maximaal N frames over"
+
+#: src/pingus_main.cpp:327
+msgid "Set both min and max frameskip to N"
+msgstr "Set zowel min als max frameskip op N"
+
+#: src/pingus_main.cpp:329
+msgid "Set the game speed (0=fastest, >0=slower)"
+msgstr "Zet de spelsnelheid (0=snelst, >0=langzamer)"
+
+#: src/pingus_main.cpp:331
+msgid "Set the size of the map tiles (default: 32)"
+msgstr "Ze de grootte van de map tegels (standaard: 32)"
+
+#: src/pingus_main.cpp:333
+msgid "Disable some cpu intensive features"
+msgstr "Zet sommige CPU intensive mogelijkheden uit"
+
+#: src/pingus_main.cpp:337
+msgid "Demo playing and recording:"
+msgstr "Demo speel en opnemen:"
+
+#: src/pingus_main.cpp:339
+#, fuzzy
+msgid "Plays a demo session"
+msgstr "Speel een demo sessie van bestand"
+
+#: src/pingus_main.cpp:341
+msgid "Record demos for each played level"
+msgstr "Neem demos op voor elk gespeeld niveau"
+
+#: src/pingus_main.cpp:758
+msgid "Error caught from Pingus: "
+msgstr "Error gevonden in Pingus: "
+
+#: src/pingus_main.cpp:762
+msgid "Pingus: Out of memory!"
+msgstr "Pingus: te weinig geheugen!"
+
+#: src/pingus_main.cpp:766
+msgid "Pingus: Standard exception caught!:\n"
+msgstr "Pingus: Standard uitzondering!:\n"
+
+#: src/pingus_main.cpp:770
+msgid "Pingus: Unknown throw caught!"
+msgstr "Pingus: Onbekende worp aangetroffen!"
+
+#: src/credits.cpp:82
+msgid "-Idea"
+msgstr "-Idee"
+
+#: src/credits.cpp:86
+msgid "-Maintaining"
+msgstr "-Onderhoud"
+
+#: src/credits.cpp:90
+msgid "-Programming"
+msgstr "_programmering"
+
+#: src/credits.cpp:100
+msgid "-Porting (Win32)"
+msgstr "-Omzetten (Win32)"
+
+#: src/credits.cpp:109
+#, fuzzy
+msgid "-Porting (MacOSX)"
+msgstr "-Omzetten (Win32)"
+
+#: src/credits.cpp:114
+msgid "-Gfx"
+msgstr "-Gfx"
+
+#: src/credits.cpp:127
+msgid "-Music"
+msgstr "_Muziek"
+
+#: src/credits.cpp:134
+msgid "-Level Design"
+msgstr "-Niveau Ontwerp"
+
+#: src/credits.cpp:140
+msgid "-Story"
+msgstr "-Verhaal"
+
+#: src/credits.cpp:144
+msgid "-Translation"
+msgstr "-Vertaling"
+
+#: src/credits.cpp:159
+msgid "-Special"
+msgstr "_Speciaal"
+
+#: src/credits.cpp:160
+msgid "-Thanks to"
+msgstr "_Met dank aan"
+
+#: src/credits.cpp:204
+msgid "_And a very Special Thanks"
+msgstr "_en speciale waardering voor"
+
+#: src/credits.cpp:205
+msgid "_to all the people who"
+msgstr "_naar iedereen die"
+
+#: src/credits.cpp:206
+msgid "_contribute to"
+msgstr "_bijdragen aan"
+
+#: src/credits.cpp:207
+msgid "_Free Software!"
+msgstr "_Vrije Software!"
+
+#: src/credits.cpp:213
+msgid "_Thank you for"
+msgstr "_Bedankt voor het"
+
+#: src/credits.cpp:214
+msgid "_playing!"
+msgstr "_spelen!"
+
+#: src/credits.cpp:276 src/editor/panel.cpp:211
+#: src/editor/object_selector.cpp:318 src/pingus_menu.cpp:61
+msgid "Exit"
+msgstr "Exit"
+
+#: src/game_time.cpp:66
+msgid "unlimited"
+msgstr "Ongelimiteerd"
+
+#: src/start_screen.cpp:74 src/editor/level_head.cpp:53
+msgid "Ok"
+msgstr "Ok"
+
+#: src/start_screen.cpp:114 src/level_menu.cpp:57 src/result_screen.cpp:98
+msgid "Abort"
+msgstr "Afbreken"
+
+#: src/start_screen.cpp:163
+msgid "Number of Pingus: "
+msgstr "Aantal Pingus:"
+
+#: src/start_screen.cpp:166
+msgid "Number to Save: "
+msgstr "Aantal op te slaan:"
+
+#: src/start_screen.cpp:169
+msgid "Time: "
+msgstr "Tijd:"
+
+#: src/start_screen.cpp:176
+msgid "Author: "
+msgstr "Auteur:"
+
+#: src/start_screen.cpp:179
+msgid "Filename: "
+msgstr "Bestandsnaam:"
+
+#: src/actions/bridger.cpp:42 src/actions/bridger.cpp:216
+#: src/pingu_enums.cpp:39
+msgid "Bridger"
+msgstr "Brugbouwer"
+
+#: src/screenshot.cpp:38
+msgid "Screenshot: Saving screenshot to: "
+msgstr "Schermafdruk: Opslaag schermafdruk naar: "
+
+#: src/screenshot.cpp:40
+msgid "Screenshot: Screenshot is done."
+msgstr "Schermafdruk: Schermafdruk is klaar."
+
+#: src/screenshot.cpp:115 src/screenshot.cpp:143
+msgid "Screenshot: Couldn't write file: "
+msgstr "Schermafdruk: kon bestand niet opslaan"
+
+#: src/pingu_enums.cpp:34
+msgid "Angel"
+msgstr "Engel"
+
+#: src/pingu_enums.cpp:35
+msgid "Basher"
+msgstr "Slooper"
+
+#: src/pingu_enums.cpp:36
+msgid "Blocker"
+msgstr "Blokkeerder"
+
+#: src/pingu_enums.cpp:37
+msgid "Boarder"
+msgstr "Surfer"
+
+#: src/pingu_enums.cpp:38
+msgid "Bomber"
+msgstr "Bommerwerper"
+
+#: src/pingu_enums.cpp:40
+msgid "Climber"
+msgstr "Klimmer"
+
+#: src/pingu_enums.cpp:41
+msgid "Digger"
+msgstr "Graver"
+
+#: src/pingu_enums.cpp:42
+msgid "Drown"
+msgstr "Verdronken"
+
+#: src/pingu_enums.cpp:43
+msgid "Exiter"
+msgstr "Verlatende"
+
+#: src/pingu_enums.cpp:44
+msgid "Faller"
+msgstr "Vallende"
+
+#: src/pingu_enums.cpp:45
+msgid "Floater"
+msgstr "Zwever"
+
+#: src/pingu_enums.cpp:46
+msgid "Jumper"
+msgstr "Springer"
+
+#: src/pingu_enums.cpp:47
+msgid "Laserkill"
+msgstr "Dood door Laser"
+
+#: src/pingu_enums.cpp:48
+msgid "Miner"
+msgstr "Mijnwerker"
+
+#: src/pingu_enums.cpp:49
+msgid "Rocketlauncher"
+msgstr "Raketwerper"
+
+#: src/pingu_enums.cpp:50
+msgid "Slider"
+msgstr "Glijder"
+
+#: src/pingu_enums.cpp:51
+msgid "Smashed"
+msgstr "Verpletterd"
+
+#: src/pingu_enums.cpp:52
+msgid "Splashed"
+msgstr "Vermorzeld"
+
+#: src/pingu_enums.cpp:53
+msgid "Superman"
+msgstr "Superman"
+
+#: src/pingu_enums.cpp:54
+msgid "Teleported"
+msgstr "Geteleporteerd"
+
+#: src/pingu_enums.cpp:55
+msgid "Waiter"
+msgstr "Wachter"
+
+#: src/pingu_enums.cpp:56
+msgid "Walker"
+msgstr "Wandelaar"
+
+#: src/editor/editor_screen.cpp:197
+msgid ""
+"Select all\n"
+"Clear Selection\n"
+"Raise objects\n"
+"Lower objects\n"
+"Lower objects to bottom\n"
+"Raise objects to top\n"
+"Rotate 90 degree\n"
+"Rotate 270 degree\n"
+msgstr ""
+
+#: src/editor/editor_screen.cpp:219
+msgid ""
+"Flip object horizontaly\n"
+"Flip object vertically\n"
+"Delete all marked objects\n"
+"Move objects up\n"
+"Move objects down\n"
+"Move objects left\n"
+"Move objects right\n"
+msgstr ""
+
+#: src/editor/editor_screen.cpp:231
+msgid ""
+"You should name your level files systematically, i.e. by their theme, their "
+"number and your nickname:\n"
+"\n"
+"     <levelname><number>-<creator>.pingus\n"
+"\n"
+"So if you create a your second level with a stone theme, call it: stone2-"
+"yourname.pingus\n"
+"\n"
+"When you have created a level and want to have it included in the game mail "
+"it to:\n"
+"\n"
+"     pingus-devel@nongnu.org\n"
+"\n"
+"Only levels published under the GPL are allowed into the game. The editor "
+"automatically inserts a reference \n"
+"to the GPL, if you want to have your level under a different license, you "
+"have to change that reference.\n"
+msgstr ""
+
+#: src/editor/file_dialog.cpp:56
+msgid "Datadir"
+msgstr ""
+
+#: src/editor/file_dialog.cpp:58
+msgid "Userdir"
+msgstr ""
+
+#: src/editor/file_dialog.cpp:61
+msgid "Open"
+msgstr ""
+
+#: src/editor/file_dialog.cpp:61
+#, fuzzy
+msgid "Save"
+msgstr "gered:"
+
+#: src/editor/file_dialog.cpp:64
+msgid "Cancel"
+msgstr ""
+
+#: src/editor/file_dialog.cpp:75
+#, fuzzy
+msgid "Filename:"
+msgstr "Bestandsnaam:"
+
+#: src/editor/file_dialog.cpp:76
+msgid "Pathname:"
+msgstr ""
+
+#: src/editor/file_dialog.cpp:102
+msgid "Open a level"
+msgstr ""
+
+#: src/editor/file_dialog.cpp:102
+#, fuzzy
+msgid "Save your level"
+msgstr "Sla dit niveua op (F6)"
+
+#: src/editor/panel.cpp:153
+#, fuzzy
+msgid "    New level"
+msgstr "F5 - Laad een niveau"
+
+#: src/editor/panel.cpp:155
+msgid "Open level..."
+msgstr ""
+
+#: src/editor/panel.cpp:157
+#, fuzzy
+msgid "Save level..."
+msgstr "Sla dit niveua op (F6)"
+
+#: src/editor/panel.cpp:159
+#, fuzzy
+msgid "Save level as..."
+msgstr "Sla dit niveua op (F6)"
+
+#: src/editor/panel.cpp:162
+msgid "Play level..."
+msgstr ""
+
+#: src/editor/panel.cpp:165
+msgid "Configure actions"
+msgstr ""
+
+#: src/editor/panel.cpp:167
+#, fuzzy
+msgid "Configure level"
+msgstr "Sla dit niveua op (F6)"
+
+#: src/editor/panel.cpp:169
+#, fuzzy
+msgid "Display object properties"
+msgstr "Pas Object eigenschappen aan"
+
+#: src/editor/panel.cpp:171
+msgid "Show object insertion window"
+msgstr ""
+
+#: src/editor/panel.cpp:173
+msgid "Show minimap"
+msgstr ""
+
+#: src/editor/panel.cpp:176
+#, fuzzy
+msgid "Duplicate the selected objects"
+msgstr "Dupliceer huidig object (d)"
+
+#: src/editor/panel.cpp:178
+#, fuzzy
+msgid "Delete the selected objects"
+msgstr "Verwijder - verwijder een geselecteerd object"
+
+#: src/editor/panel.cpp:181
+msgid "Raise object to top"
+msgstr ""
+
+#: src/editor/panel.cpp:183
+msgid "Raise object"
+msgstr ""
+
+#: src/editor/panel.cpp:185
+msgid "Lower object"
+msgstr ""
+
+#: src/editor/panel.cpp:187
+msgid "Lower object to bottom"
+msgstr ""
+
+#: src/editor/panel.cpp:193
+msgid "Flip object horizontally"
+msgstr ""
+
+#: src/editor/panel.cpp:195
+msgid "Flip object vertically"
+msgstr ""
+
+#: src/editor/panel.cpp:198
+msgid "Rotate object -90 degree"
+msgstr ""
+
+#: src/editor/panel.cpp:200
+msgid "Rotate object 90 degree"
+msgstr ""
+
+#: src/editor/panel.cpp:209
+#, fuzzy
+msgid "Display help"
+msgstr "Geeft deze help weer"
+
+#: src/editor/object_selector.cpp:309
+#, fuzzy
+msgid "Entrance"
+msgstr "e- Ingang"
+
+#: src/editor/object_selector.cpp:310
+#, fuzzy
+msgid "Groundpiece (ground)"
+msgstr "g - Stuk grond (zand)"
+
+#: src/editor/object_selector.cpp:311
+#, fuzzy
+msgid "Groundpiece (solid)"
+msgstr "s - Vloerdeel (vast)"
+
+#: src/editor/object_selector.cpp:312
+#, fuzzy
+msgid "Groundpiece (bridge)"
+msgstr "b - Vloerdeel (brug)"
+
+#: src/editor/object_selector.cpp:313
+#, fuzzy
+msgid "Groundpiece (transparent)"
+msgstr "n- Vloerdeel (transparant)"
+
+#: src/editor/object_selector.cpp:314
+#, fuzzy
+msgid "Groundpiece (remove)"
+msgstr "r- Vloerdeel (verwijderen)"
+
+#: src/editor/object_selector.cpp:315
+#, fuzzy
+msgid "Hotspot"
+msgstr "h - Kritieke plek"
+
+#: src/editor/object_selector.cpp:316
+#, fuzzy
+msgid "Background"
+msgstr "z - Achtergrond"
+
+#: src/editor/object_selector.cpp:319
+#, fuzzy
+msgid "Liquid"
+msgstr "l - Vloeibaar"
+
+#: src/editor/object_selector.cpp:320
+#, fuzzy
+msgid "Trap"
+msgstr "t - Val"
+
+#: src/editor/object_selector.cpp:321
+#, fuzzy
+msgid "Weather"
+msgstr "w - Weer"
+
+#: src/editor/object_selector.cpp:322
+#, fuzzy
+msgid "Special Object"
+msgstr "_Speciaal"
+
+#: src/editor/object_properties.cpp:41 src/editor/object_properties.cpp:415
+msgid "Object:"
+msgstr ""
+
+#: src/editor/object_properties.cpp:42 src/editor/object_properties.cpp:416
+msgid "Nothing selected"
+msgstr ""
+
+#: src/editor/object_properties.cpp:51
+#, fuzzy
+msgid "Transparent"
+msgstr "-Vertaling"
+
+#: src/editor/object_properties.cpp:52
+#, fuzzy
+msgid "Solid"
+msgstr "Glijder"
+
+#: src/editor/object_properties.cpp:53
+#, fuzzy
+msgid "Ground"
+msgstr "Geluid:"
+
+#: src/editor/object_properties.cpp:54
+#, fuzzy
+msgid "Bridge"
+msgstr "Brugbouwer"
+
+#: src/editor/object_properties.cpp:55
+#, fuzzy
+msgid "Water"
+msgstr "Wachter"
+
+#: src/editor/object_properties.cpp:56
+#, fuzzy
+msgid "Lava"
+msgstr "Verlaten?"
+
+#: src/editor/object_properties.cpp:57
+msgid "Remove"
+msgstr ""
+
+#: src/editor/object_properties.cpp:62
+#, fuzzy
+msgid "Direction:"
+msgstr "Opties:"
+
+#: src/editor/object_properties.cpp:64
+msgid "Left"
+msgstr ""
+
+#: src/editor/object_properties.cpp:65
+#, fuzzy
+msgid "Misc"
+msgstr "Muziek"
+
+#: src/editor/object_properties.cpp:66
+msgid "Right"
+msgstr ""
+
+#: src/editor/object_properties.cpp:71
+msgid "ReleaseRate:"
+msgstr ""
+
+#: src/editor/object_properties.cpp:88
+msgid "Para-X:"
+msgstr ""
+
+#: src/editor/object_properties.cpp:89
+msgid "Para-Y:"
+msgstr ""
+
+#: src/editor/object_properties.cpp:97
+msgid "Scroll-X:"
+msgstr ""
+
+#: src/editor/object_properties.cpp:98
+msgid "Scroll-Y:"
+msgstr ""
+
+#: src/editor/object_properties.cpp:106
+msgid "Owner Id:"
+msgstr ""
+
+#: src/editor/object_properties.cpp:110
+msgid "Z-Pos:"
+msgstr ""
+
+#: src/editor/object_properties.cpp:117
+msgid "Color:"
+msgstr ""
+
+#: src/editor/object_properties.cpp:129
+msgid "Small Stars:"
+msgstr ""
+
+#: src/editor/object_properties.cpp:132
+msgid "Middle Stars:"
+msgstr ""
+
+#: src/editor/object_properties.cpp:135
+msgid "Large Stars:"
+msgstr ""
+
+#: src/editor/object_properties.cpp:143
+msgid "Repeat:"
+msgstr ""
+
+#: src/editor/object_properties.cpp:421
+msgid "Object: [Group]"
+msgstr ""
+
+#: src/editor/object_properties.cpp:422
+msgid "Group not supported"
+msgstr ""
+
+#: src/editor/object_properties.cpp:427
+msgid "Object: "
+msgstr ""
+
+#: src/addon_menu.cpp:59 src/option_menu.cpp:94
+msgid "Close"
+msgstr ""
+
+#: src/pingus_menu.cpp:50 src/pingus_menu.cpp:72
+#, fuzzy
+msgid "Story"
+msgstr "-Verhaal"
+
+#: src/pingus_menu.cpp:51
+msgid "..:: Start the game ::.."
+msgstr "..:: Start het spel ::.."
+
+#: src/pingus_menu.cpp:56
+#, fuzzy
+msgid "Editor"
+msgstr "Verlatende"
+
+#: src/pingus_menu.cpp:57
+#, fuzzy
+msgid "..:: Create your own levels ::.."
+msgstr "..:: Start een deelname niveau ::.."
+
+#: src/pingus_menu.cpp:62
+msgid "..:: Bye, bye ::.."
+msgstr "..:: Doei, Doei ::.."
+
+#: src/pingus_menu.cpp:66 src/level_menu.cpp:108
+#, fuzzy
+msgid "Levelsets"
+msgstr "-Niveau Ontwerp"
+
+#: src/pingus_menu.cpp:67
+#, fuzzy
+msgid "..:: Play User Built levels ::.."
+msgstr "..:: Start een deelname niveau ::.."
+
+#: src/pingus_menu.cpp:73
+#, fuzzy
+msgid "..:: Start the story ::.."
+msgstr "..:: Start het spel ::.."
+
+#: src/pingus_menu.cpp:78
+#, fuzzy
+msgid "Multiplayer"
+msgstr "Multi"
+
+#: src/pingus_menu.cpp:79
+#, fuzzy
+msgid "..:: Multiplayer Match ::.."
+msgstr "..:: Multispeler Mode... experimentele zooi ::.."
+
+#: src/pingus_menu.cpp:82
+msgid ""
+"..:: Ctrl-g: mouse grab   ::   F10: fps counter   ::   F11: "
+"fullscreen   ::   F12: screenshot ::.."
+msgstr ""
+
+#: src/level_menu.cpp:124
+#, fuzzy
+msgid "Solved:"
+msgstr "gered:"
+
+#: src/level_menu.cpp:125
+#, fuzzy
+msgid "levels"
+msgstr "-Niveau Ontwerp"
+
+#: src/level_menu.cpp:195
+msgid "Title"
+msgstr ""
+
+#: src/level_menu.cpp:196
+#, fuzzy
+msgid "Status"
+msgstr "Start"
+
+#: src/level_menu.cpp:212
+#, fuzzy
+msgid "solved"
+msgstr "gered:"
+
+#: src/level_menu.cpp:214
+#, fuzzy
+msgid "unsolved"
+msgstr "gered:"
+
+#: src/components/pingus_counter.cpp:49
+#, fuzzy, c-format, boost-format
+msgid "Released:%3d/%d   Out:%3d   Saved:%3d/%d"
+msgstr "Vrijgelaten:%3d/%-3d  Uit:%3d  Gered:%3d/%-3d"
+
+#: src/worldmap/manager.cpp:107
+msgid "Show Ending?"
+msgstr "Laat einde zien ?"
+
+#: src/worldmap/manager.cpp:138
+msgid "Show Story?"
+msgstr "Laat verhaal zien ?"
+
+#: src/worldmap/manager.cpp:167
+msgid "Leave?"
+msgstr "Verlaten?"
+
+#: src/worldmap/manager.cpp:207
+#, fuzzy
+msgid "Enter?"
+msgstr "Binnengaan?"
+
+#: src/worldmap/worldmap.cpp:423
+msgid "...walking..."
+msgstr "...Lopen...."
+
+#: src/worldmap/level_dot.cpp:151 src/worldmap/level_dot.cpp:161
+msgid "locked"
+msgstr "bezet"
+
+#: src/story_screen.cpp:40
+msgid "skip"
+msgstr ""
+
+#: src/result_screen.cpp:131
+msgid "Retry"
+msgstr "Opnieuw proberen"
+
+#: src/result_screen.cpp:181
+msgid "Success!"
+msgstr "Success!"
+
+#: src/result_screen.cpp:188
+msgid "Failure!"
+msgstr "Mislukt!"
+
+#: src/result_screen.cpp:197
+msgid "Perfect! You saved everyone possible - great!"
+msgstr "Perfect! Je hebt iedereen gered, - geweldig!"
+
+#: src/result_screen.cpp:199
+msgid "No-one got killed, pretty good work."
+msgstr "Niemand kwam om, heel goed gedaan."
+
+#: src/result_screen.cpp:201
+msgid ""
+"You saved exactly what you needed - you made it, but\n"
+"maybe you can do better?"
+msgstr ""
+"Je bent met de hakken over de sloot, maar\n"
+"misschien kan je het wel beter?"
+
+#: src/result_screen.cpp:204
+msgid "Not everybody was saved, but still good work!"
+msgstr "Niet iedereen werd gered, maar nog steeds heel goed gedaan!"
+
+#: src/result_screen.cpp:206
+msgid "What can I say, you made it - congratulations!"
+msgstr "Wat zal ik zeggen, je hebt het gehaald, gefeliciteerd!"
+
+#: src/result_screen.cpp:211
+msgid "You killed everybody, not good."
+msgstr "Iedereen is omgekomen, niet goed."
+
+#: src/result_screen.cpp:213
+msgid "No-one got saved - I know you can do better."
+msgstr "Niemand werd gered - Ik weet dat je beter kan."
+
+#: src/result_screen.cpp:215
+msgid ""
+"You didn't save enough, but you saved a few.  Next\n"
+"time you might do better."
+msgstr ""
+"Niet genoeg gered, maar toch een paar gered. Volgende\n"
+"keer doe je het misshien beter."
+
+#: src/result_screen.cpp:218
+msgid "Only one more and you would have made it - try again!"
+msgstr "Een meer en je had het gehaald - probeer nog eens!"
+
+#: src/result_screen.cpp:220
+msgid "Only a handful more and you would have made it - try again!"
+msgstr "Een paar meer en je had het gehaald - probeer nog eens!"
+
+#: src/result_screen.cpp:222
+msgid "Better luck next time!"
+msgstr "Volgende keer beter!"
+
+#: src/result_screen.cpp:239
+msgid "Saved: "
+msgstr "gered:"
+
+#: src/result_screen.cpp:243
+msgid "Died: "
+msgstr "Omgekomen: "
+
+#: src/result_screen.cpp:247
+msgid "Time left: "
+msgstr "Tijd over:"
+
+#: src/config.cpp:72
+msgid "Couldn't open: "
+msgstr "Kon niet openen: "
+
+#: src/config.cpp:171 src/config.cpp:205
+msgid "Unexpected char: '"
+msgstr "Onverwacht karakter: '"
+
+#: src/exit_menu.cpp:46 src/exit_menu.cpp:50
+msgid "Yes"
+msgstr "Ja"
+
+#: src/exit_menu.cpp:85 src/exit_menu.cpp:89
+msgid "No"
+msgstr "Nee"
+
+#: src/exit_menu.cpp:124
+msgid "Exit Pingus?"
+msgstr "Verlaat Pingus?"
+
+#: data/levels/tutorial/basher-tutorial-grumbel.pingus:5
+msgid "If the way is blocked, bash away"
+msgstr "Als de weg is geblokkeerd, sloop het"
+
+#: data/levels/tutorial/basher-tutorial-grumbel.pingus:6
+msgid ""
+"Similar to the Digger action that you already know from previous levels, "
+"there is also an action that allows the Pingus to dig horizontally, as "
+"opposed to the vertical dig ability the Digger action provides. This new "
+"action is called Basher. "
+msgstr ""
+"Vergelijkbaar met de graafactie did je al kent van eerdere niveau's, is er "
+"ook een actie die de Pingus in staat stelt om horizontaal te graven, in "
+"tegenstelling tot de verticale graafmogelijkheid die de graafactie biedt. "
+"Deze nieuwe actie heet slooper. "
+
+#: data/levels/tutorial/bomber-tutorial2-grumbel.pingus:5
+msgid "Sacrifice a few and save the rest"
+msgstr "Offer een paar er redt de rest"
+
+#: data/levels/tutorial/bomber-tutorial2-grumbel.pingus:6
+msgid ""
+"Sometimes no other actions are available, so you have to bomb your way "
+"through the ground. The Pingus can do this by actually self- destructing. "
+"This will kill them, but it is sometimes necessary to sacrifice a few to "
+"save the rest. "
+msgstr ""
+"Soms zijn er geen andere acties voor handen en moet je je een weg door de "
+"grond zien te bombarderen. De Pinuga can dit doen door middel van "
+"zelfvernietigin. Je verliest hem, maar het is soms nodig te offeren zodat je "
+"de rest kan redden. "
+
+#: data/levels/tutorial/digger-tutorial2-grumbel.pingus:5
+msgid "Learning to dig"
+msgstr "Leren graven"
+
+#: data/levels/tutorial/digger-tutorial2-grumbel.pingus:6
+msgid ""
+"This is your first mission. As always, it's pretty easy. All you have to do "
+"is to give a Pingu the command to dig a hole into the ground so that they "
+"can reach the exit. This can be accomplished simply by clicking on a Pingu. "
+msgstr ""
+"Dit is je eerste missie. Zoals altijd vrij eenvoudig. Het enige wat je moet "
+"doen is je Pingus te instrueren om een gat in de grond te graven zodat de de "
+"uitgang kunnen bereiken. Dit kan eenvoudig bereikt worden door op een Pingu "
+"te klikken. "
+
+#: data/levels/tutorial/floater-tutorial-grumbel.pingus:5
+msgid "Float or Die"
+msgstr "Drijf of sterf"
+
+#: data/levels/tutorial/floater-tutorial-grumbel.pingus:6
+msgid ""
+"Well done in mission one! Now let's start the next one. This time you will "
+"need to equip your Pingus with a little propeller, so that they can float to "
+"the ground smoothly. If Pingus fall too far, they will not be able to "
+"survive the fall, so keep your eyes open! "
+msgstr ""
+"Good gedaan in de eerste missie! Nu verder met de volgende. Deze keer moet "
+"je je Pingus voorzien van een kleine propellor, zodat ze zachtjes naar de "
+"grond zweven. Als de Pingus te diep valt, zijn ze niet in staat de val te "
+"overleven, dus hou je ogen open! "
+
+#: data/levels/tutorial/jumper-tutorial-grumbel.pingus:5
+msgid "Jump for joy"
+msgstr "Spring van Plezier"
+
+#: data/levels/tutorial/jumper-tutorial-grumbel.pingus:6
+msgid ""
+"Sometimes a Pingu needs to reach a platform that is far away, but not "
+"reachable by walking. That's when the Jumper comes in handy - it allows the "
+"Pingu to make a small jump and so enables him to reach the platform. "
+msgstr ""
+"Some moet een Pingu een platvormrand bereiken dat ver weg is, en niet "
+"bereikbaar te voet. Dat is waar de Springer goed van pas komt - Het biedt de "
+"Pingu de mogelijkeheid om een kleine sprong te maken om zo het platvorm te "
+"bereiken. "
+
+#: data/levels/tutorial/miner-tutorial2-grumbel.pingus:5
+msgid "Miner's heaven"
+msgstr "Mijnwerkers hemel"
+
+#: data/levels/tutorial/miner-tutorial2-grumbel.pingus:6
+msgid ""
+"Another action hits the street - another digging action, this time a "
+"diagonal one. It allows a Pingu to dig diagonally through ground, thus "
+"creating a path for following Pingus. The action is called Miner. "
+msgstr ""
+"Actie op straat - nog een graaf activiteit, deze keer een diagonale klus. "
+"Het staat de Pingu toe om diagonaal door de grond te graven, en zo een pad "
+"te graven voor de volgende Pingus. Dit heet Mijning. "
+
+#: data/levels/tutorial/snow10-grumbel.pingus:5
+msgid "Panic Island (float/bash)"
+msgstr "Paniek Eiland (drijf/sloop)"
+
+#: data/levels/tutorial/snow10-grumbel.pingus:6
+msgid ""
+"While the previous levels have not required much quick action from you, this "
+"one gets a bit trickier. The Pingus are coming out of two entrances in "
+"parallel and it is your job to coordinate the two groups wisely. "
+msgstr ""
+"Terwijl er voor de vorige niveau's niet veel inspanning nodig was van je, "
+"wordt deze al wat lastiger. The Pingus komen parallel uit twee uitgangen en "
+"het is jouw taak om de twee groepen wijselijk te coordineren. "
+
+#: data/levels/tutorial/snow11-grumbel.pingus:5
+msgid "Jump'n Bump... and Bash..."
+msgstr "Spring Bots... en Sloop..."
+
+#: data/levels/tutorial/snow11-grumbel.pingus:6
+msgid ""
+"It's panic time again. The Pingus will not come out very fast, but since "
+"they turn around when they hit walls you will soon have some trouble "
+"coordinating them all. Since you only need to save 5 it should be doable, "
+"but if all else fails use the pause-mode ('p') to get an overview again. "
+msgstr ""
+"Alweer paniek in de tent. De Pingus komen niet erg snel naar buiten, maar "
+"aangezien ze ronddraaien als ze een muur raken zal je snel problemen krijgen "
+"om ze allemaal te coordineren. Aangezien je er maar 5 hoeft te redden moet "
+"het haalbaar zijn. Maar als alles mislukt gebruik dan de pauze-mode ('p') om "
+"weer overzicht te krijgen. "
+
+#: data/levels/tutorial/snow12-grumbel.pingus:5
+msgid "Two groups in parallel, coordinate wisely"
+msgstr "Twee groepen parallel,coordineer verstandig"
+
+#: data/levels/tutorial/snow12-grumbel.pingus:6
+msgid ""
+"You have two groups to coordinate this time. No need to panic, since this "
+"level gives you enough time to think your actions through. No more tips this "
+"time, but good luck! "
+msgstr ""
+"Dit keer moet je twee groepen coordineren. Geen paniek, aangezien dit niveau "
+"je genoeg tijd geeft om je acties te doordenken. Geen tips dit keer, maar "
+"veel Succes! "
+
+#: data/levels/tutorial/snow14-grumbel.pingus:5
+msgid "Block'a Rock"
+msgstr "Blokkeer een keer"
+
+#: data/levels/tutorial/snow14-grumbel.pingus:6
+msgid ""
+"Once again it's time to combine the stuff you have learned in your previous "
+"levels. Blast your way free and make sure you also keep the rest of the "
+"Pingus under control. The Blocker action will be helpful. "
+msgstr ""
+"Het is weer tijd om dat wat je geleerd hebt in de voorgaande niveau's te "
+"combineren. Beuk je weg naar de vrijheid en zorg en voor dat je ook de "
+"andere Pingus onder controle houdt. De Blokkeer actie zal handig zijn. "
+
+#: data/levels/tutorial/snow15-grumbel.pingus:5
+msgid "Climb, Climber,... Boom!"
+msgstr "Klim, Klauter,... Kaboem!"
+
+#: data/levels/tutorial/snow15-grumbel.pingus:6
+msgid ""
+"As you might have already figured out from previous levels, you often have "
+"to combine different actions to get the job done. Due to the lack of a "
+"Digger action in this level the Bomber needs to jump in, but how can it "
+"reach the place to bomb? "
+msgstr ""
+"Zoals je wellicht al hebt ontdekt in voorgaande niveau's, dien je vaak "
+"verschillende acties te combineren om de klus te klaren. Door gebrek aan "
+"graaf acties in dit niveau zal de explosievendienst moeten helpen, maar hoe "
+"kan je de te bombarderen plaats bereiken ? "
+
+#: data/levels/tutorial/snow16-grumbel.pingus:5
+msgid "Bridging gets more complicated..."
+msgstr "Bruggen worden ingewikkelder..."
+
+#: data/levels/tutorial/snow16-grumbel.pingus:6
+msgid ""
+"Once again you have to combine actions carefully and wisely. If you don't "
+"you could end up in the hole just before the exit, so think about how to "
+"avoid that. "
+msgstr ""
+"Nogmaals dien je acties voorzichtig en verstandig te combineren. Zo niet dan "
+"eindig je in het gat vlak naast de uitgang, dus hou er rekening mee dat te "
+"voorkomen. "
+
+#: data/levels/tutorial/snow17-grumbel.pingus:5
+msgid "If too high, your Pingu will die..."
+msgstr "Te hoog, dan zal je Pingu sterven..."
+
+#: data/levels/tutorial/snow17-grumbel.pingus:6
+msgid ""
+"Teamwork is the way to the exit this time. You don't have enough Floaters to "
+"reach the exit, so just send a few and let them prepare the path for the "
+"rest. "
+msgstr ""
+"Samenwerken is dit keer de manier om er uit te komen. Je hebt niet genoeg "
+"drijvers om de uitgang te halen, dus stuur slechts een paar en laat hen een "
+"pad prepareren voor de rest. "
+
+#: data/levels/tutorial/snow19-grumbel.pingus:5
+msgid "Learn to use the bridge"
+msgstr "Leer hoe de brug te gebruiken"
+
+#: data/levels/tutorial/snow19-grumbel.pingus:6
+msgid ""
+"If no Jumper is at hand and a large hole needs to be passed, a bridge can be "
+"pretty helpful. It takes some time to build, but unlike the jumper action it "
+"allows following Pingus to reach the other end too. "
+msgstr ""
+"Als er geen springen bij de hand is en grote gaten moeten worden gepasseerd, "
+"een brug kan dan erg handig zijn. Het kost was tijd om te maken, maar in "
+"tegenstelling tot de springactie, geeft het de Pingus de mogelijkheid de "
+"andere kant de halen. "
+
+#: data/levels/tutorial/snow20-grumbel.pingus:5
+msgid "Three solutions, it's up to you"
+msgstr "3 Mogelijkheden, aan jouw de keus"
+
+#: data/levels/tutorial/snow20-grumbel.pingus:6
+msgid ""
+"Now that you've learned all the actions, it's time for some more practice. "
+"This level presents you with at least three different ways to solve it. It's "
+"up to you which one you pick. "
+msgstr ""
+"Nu je alle acties hebt geleerd, is de tijd gekomen om wat meer te oefenen. "
+"Dit niveau biedt minstens drie verschillende mogelijkheden om het op te "
+"lossen. Aan jouw te kiezen welke oplossing je neemt. "
+
+#: data/levels/tutorial/snow21-grumbel.pingus:5
+msgid "Climb, Climber, climb... and build a bridge"
+msgstr "Klim, Klauter, klim... en bouw een brug"
+
+#: data/levels/tutorial/snow21-grumbel.pingus:6
+msgid ""
+"Once again you get access to a new action. The Climber action allows a Pingu "
+"to climb up straight walls, thus allowing him to reach stuff that might be "
+"too high to reach by other means. "
+msgstr ""
+"Alweer een nieuwe actie. De klimer actie geeft de mogelijkheid aan een Pingu "
+"om tegen muren op te lopen, en zo dingen te bereiken die die op andere "
+"manieren niet haalbaar zijn. "
+
+#: data/levels/tutorial/snow22-grumbel.pingus:5
+msgid "Entrance high, Exit low"
+msgstr "Ingang hoog, Uitgang laag"
+
+#: data/levels/tutorial/snow22-grumbel.pingus:6
+msgid ""
+"If you don't have enough floaters to bring all the Pingus down to the exit - "
+"you have to find other ways to guide them down. You should have learned all "
+"the stuff you need for this level in previous levels, so this shouldn't be "
+"too much of a problem for you. "
+msgstr ""
+"Als je niet genoed drijvers hebt om alle Pingus naar de uitgang te brengen, "
+"zul je iets anders moeten bedenken om ze naar beneden te be- geleiden. Je "
+"zou in de voorgaande niveua's alles geleerd moeten hebben, dus dit moet niet "
+"zo'n probleem voor je zijn. "
+
+#: data/levels/tutorial/snow7-grumbel.pingus:5
+msgid "One must prepare, the rest must follow"
+msgstr "Eén moet voorbereiden, de rest moet volgen"
+
+#: data/levels/tutorial/snow7-grumbel.pingus:6
+msgid ""
+"Sometimes there are situations where you don't have a Blocker at hand to "
+"coordinate your Pingus. You'll have to find other ways to keep them under "
+"control while a single one prepares the path for the rest. "
+msgstr ""
+"Soms zijn er situaties waar je geen blokker bij de hand hebt om je Pingus te "
+"coordineren. Je zult andere manieren moeten zien te vinden om ze onder "
+"controle te krijgen, terwijl één het pad baant voor de rest. "
+
+#: data/levels/tutorial/snow8-grumbel.pingus:5
+msgid "Dig and float, but just don't fall and smash"
+msgstr "Graaf en zweef, maar val niet zomaar te pletter"
+
+#: data/levels/tutorial/snow8-grumbel.pingus:6
+msgid ""
+"Unlike the first two levels, you have two actions available in this level. "
+"Your job is again simple: select an action at the panel on the left and "
+"apply it to the Pingus so that they will be able to reach the exit. Make "
+"sure that not too many of them die. "
+msgstr ""
+"In tegenstelling to de eerste twee niveua's, heb je twee acties ter "
+"beschikking in dit niveau. Jouw taak is wederom eenvoudig: Selecteer een "
+"actie links op het paneel, en pas het toe op de Pingus zo dat ze de "
+"mogelijkheid hebben om de uitgang te bereiken. Zorg ervoor dat er niet te "
+"veel sterven. "
+
+#: data/levels/tutorial/snow9-grumbel.pingus:5
+msgid "Dig, bash and other problems"
+msgstr "Graaf, sloop en andere problemen"
+
+#: data/levels/tutorial/snow9-grumbel.pingus:6
+msgid ""
+"The more levels you master, the more difficult they will get, but don't "
+"panic, as this one is still pretty easy. Just use the stuff that you've "
+"learned in the previous levels and you shouldn't have many problems. If you "
+"think you've reached a situation from which you can no longer solve the "
+"level, double click the armageddon button at the lower right. "
+msgstr ""
+"Des te meer levels je hebt gehaald, des te moeilijker het zal worden, geen "
+"paniek, deze is erg eenvoudig. Gebruik gewoonweg de dingen die je hebt "
+"geleerd in de voorgaande niveau's, en je zult niet veel problemen "
+"tegenkomen. Als je denkt dat je in een situatie zit waarin je het level niet "
+"meer kan oplossen, dubbel klik dan op de Armageddon knop rechtsonderaan. "
+
+#: data/levels/tutorial/solid-tutorial-grumbel.pingus:5
+msgid "Solid ground can block the path"
+msgstr "Vaste grond kan het pad blokkeren"
+
+#: data/levels/tutorial/solid-tutorial-grumbel.pingus:6
+msgid ""
+"As you have learned in earlier levels your Pingus can dig through basically "
+"any terrain, but there is one material which they can't penetrate: steel. "
+"These regions are marked dark grey on the level map and cannot be destroyed, "
+"so you must find a way around them. "
+msgstr ""
+"Zoals je hebt geleerd in eerdere niveau's kunnen je Pingus graven door min "
+"of meer elk terein, maar er is een materiaal waar ze niet doorheen kunnen: "
+"staal. Deze plaatsen zijn donker grijs gemarkeerd op de niveaukaart en "
+"kunnen niet worden vernietigd, dus je zult er iets moeten zien te vinden. "
+
+#: data/levels/halloween/halloween1-grumbel.pingus:7
+msgid "One jump to catch them all"
+msgstr ""
+
+#: data/levels/halloween/halloween1-grumbel.pingus:8
+msgid ""
+"The pingus have found themselves lost on their journey.  What is this "
+"mysterious place?  Smiling pumpkins, giant candlesticks, and some boiling "
+"soup below... what wizardry is this? Now, facing a deadly abyss right in "
+"front of them it's your job to save them. Can you save them from a terrible "
+"fate?"
+msgstr ""
+
+#: data/levels/halloween/halloween2-grumbel.pingus:7
+msgid "One Thousand and One Jumps"
+msgstr ""
+
+#: data/levels/halloween/halloween2-grumbel.pingus:8
+msgid ""
+"With the exit so high above and far out of reach for a normal Pingu, what "
+"options are there? Perhaps a jumper can rescue them?  Or will he simply slow "
+"their inevitable demise? It's your job to find out, but are you good enough "
+"to save them all?"
+msgstr ""
+
+#: data/levels/halloween/halloween3-grumbel.pingus:7
+msgid "Boom Boom"
+msgstr ""
+
+#: data/levels/halloween/halloween3-grumbel.pingus:8
+msgid ""
+"You've mastered the last challenge and now face the next. Their path to "
+"salvation seems to be cursed, but by whom? There is no time to think about "
+"it, since the next deadly challenge already awaits the Pingus. Two mighty "
+"roots block the way, but without a basher at hand to bash them away, "
+"sacrifice might be the only option..."
+msgstr ""
+
+#: data/levels/halloween/halloween4-grumbel.pingus:7
+msgid "Full Circle"
+msgstr ""
+
+#: data/levels/halloween/halloween4-grumbel.pingus:8
+msgid ""
+"The exit is so close, yet out of reach. A step in the wrong direction and "
+"the Pingus will fall to a terrible fate. You must do something to help them, "
+"but is there enough time? You have to hurry and can't allow yourself any "
+"mistakes. The Pingus are counting on you!"
+msgstr ""
+
+#: data/levels/halloween/halloween5-grumbel.pingus:7
+msgid "Bridgers Nightmare"
+msgstr ""
+
+#: data/levels/halloween/halloween5-grumbel.pingus:8
+msgid ""
+"Who placed this monstrous wall here?  This terrible blockade separates your "
+"Pingus from the exit. Destruction of its awful construction seems an "
+"impossibility, but perhaps the bridger can come to the rescue?  Can they "
+"build their bridges high enough to guide the group yet again safely to the "
+"exit? Or is somebody playing evil mind tricks with you?\n"
+"\n"
+"Yet again the solution is your call... your gray matter is the key to the "
+"Pingus' success, so don't let yourself get confused and misguided from the "
+"true path."
+msgstr ""
+
+#: data/levels/halloween/halloween6-grumbel.pingus:7
+msgid "Locked up by the witch"
+msgstr ""
+
+#: data/levels/halloween/halloween6-grumbel.pingus:8
+msgid ""
+"Is this a prison? Blocked by solid walls all around, there doesn't seem to "
+"be a way to escape. Salvation seems impossible. But wait... the wall to the "
+"right seems weak... perhaps this is a way to escape? Or is it a false path "
+"that will lead to the Pingus' doom?\n"
+"\n"
+"This is a risky trip, but you must take it to find out how to bring them all "
+"to freedom once again."
+msgstr ""
+
+#: data/levels/halloween/halloween7-grumbel.pingus:7
+msgid "Splatterfest"
+msgstr ""
+
+#: data/levels/halloween/halloween7-grumbel.pingus:8
+msgid ""
+"This is by far the deepest pit the Pingus have yet encountered. Building a "
+"bridge across it seems obvious but that won't help since the exit is deep "
+"down in the pit itself. Pingus who try to go down the pit will just end up "
+"splattered all over the ground. You have two groups of Pingus at your "
+"disposal, can you make them work together to reach even an exit this well "
+"hidden?"
+msgstr ""
+
+#: data/levels/halloween/halloween8-plouj.pingus:7
+msgid "Staircase Maintenance"
+msgstr ""
+
+#: data/levels/halloween/halloween8-plouj.pingus:8
+msgid ""
+"It seems we are up again against a mighty wall, and it is blocking the exit! "
+"But wait, some good soul has built a staircase around it. It seems, however, "
+"that the poor fool's efforts didn't last long, as the staircase is destroyed "
+"and full of holes. Can you fix it and make it over the wall? Yet of course "
+"you know that the right solution might not be the obvious one. But your "
+"Pingus are almost free, and they trust in your skill to guide them to safety "
+"once more. Succeed and you will have freed them once and for all from "
+"whatever evildoer that placed them in this nightmare... at least for this "
+"year."
+msgstr ""
+
+#: data/worldmaps/tutorial.worldmap:4
+msgid "Tutorial Island"
+msgstr ""
+
+#: data/worldmaps/tutorial.worldmap:6
+msgid "Learn the basics"
+msgstr ""
+
+#: data/worldmaps/tutorial.worldmap:15
+msgid "The Journey Begins"
+msgstr "De reis begint"
+
+#: data/worldmaps/tutorial.worldmap:81
+msgid "The Journey Continues"
+msgstr "De reis gaat door"
+
+#: data/worldmaps/tutorial.worldmap:22
+#, fuzzy
+msgid ""
+"For a long time, the Pingus have lived happily in peace on the South Pole "
+"along with all the other animals. Everything was in balance and it seemed "
+"like nothing could disrupt their peace.  The Pingus were happy and it seemed "
+"like this could never end."
+msgstr ""
+"Lange tijd leefde de Pingus gelukkig en in vrede op de Zuid Pool\n"
+"samen met de andere dieren, alles was in balance en het leek alsof\n"
+"niets hun lieve vrede zou kunnen verstoren.  De Pingus waren gelukkig\n"
+"en was was alof dit nooit zou eindigen.\n"
+
+#: data/worldmaps/tutorial.worldmap:30
+#, fuzzy
+msgid ""
+"But then one day, things began to change slowly: the sky got darker and the "
+"earth got warmer. Firstly, they thought this was just a normal fluctuation "
+"in the world's climate, but things seemed to get worse and worse with every "
+"year."
+msgstr ""
+"Tot op een dag, dingen langzaam veranderden, de lucht werd donker\n"
+"en de aarde werd warmer, Eerst dachten ze dat dit een normale fluctuatie\n"
+"was in het wereldklimaat, maar met het jaar leek dit erger en erger\n"
+"te worden."
+
+#: data/worldmaps/tutorial.worldmap:38
+#, fuzzy
+msgid ""
+"The snow began to melt away in a few areas and food became an issue. Other "
+"animals tried to leave the region to search for colder areas, but the Pingus "
+"knew that this wouldn't help: they knew that they had to do something about "
+"it."
+msgstr ""
+"De sneeuw smolt weg op een paar plaatsen, en voedsel werd een\n"
+"probleem. Andere dieren neigden al het gebied te verlaten en zochten\n"
+"naar een koelere plaats. Maar de Pingus wisten dat dit niet zou helpen.\n"
+"Ze wisten dat er iets aan dit probleem gedaan moest worden."
+
+#: data/worldmaps/tutorial.worldmap:46
+#, fuzzy
+msgid ""
+"So the circle of the eldest came together to decide what to do about it. "
+"They decided to send out an expedition around the world to find the cause of "
+"this warming. The expedition consisted of hundreds of the bravest Pingus on "
+"the South Pole."
+msgstr ""
+"De raad der ouden en wijzen kwam bij elkaar om te besluiten wat er\n"
+"aan gedaan moest worden. Ze besloten een expeditie over de wereld uit te "
+"zenden \n"
+"om uit te vinden wat de oorzaak was van deze warmtestijging. De expeditie "
+"bestond uit\n"
+"honderd van de dapperste Pingus van de zuid pool."
+
+#: data/worldmaps/tutorial.worldmap:54
+#, fuzzy
+msgid ""
+"And they picked you to lead them on their journey around the world. Since "
+"the journey will be dangerous and difficult, your first goal is the Island "
+"of Mogorok, also known as the Tutorial Island. According to the eldest, this "
+"island has always been the first stop of Pingus that were sent out into the "
+"world."
+msgstr ""
+"En ze hebben jouw gekozen om hen te leiden tijdens hun tocht over\n"
+"de wereld. Aangezien de reis gevaarlijk en lastig zal zijn, is je\n"
+"eerste doel het Eiland van Mogorok, ook wel Leereiland genoemd\n"
+"Volgens de oudste, was dit eiland altijd de eerste stop voor de\n"
+"Pingus wanneer ze op reis werden gestuurd."
+
+#: data/worldmaps/tutorial.worldmap:63
+#, fuzzy
+msgid ""
+"The island consists of many areas that are ideal to teach the Pingus their "
+"abilities. The Pingus can learn to build bridges, climb, bash and use many "
+"other talents which they will need on their long and dangerous journey."
+msgstr ""
+"Het eiland beschikt over meerdere gebieden ideaal om de mogelijkheden\n"
+"van de Pingus te ontdekken. De Pingus kan trainen om zo te leren\n"
+"bruggen te bouwen, te klimmen, dingen kapot te slaan en al hun andere "
+"talenten\n"
+"die zeker nodig zullen hebben op hun lange en gevaarlijke tocht."
+
+#: data/worldmaps/tutorial.worldmap:70
+#, fuzzy
+msgid ""
+"While there, you can practice your abilities in commanding and guiding the "
+"Pingus. You can also get familiar with all the abilities the Pingus provide "
+"and learn to master them, since you will need all of them on your journey "
+"around the world."
+msgstr ""
+"Terwijl jij aan de andere kant kan oefenen om commando's aan de Pingus\n"
+"te geven, en ze te begeleiden. Je krijgt de gelegenheid om bekend te raken\n"
+"met alle mogelijkheden die de Pingus hebben en ze onder controle te "
+"krijgen,\n"
+"Omdat je alle mogelijkheden nodig zult hebben tijdens jullie reis over de "
+"wereld."
+
+#: data/worldmaps/tutorial.worldmap:78
+#, fuzzy
+msgid ""
+"Now that you and the Pingus have arrived at Tutorial Island it is time to "
+"take command and begin your mission. Good Luck!"
+msgstr ""
+"Nu jij en de Pingus zijn aangekomen op het leereiland, is de tijd\n"
+"gekomen om de taak aan te vangen en je missie te starten.\n"
+"\n"
+"                                                  Veel Succes!"
+
+#: data/worldmaps/tutorial.worldmap:88
+#, fuzzy
+msgid ""
+"Now after you and the Pingus have learned the basics and practiced a bit it "
+"is time to move on and begin the journey into the world. Since the ice floe "
+"with which the Pingus traveled to the Tutorial Island isn't going to hold on "
+"the whole way into the warmer climates the Pingus have to find something "
+"else to guide them on their journey."
+msgstr ""
+"Nu jij en de pingus de basis hebben geleerd en geoefend is het\n"
+"tijd om verder te gaan en het begin van de reis in de wereld.\n"
+"Omdat de ijsschots met de Pingussen afdreef naar het LeerEiland\n"
+"is het ijs langzaam weggesmolten in de warmere regionen. \n"
+"De pingussen moeten een andere manier zien te vinden om hen te begeleiden\n"
+"op hun reis.\n"
+
+#: data/worldmaps/tutorial.worldmap:97
+#, fuzzy
+msgid ""
+"But as the eldest have said, the Tutorial Island provides not only a good "
+"way to practice, but it is also the starting point into the world. After "
+"some searching the Pingus discovered the meaning of this, and they found the "
+"large tree at the end of the island which gave them wood to construct a "
+"float."
+msgstr ""
+"Maar zoals de ouderen hebben gezegd, het leereiland is niet alleen de\n"
+"manier om te oefenen, het is ook het beginpunt om de wereld binnen te\n"
+"treden. Na enige tijd ontdekte de Pingus de bedoeling hiervan De grote\n"
+"boom aan het eind van het eiland is een prima bron om een vlot van te\n"
+"bouwen.\n"
+
+#: data/worldmaps/tutorial.worldmap:106
+#, fuzzy
+msgid ""
+"So the Pingus set out and constructed some large rafts, enough to carry them "
+"all. After also packing a bunch of provisions they were prepared to start "
+"their journey and leave their familiar ground and enter the unknown parts of "
+"the world."
+msgstr ""
+"Dus de Pingus gingen op pad en maakte enkele grote vlotten, groot genoeg\n"
+"om hen allemaal te kunnnen dragen. Ook namen ze een hoop voorzieningen mee\n"
+"Ze waren voorbereid om eindelijk hun reis aan te vangen, de voor hun "
+"vertrouwde\n"
+"ground te verlaten en de onbekende delen van de wereld binnen te treden.\n"
+
+#: data/worldmaps/tutorial.worldmap:114
+#, fuzzy
+msgid ""
+"So the Pingus sit on their raft, worrying about what's to come and where to "
+"go, while floating into the sunset.  To be continued..."
+msgstr ""
+"Dus de Pingus zaten op hun vlot, maakte zich zorgen over wat ging komen\n"
+"en waar ze naar toe zouden gaan, terwijl ze afdreven richting de ondergaande "
+"zon.\n"
+"\n"
+"Wordt vervolgd..."
+
+#: data/levelsets/halloween.levelset:3
+msgid "Halloween 2007"
+msgstr ""
+
+#: data/levelsets/halloween.levelset:4
+msgid "Trapped at All Hallows Eve"
+msgstr ""
+
+#, fuzzy
+#~ msgid "none"
+#~ msgstr "aan"
+
+#~ msgid "Difficulty:"
+#~ msgstr "Moeilijkheid:"
+
+#, fuzzy
+#~ msgid "Difficulty: "
+#~ msgstr "Moeilijkheid:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Contrib\n"
+#~ "Levels"
+#~ msgstr "Deelname"
+
+#, fuzzy
+#~ msgid ""
+#~ "Print some more messages to stdout, can be set multiple times to increase "
+#~ "verbosity"
+#~ msgstr "Schrijft meer berichten naar stdout, kan veranderd worden"
+
+#~ msgid "Use OpenGL"
+#~ msgstr "Gebruik OpenGL"
+
+#~ msgid "Prints the fps to stdout"
+#~ msgstr "Schrijf de fps naar stdout"
+
+#~ msgid "Reduces the CPU usage by issuing sleep()"
+#~ msgstr "Verminderd het CPU gebruik door middel van slaap()"
+
+#~ msgid ""
+#~ "Warning: Larger resolution than 800x600 will result in visual problems"
+#~ msgstr ""
+#~ "Waarschuwing: Hogere resolutie dan 800x600 zal visuele problemen tot "
+#~ "gevolg hebben"
+
+#~ msgid "PingusMain: Starting Main: "
+#~ msgstr "PingusMain: Starten hoofddeel: "
+
+#~ msgid "| segfault_handler: catched a SIGSEGV."
+#~ msgstr "| segfault_handelaar: onderving een SIGSEGV."
+
+#~ msgid "| Woops, Pingus just crashed, congratulations you've found a bug."
+#~ msgstr ""
+#~ "| Woops, Pingus klapte er uit, gefeliciteerd je hebt een bug gevonden."
+
+#~ msgid ""
+#~ "| Please write a little bug report to <grumbel@gmx.de>, include "
+#~ "informations"
+#~ msgstr ""
+#~ "| Schrijf alsjeblieft een bug rapport naar <grumbel@gmx.de>, inclusief "
+#~ "informatie"
+
+#~ msgid "| where exacly the SIGSEGV occured and how to reproduce it."
+#~ msgstr ""
+#~ "| Waar precies kwam de SIGSEGV naar voren en hoe kan het gereproduceerd "
+#~ "worden."
+
+#~ msgid "| Also try include a backtrace, you can get it like this:"
+#~ msgstr ""
+#~ "| Probeer ook een backtrace toe te voegen, je kan dat op deze manier "
+#~ "krijgen:"
+
+#~ msgid "| If that doesn't work, try this:"
+#~ msgstr "| Als dat niet werkt, probeer dit dan:"
+
+#~ msgid "| [play until it crashes again]"
+#~ msgstr "| [speel totdat het weer crashed]"
+
+#~ msgid "| Warning: Pingus recieved a SIGINT, exiting now."
+#~ msgstr "| Waarschuwing: Pingus heeft een SIGINT ontvangen, beeindigt nu."
+
+#~ msgid "Disable intro"
+#~ msgstr "Zet intro uit"
+
+#, fuzzy
+#~ msgid "Set the refresh rate in fullscreen (default: 60)"
+#~ msgstr "Zet de resolutie voor pingus (standaard: 800x600)"
+
+#~ msgid "Load a custom level from FILE"
+#~ msgstr "Laad een aangepast niveau uit bestand"
+
+#, fuzzy
+#~ msgid "language:                "
+#~ msgstr "volledig scherm:        "
+
+#~ msgid "sound support:           enabled"
+#~ msgstr "geluid ondersteuning:           ingeschakeld"
+
+#~ msgid "sound support:          disabled"
+#~ msgstr "geluid ondersteuning:           uitgeschakeld"
+
+#~ msgid "music support:           enabled"
+#~ msgstr "muziek ondersteuning:           ingeschakeld"
+
+#~ msgid "music support:          disabled"
+#~ msgstr "muziek ondersteuning:           uitgeschakeld"
+
+#, fuzzy
+#~ msgid "resolution:              "
+#~ msgstr "resolutie ingesteld op:      "
+
+#~ msgid "fullscreen:              "
+#~ msgstr "volledig scherm:        "
+
+#~ msgid " enabled"
+#~ msgstr " aan"
+
+#~ msgid "disabled"
+#~ msgstr "uitgeschakeld"
+
+#, fuzzy
+#~ msgid "using OpenGL:            "
+#~ msgstr "volledig scherm:        "
+
+#~ msgid "PingusMain: Levelfile not found, ignoring: "
+#~ msgstr "PingusMainL Bestand van dit niveau niet gevonden, negeren: "
+
+#~ msgid "Environment variable $HOME not set, fix that and start again."
+#~ msgstr "Omgevings variabele $HOME niet gezet, herstel en begin overnieuw"
+
+#~ msgid "Unexpected char '"
+#~ msgstr "Onverwacht karakter: '"
+
+#~ msgid "unknown"
+#~ msgstr "onbekend"
+
+#~ msgid "Credits"
+#~ msgstr "Krediet"
+
+#, fuzzy
+#~ msgid "..:: See the credits ::.."
+#~ msgstr "..:: Start het spel ::.."
+
+#, fuzzy
+#~ msgid "Pingus do time"
+#~ msgstr "Pingus gered:   %d"
+
+#, fuzzy
+#~ msgid "PLE Level"
+#~ msgstr "Niveau"
+
+#, fuzzy
+#~ msgid "Pingus in Parallel"
+#~ msgstr "Pingus Optie Menu"
+
+#, fuzzy
+#~ msgid "Smashing Zone"
+#~ msgstr "Verpletterd"
+
+#, fuzzy
+#~ msgid "Set your watches"
+#~ msgstr "Selecteer weertype"
+
+#, fuzzy
+#~ msgid "Entering the cave"
+#~ msgstr "Geef bestandsnaam om op te slaan als"
+
+#, fuzzy
+#~ msgid "Pingus in Wonderland"
+#~ msgstr "Pingus Optie Menu"
+
+#, fuzzy
+#~ msgid "Easy going..."
+#~ msgstr "Laden...."
+
+#, fuzzy
+#~ msgid "Level 0"
+#~ msgstr "Niveau"
+
+#, fuzzy
+#~ msgid "Blocked Exit"
+#~ msgstr "bezet"
+
+#~ msgid "Unknow char: "
+#~ msgstr "Onbekend char: "
+
+#~ msgid "Usage: "
+#~ msgstr "gebruik: "
+
+#~ msgid " [OPTIONS]... [LEVELFILE]"
+#~ msgstr " [OPTIES]... [BESTANDSNIVEAU]"
+
+#~ msgid "FILE      "
+#~ msgstr "Bestand     "
+
+#~ msgid "FILE        "
+#~ msgstr "Bestand     "
+
+#~ msgid "multiple times to increase verbosity"
+#~ msgstr "Meerdere stappen om woordenrijkheid te verhogen"
+
+#~ msgid "FILE       "
+#~ msgstr "Bestand"
+
+#~ msgid "Read config from FILE (default: ~/.pingus/config)"
+#~ msgstr "Lees configuratie uit bestand (default: ~/.pingus/config)"
+
+#~ msgid "Enable the output of debugging infos, possible"
+#~ msgstr "Ze de output van debugging info aan, mogelijk"
+
+#~ msgid "clanVorbis support:           ok"
+#~ msgstr "clanVorbis ondersteuning:           ok"
+
+#~ msgid "clanVoribs support:  missing (.ogg music files will not be playable)"
+#~ msgstr ""
+#~ "clanVorbis ondersteuning:  ontbreekt (.ogg muziek bestand zijn niet "
+#~ "afspeelbaar)"
+
+#~ msgid "clanMikMod support:           ok"
+#~ msgstr "clanMikMod ondersteuning:           ok"
+
+#~ msgid "clanMikMod support:  missing (music files will not be playable)"
+#~ msgstr ""
+#~ "clanMikMod ondersteuning:  ontbreekt (muziek bestanden zijn niet "
+#~ "afspeelbaar)"
+
+#~ msgid "getext support:               ok"
+#~ msgstr "getext ondersteuning:               ok"
+
+#~ msgid "gettext language:        english"
+#~ msgstr "gettext taal:        Nederlands"
+
+#~ msgid "Error caught from ClanLib: "
+#~ msgstr "Fout gevonden in Clanlib: "
+
+#~ msgid "Image has wrong color depth: %d"
+#~ msgstr "Plaatje heeft de verkeerde kleurdiepte: %d"
+
+#~ msgid "Editor Helpscreen (hide with F1)"
+#~ msgstr "Tekstbewerker Helpscherm (verberg met F1)"
+
+#~ msgid "F1 - show/hide this help screen"
+#~ msgstr "F1 - open/verberg dit help scherm"
+
+#~ msgid "F2 - launch level building tutorial"
+#~ msgstr "F2 - start niveau constructie handleiding"
+
+#~ msgid "F3 - toggle background color"
+#~ msgstr "F3 - verwissel achtergrond kleur"
+
+#~ msgid "F4 - play/test the level"
+#~ msgstr "F4 - speel/test het niveau"
+
+#~ msgid "F6 - save this level"
+#~ msgstr "F6 - Sla dit niveua op"
+
+#~ msgid "F7 - [unset]"
+#~ msgstr "F7 - [niet gedefinieerd]"
+
+#~ msgid "F8 - quick save/backup save?!"
+#~ msgstr "F8 - snel opslaan/reservekopie opslaan ?!"
+
+#~ msgid "F9 - change level width and height"
+#~ msgstr "F9 - verander niveau breedte en hoogte"
+
+#~ msgid "F10 - [unset]"
+#~ msgstr "F10 - [niet gedefinieerd]"
+
+#~ msgid "F11 - toggle fps counter"
+#~ msgstr "F11 - wijzig fps teller"
+
+#~ msgid "F12 - make screenshot"
+#~ msgstr "F12 - maak schermafdruk"
+
+#~ msgid "Home - increase object size"
+#~ msgstr "Home - verhoog object grootte"
+
+#~ msgid "End  - decrease object size"
+#~ msgstr "End - verlaag object grootte"
+
+#~ msgid "Cursor Keys - Move object"
+#~ msgstr "Pijltjes toetsen - Verplaats object"
+
+#~ msgid "Shift 'Cursor Keys' - Move objects fast "
+#~ msgstr "Shift 'Pijltjes Toetsen' - Verplaats objecten snel"
+
+#~ msgid "PageUp   - level object up"
+#~ msgstr "PageUp - niveau object omhoog"
+
+#~ msgid "PageDown - level object down"
+#~ msgstr "PageDown - niveau object omlaag"
+
+#~ msgid "Shift PageUp   - increase objects z-pos by 50"
+#~ msgstr "Shift PageUp   - vergroot objecten z-pos met 50"
+
+#~ msgid "Shift PageDown - decrease objects z-pos by 50"
+#~ msgstr "Shift PageDown - verlaag objecten z-pos met 50"
+
+#~ msgid "Enter - Set default zoom (1:1)"
+#~ msgstr "Enter - Zet de standaard zoom (1:1)"
+
+#~ msgid "d - duplicate object"
+#~ msgstr "d - Dupliceer huidig object"
+
+#~ msgid "a - mark all objects"
+#~ msgstr "a - Verwijder gemarkeerde objecten"
+
+#~ msgid "shift leftmouseclick - add object to selection"
+#~ msgstr "shift en linkermuisknop - voeg object toe aan selectie"
+
+#~ msgid "leftmouseclick - select object"
+#~ msgstr "linkermuisknop - selecteer object"
+
+#~ msgid "Insert - insert new object"
+#~ msgstr "Invoegen - voeg een nieuw object toe"
+
+#~ msgid "g - ungroup/group current selection"
+#~ msgstr "g - degroepeer/groepeer huidige selectie"
+
+#~ msgid "Ctrl PageUp   - increase objects z-pos by 1"
+#~ msgstr "Ctrl PageUp   - vergroot objecten z-pos met 1"
+
+#~ msgid "Ctrl PageDown - decrease objects z-pos by 1"
+#~ msgstr "Ctrl PageDown   - verlaag objecten z-pos met 1"
+
+#~ msgid "Naming Convention: <LEVELNAME><NUMBER>-<CREATOR>.pingus"
+#~ msgstr "Naam Conventie: <LEVELNAME><NUMBER>-<CREATOR>.pingus"
+
+#~ msgid ""
+#~ "When you have created a level and want to have it in the next Pingus "
+#~ "release,\n"
+#~ "please mail it to pingus-devel@nongnu.org."
+#~ msgstr ""
+#~ "Als je een niveau hebt gemaakt dat je graag in de volgende Pingus "
+#~ "terugwilt zien,\n"
+#~ "mail dit dat naar pingus-devel@nongnu.org."
+
+#~ msgid "1 - guillotine"
+#~ msgstr "1 - guillotine"
+
+#~ msgid "2 - hammer"
+#~ msgstr "2 - hamer"
+
+#~ msgid "3 - spike"
+#~ msgstr "3 - spijker"
+
+#~ msgid "4 - laser_exit"
+#~ msgstr "4 - laser_uitgang"
+
+#~ msgid "5 - fake_exit"
+#~ msgstr "5 - valse_uitgang"
+
+#~ msgid "6 - smasher"
+#~ msgstr "6 - verpulveraar"
+
+#~ msgid "7 - bumper"
+#~ msgstr "7 - bumper"
+
+#~ msgid "Select a WorldObj"
+#~ msgstr "Selecteer een WereldObj"
+
+#~ msgid "1 - teleporter"
+#~ msgstr "1 - telepoorter"
+
+#~ msgid "2 - switch and door"
+#~ msgstr "2 - schakelaar en deur"
+
+#~ msgid "3 - ConveyorBelt"
+#~ msgstr "3 - Transportband"
+
+#~ msgid "4 - IceBlock"
+#~ msgstr "4 - IJsblok"
+
+#~ msgid "5 - InfoBox"
+#~ msgstr "5 - Informatiedoos"
+
+#~ msgid "1 - snow"
+#~ msgstr "1 - sneeuw"
+
+#~ msgid "2 - rain"
+#~ msgstr "2 - regen"
+
+#~ msgid "Select an entrance"
+#~ msgstr "Selecteer een ingang"
+
+#~ msgid "1 - generic"
+#~ msgstr "1 - algemeen"
+
+#~ msgid "2 - woodthing"
+#~ msgstr "2 - houten ding"
+
+#~ msgid "3 - cloud"
+#~ msgstr "3 - wolk"
+
+#~ msgid "h - entrance surface (hotspot)"
+#~ msgstr "h - ingang oppervlakte (kritieke plek)"
+
+#~ msgid "What object type do you want?"
+#~ msgstr "Welk object type will je ?"
+
+#~ msgid "g - Groundpiece (ground) [not implemented]"
+#~ msgstr "g - Stuk grond (zand) [niet geimplementeerd]"
+
+#~ msgid "Which object do you want?"
+#~ msgstr "Welk object will je ?"
+
+#~ msgid "x - Exit"
+#~ msgstr "x - Uitgang"
+
+#~ msgid "o - WorldObject"
+#~ msgstr "o - Wereldobject"
+
+#~ msgid "p - Prefab (ObjectGroup)"
+#~ msgstr "p - Prefabriceerd (ObjectGroep"
+
+#~ msgid "f - something from file (~/.pingus/images/)"
+#~ msgstr "f - Iets van bestand (~/.pingus/images/)"
+
+#~ msgid "Which prefab do you want?"
+#~ msgstr "Welk prefabricaat will je ?"
+
+#~ msgid "1 - Surface Background"
+#~ msgstr "1 - Oppervlak achtergrond"
+
+#~ msgid "2 - Solid Color Background"
+#~ msgstr "2 - Vaste kleur Achtergrond"
+
+#~ msgid "3 - Starfield Background"
+#~ msgstr "3 - Sterrenveld Achterground"
+
+#~ msgid "4 - Thunderstorm Background"
+#~ msgstr "4 - Onweersbui Achtergrond"
+
+#~ msgid "Load a level (F5)"
+#~ msgstr "Laad een niveau (F5)"
+
+#~ msgid "Exit the editor (Escape)"
+#~ msgstr "Verlaat de tekstbewerker (Escape)"
+
+#~ msgid "Delete marked objects (delete)"
+#~ msgstr "Verwijder gemarkeerde objecten (delete)"
+
+#~ msgid "Edit Level Properties"
+#~ msgstr "Pas niveau eigenschappen aan"
+
+#~ msgid "Start the level and test it (F4)"
+#~ msgstr "Begin het niveau en probeer het uit (F4)"
+
+#~ msgid "Create a new level from scratch"
+#~ msgstr "Maak een nieuw niveau vanaf blanco"
+
+#~ msgid "Insert an object (Insert)"
+#~ msgstr "Voeg een object toe (Insert)"
+
+#~ msgid "Zoom into a region"
+#~ msgstr "Inzoemen in een regio"
+
+#~ msgid "Zoom in"
+#~ msgstr "Zoem in"
+
+#~ msgid "Zoom out"
+#~ msgstr "Zoem uit"
+
+#~ msgid "Setup Number of Actions"
+#~ msgstr "Zet aantal Acties"
+
+#~ msgid "Display Help Screen (F1)"
+#~ msgstr "Geef help scherm weer (F1)"
+
+#~ msgid "Designed by "
+#~ msgstr "Ontworpen door"
+
+#~ msgid "Number of Pingus: %d"
+#~ msgstr "Aantal Pingus: %d"
+
+#~ msgid "Loading finished. Press a mouse button to start the level"
+#~ msgstr "Laden klaar. Druk op een muisknop om het nivea te starten"
+
+#~ msgid "Results:"
+#~ msgstr "Resultaten"
+
+#~ msgid "Pingus saved:   %3d/%3d"
+#~ msgstr "Pingus gered:   %3d/%3d"
+
+#~ msgid "Pingus died:  %3d/%3d"
+#~ msgstr "Pingus omgekomen:  %3d/%3d"
+
+#~ msgid "Press button to continue..."
+#~ msgstr "Druk een knop om door te gaan..."
+
+#~ msgid ""
+#~ "As many Pingus escaped as entered the level. That's going to be hard to "
+#~ "beat.... unless this game becomes pornographic."
+#~ msgstr ""
+#~ "Net zoveel Pingus konden onsnappen als die het niveau zijn binnen "
+#~ "getreden. Dat zal lastig zijn om te verbeteren... tenzij dit spel "
+#~ "pornografisch wordt."
+
+#~ msgid "Very impressive indeed."
+#~ msgstr "Inderdaad erg indrukwekkend."
+
+#~ msgid "Good work. Still room for improvement though."
+#~ msgstr "Goed gedaan. Maar er zijn nog mogelijkheden om te verbeteren."
+
+#~ msgid "Not too shabby, not too shabby at all."
+#~ msgstr "Niet slecht, helemaal niet slecht."
+
+#~ msgid ""
+#~ "That was OK, but Pingu life insurance premiums have just gotten more "
+#~ "expensive."
+#~ msgstr ""
+#~ "Dat was OK, maar je Pingu levensverzekerings premie is zojuist duurder "
+#~ "geworden"
+
+#~ msgid "Maybe this level calls for a different strategy."
+#~ msgstr "Misschien vraag dit niveau om een andere strategie."
+
+#~ msgid "Exactly half. Are you saving only the female ones?"
+#~ msgstr ""
+#~ "Precies de helft. Probeer je alleen de vrouwtjes te redden, kinky hoor?"
+
+#~ msgid "If I were a Pingu, I never would have left that entrance."
+#~ msgstr "Als ik een Pingu was, zou ik nooit die uitgang genomen hebben."
+
+#~ msgid "Maybe you would feel more at home playing Quake."
+#~ msgstr "Misschien voel je je meer op je gemak als je Quake zou spelen."
+
+#~ msgid ""
+#~ "Maybe this level calls for a different strategy. Like attempting to save "
+#~ "them, for example."
+#~ msgstr ""
+#~ "Misschien vraagt dit niveau om een andere aanpak. Je zou ze bijvoorbeeld "
+#~ "kunnen proberen te redden"
+
+#~ msgid "Ever considered a career as a Pingu exterminator?"
+#~ msgstr "Al eens een cariere overwogen als Pingu vernietiger? "
+
+#~ msgid "You missed one! What's your excuse!?"
+#~ msgstr "Je hebt er één gemist! Wat is je smoes!?"
+
+#~ msgid "Please reassure me that you hit the Armageddon button."
+#~ msgstr "Beloof me alsjeblieft dat je de Armageddon knop indrukt."
+
+#~ msgid "You've got a negative save/total value, something is buggy."
+#~ msgstr "Je hebt een negatief gered/totaal waarde, er gaat iets mis."
+
+#~ msgid "Launch the Level editor (experimental)"
+#~ msgstr "Start de niveau bewerker (experimenteel)"
+
+#, fuzzy
+#~ msgid ""
+#~ "Create a\n"
+#~ "Level"
+#~ msgstr "Creer een"
+
+#~ msgid "Screenshot: Couldn't save screenshot"
+#~ msgstr "Schermafdruk: Schermafdruk kon niet worden opgeslagen"
+
+#~ msgid "WorldMap: File not found: "
+#~ msgstr "PingusWereldKaart: Bestand niet gevonden: "
+
+#~ msgid "..:: The people who brought this game to you ::.."
+#~ msgstr "Iedereen die dit spel mogelijk maakte ::.."
+
+#~ msgid "..:: Takes you to the options menu ::.."
+#~ msgstr "..:: Brengt je naar het optie menu ::.."
+
+#~ msgid "Options"
+#~ msgstr "Opties"
+
+#~ msgid "input, pathmgr"
+#~ msgstr "invoer, pathmgr"
+
+#~ msgid "pingu_id %d"
+#~ msgstr "pingu_id %d"
+
+#~ msgid "action %s"
+#~ msgstr "actie %s"
+
+#~ msgid "action none"
+#~ msgstr "geen actie"
+
+#~ msgid "Setting action to a dead pingu"
+#~ msgstr "Ze actie uit naar dode pingu"
+
+#~ msgid "off"
+#~ msgstr "uit"
+
+#~ msgid "Not implemented"
+#~ msgstr "Niet geimplementeerd"
+
+#~ msgid "OptionMenu::Event: Unknown key released: id="
+#~ msgstr "Optiemenu::Evenement: Onbekende knop vrijgegeven: id="
+
+#~ msgid "Button 0 pressed"
+#~ msgstr "Knop 0 ingedrukt"
+
+#~ msgid "Button 1 pressed"
+#~ msgstr "Knop 1 ingedrukt"
+
+#~ msgid "Button 2 pressed"
+#~ msgstr "Knop 2 ingedrukt"
+
+#~ msgid "OptionMenu::Event: Unknown mouse button released: id="
+#~ msgstr "OptionMenu::Event: Onbekende muiskop vrijgegeven: id="
+
+#~ msgid "Unlimited Actions"
+#~ msgstr "Ongelimiteerde acties"
+
+#~ msgid "Print fps"
+#~ msgstr "Print fps"
+
+#~ msgid "Cursor enabled"
+#~ msgstr "Cursor aan"
+
+#~ msgid "Fast Mode"
+#~ msgstr "Snelle Mode"
+
+#~ msgid "Game Speed"
+#~ msgstr "Spel snelheid"
+
+#~ msgid "Verbose"
+#~ msgstr "Woordenrijk"
+
+#~ msgid "Draw ColMap"
+#~ msgstr "Teken ColMap"
+
+#~ msgid "Auto Scrolling"
+#~ msgstr "Auto Scrolling"
+
+#~ msgid ""
+#~ "\n"
+#~ "Copyright (C) 2003 Ingo Ruhnke <grumbel@gmx.de>\n"
+#~ "There is NO warranty.  You may redistribute this software\n"
+#~ "under the terms of the GNU General Public License.\n"
+#~ "For more information about these matters, see the files named COPYING."
+#~ msgstr ""
+#~ "\n"
+#~ "Copyright (C) 1998 Ingo Ruhnke <grumbel@pingus.cx>\n"
+#~ "Er is geen garantie.  Je mag deze software verspreiden\n"
+#~ "volgens de voorwaarden van GNU General Public License.\n"
+#~ "Voor meer informatie hierover, kijk naar de bestanden genaamd COPYING."
+
+#~ msgid "System: Couldn't open: "
+#~ msgstr "System: kon niet openen: "
+
+#~ msgid "Successfully created: "
+#~ msgstr "Succesvol gemaakt: "
+
+#~ msgid "Found: "
+#~ msgstr "Gevonden: "
+
+#~ msgid "System::checksum: Couldn't open file: "
+#~ msgstr "Systeem::controle: Kon bestand niet openen: "
+
+#~ msgid "System:checksum: file read error"
+#~ msgstr "Systeem: controle: leesfout bestand"
+
+#~ msgid "_If I forgot somebody in this"
+#~ msgstr "_Als ik iemand vergeten ben in deze"
+
+#~ msgid "_list, just drop me a line and"
+#~ msgstr "_lijst, stuur me dan een berichtje"
+
+#~ msgid "_I'll fix this."
+#~ msgstr "_zal ik het herstellen"
+
+#~ msgid "_Last Updated: 2000/06/27"
+#~ msgstr "_ Laatste aanpassing: 2000/06/27"
+
+#~ msgid "..:: Press Start ::.."
+#~ msgstr "..:: Druk op Start ::.."
+
+#~ msgid "Gimmicks"
+#~ msgstr "Foefjes"
+
+#~ msgid "Level Previews"
+#~ msgstr "Niveau bezichtiging"
+
+#~ msgid "Couldn't find palette: %d"
+#~ msgstr "Pallet niet gevonden"
+
+#~ msgid "..:: Lets you select a world to start ::.."
+#~ msgstr "..:: Selecteer een wereld om te beginnen ::.."
+
+#~ msgid "Unexpected keyword: '%s' at line: %d"
+#~ msgstr "Onverwacht sleutelwoord: '%s' op regel: %d"
+
+#~ msgid "DemoPlayer: Couldn't load "
+#~ msgstr "DemoSpeler: kon niet openen: "
+
+#~ msgid "DemoRecorder: Couldn't open: "
+#~ msgstr "DemoRecorder: kon niet openen: "
+
+#~ msgid "Edit Properties (not implemented)"
+#~ msgstr "Bewerk eigenschappen (niet geimplementeerd)"
+
+#~ msgid "Edit Preferences (not implemented)"
+#~ msgstr "Bewerk voorkeuren (niet geimplementeerd)"
+
+#~ msgid "Start menu"
+#~ msgstr "Start menu"
+
+#~ msgid ": Could not open file\n"
+#~ msgstr ": Kan bestand niet openen\n"
+
+#~ msgid "PingusDemo: Couldn't open out file: "
+#~ msgstr "PingusDemo: Kan output bestand niet openen:"
+
+#~ msgid "PingusDemo: Couldn't open in file: "
+#~ msgstr "PingusDemo: kon bestand niet openen: "
+
+#~ msgid "Time for war - Lets fight!"
+#~ msgstr "Tijd voor oorlog - Kom op vecht!"
+
+#~ msgid "Couldn't find: "
+#~ msgstr "Niet gevonden: "
+
+#~ msgid "Horizontal Button Panel"
+#~ msgstr "Horizontale knoppen balk"
